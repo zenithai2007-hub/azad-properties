@@ -1434,7 +1434,7 @@
     "assets/img/listings/APH-34204-09.jpg",
     "assets/img/listings/APH-34204-10.jpg"
    ],
-   "eligCit": false,
+   "eligCit": true,
    "eligRes": true,
    "eligAirbnb": true,
    "floors": "6 Floors",
