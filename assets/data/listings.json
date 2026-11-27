@@ -3520,7 +3520,26 @@
    "eligCit": false,
    "eligRes": true,
    "eligAirbnb": false,
-   "photos": []
+   "photos": [
+    "assets/img/listings/APH-34531-01.jpg",
+    "assets/img/listings/APH-34531-02.jpg",
+    "assets/img/listings/APH-34531-03.jpg",
+    "assets/img/listings/APH-34531-04.jpg",
+    "assets/img/listings/APH-34531-05.jpg",
+    "assets/img/listings/APH-34531-06.jpg",
+    "assets/img/listings/APH-34531-07.jpg",
+    "assets/img/listings/APH-34531-08.jpg",
+    "assets/img/listings/APH-34531-09.jpg",
+    "assets/img/listings/APH-34531-10.jpg",
+    "assets/img/listings/APH-34531-11.jpg",
+    "assets/img/listings/APH-34531-12.jpg",
+    "assets/img/listings/APH-34531-13.jpg",
+    "assets/img/listings/APH-34531-14.jpg",
+    "assets/img/listings/APH-34531-15.jpg",
+    "assets/img/listings/APH-34531-16.jpg"
+   ],
+   "img": "assets/img/listings/APH-34531-01.jpg",
+   "desc": "This 2+1 apartment in Vogue Bomonti offers 95 sqm gross (80 sqm net) on the 4th floor, with car parking and security. Bomonti is one of central Istanbul's most dynamic neighbourhoods in Şişli, minutes from Nişantaşı, Taksim and Mecidiyeköy, with easy metro access and strong rental demand — a prime investment and lifestyle hub in the heart of the European side."
   },
   {
    "ref": "APH-34532",
