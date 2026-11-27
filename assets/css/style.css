@@ -364,3 +364,22 @@ a.card-name:hover{text-decoration:underline}
 .detail-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 .detail-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 @media(max-width:900px){.detail{grid-template-columns:1fr}}
+
+/* ---- property gallery ---- */
+.detail-img img#gal-main{width:100%;height:340px;object-fit:cover;display:block}
+.gal-arrow{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.72);color:#fff;font-size:22px;line-height:1;cursor:pointer;z-index:3}
+.gal-arrow.prev{left:12px}.gal-arrow.next{right:12px}
+.gal-arrow:hover{background:#c9a227;color:#111}
+.gal-count{position:absolute;bottom:12px;right:12px;background:rgba(0,0,0,.72);color:#fff;font-size:12px;padding:4px 10px;border-radius:20px;z-index:3}
+.gal-thumbs{display:flex;gap:8px;margin-top:10px;overflow-x:auto;padding-bottom:4px}
+.gal-thumb{width:86px;height:64px;object-fit:cover;border-radius:8px;cursor:pointer;border:2px solid transparent;flex:0 0 auto}
+.gal-thumb.on{border-color:#c9a227}
+/* ---- layouts & pricing + map ---- */
+.detail-sub{margin:26px 0 4px}
+.lp-box{margin-top:26px;padding:20px 22px;border:1px solid var(--panel2);border-radius:var(--radius);background:var(--panel)}
+.lp-box h3{margin:0 0 12px}
+.lp-box .detail-facts{margin:0 0 10px}
+.map-wrap{margin-top:26px}
+.map-wrap h3{margin:0 0 12px}
+#prop-map{height:320px;border-radius:var(--radius);z-index:1}
+.map-wrap .muted{margin-top:10px}

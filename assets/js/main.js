@@ -22,7 +22,6 @@ function cardHtml(l, gold){
   var meta = [];
   if (l.sqm) meta.push(l.sqm.toLocaleString("en-US") + " sqm");
   if (l.layout) meta.push(esc(l.layout));
-  if (l.baths) meta.push(l.baths + " Bath");
   var spec = [];
   if (l.units) spec.push(esc(l.units));
   if (l.status) spec.push(esc(l.status));
@@ -130,7 +129,7 @@ var CHAT = [
 {k:["combine","multiple propert"], a:"Yes. You can combine multiple properties across Turkey, provided the total appraised value meets or exceeds $400,000 USD and all applications are processed together."},
 {k:["dual"], a:"Yes. Turkish law fully recognizes dual and multiple citizenship. Please also check whether your home country permits dual citizenship."},
 {k:["time","long","months","process"], a:"The average processing time is 4 to 8 months from complete file submission. The government security background review inside that process takes approximately 6 to 10 months."},
-{k:["bed","bath","bedroom"], a:"Listings range from 1+0 studios to 6+ bedroom villas. Use the filters on the Buy Properties page to narrow by bedrooms and bathrooms, or tell me a budget and I will point you to matching homes."},
+{k:["bed","bedroom"], a:"Listings range from 1+0 studios to 6+ bedroom villas. Use the filters on the Buy Properties page to narrow by bedrooms, or tell me a budget and I will point you to matching homes."},
 {k:["location","district","where","istanbul","antalya","izmir","bodrum","area","city"], a:"We list across Istanbul (Şişli, Beşiktaş, Beyoğlu, Sarıyer, Kağıthane, Kadıköy, Üsküdar, Ataşehir, Bakırköy, Başakşehir), Antalya, Izmir, Bodrum and more. Tell me a city or district and I will point you to matching homes."},
 {k:["eligib","qualif"], a:"Any eligible property priced at $400,000 or above qualifies for Citizenship by Investment. Properties at $200,000 or above qualify for an Investor Residence Permit. Look for the gold 'Citizenship Qualified' badge on listings."},
 {k:["how to buy","buying process","power of attorney","poa"], a:"The purchase process: 1) Choose a property with us, 2) Reserve and sign a sales contract, 3) Get your Turkish tax number and open a bank account, 4) Transfer funds and sign at the Land Registry (Tapu) office, 5) Receive your title deed. We handle every step with you — the full guide is on the Buyer's Guide page."},
@@ -289,13 +288,26 @@ if (recent){
 
 /* ---------- properties page: filters ---------- */
 var grid = document.getElementById("all-grid"), countEl = document.getElementById("prop-count");
+/* Bedroom range from the Turkish layout notation (e.g. "1+1 to 3+1" -> 1..3).
+   Layout is the source of truth; the old beds/baths numbers were unreliable.
+   Returns [min,max] or null when the listing has no bedroom count. */
+function bedRange(l){
+  if (l.bedsMin != null && l.bedsMax != null) return [l.bedsMin, l.bedsMax];
+  var m = String(l.layout || "").match(/(\d+)\s*\+\s*\d+/g);
+  if (m && m.length){
+    var ns = m.map(function(x){ return parseInt(x, 10); });
+    return [Math.min.apply(null, ns), Math.max.apply(null, ns)];
+  }
+  if ((l.type === "Apartment" || l.type === "Villa" || l.type === "Hotel") && l.beds > 0 && l.beds <= 8) return [l.beds, l.beds];
+  return null;
+}
 function currentFilters(){
   var g = function(id){ var el = document.getElementById(id); return el ? el.value : ""; };
   var tags = [];
   document.querySelectorAll("[data-tag]:checked").forEach(function(c){ tags.push(c.getAttribute("data-tag")); });
   var savedEl = document.getElementById("f-saved");
   return { q: (g("f-q")||"").toLowerCase(), city: g("f-city"), district: g("f-district"), type: g("f-type"),
-    bracket: g("f-price"), elig: g("f-elig"), rooms: g("f-rooms"), baths: g("f-baths"), tags: tags,
+    bracket: g("f-price"), elig: g("f-elig"), rooms: g("f-rooms"), tags: tags,
     savedOnly: !!(savedEl && savedEl.checked) };
 }
 function inBracket(price, b){
@@ -325,8 +337,7 @@ function applyFilters(){
     if (f.bracket && !inBracket(l.price, f.bracket)) return false;
     if (f.elig === "cbi" && !(l.price != null && l.price >= 400000)) return false;
     if (f.elig === "res" && !(l.price != null && l.price >= 200000)) return false;
-    if (f.rooms){ var need = parseInt(f.rooms, 10); if (l.beds < need) return false; }
-    if (f.baths){ var nb = parseInt(f.baths, 10); if (l.baths < nb) return false; }
+    if (f.rooms){ var need = parseInt(f.rooms, 10); var br = bedRange(l); if (!br || need < br[0] || need > br[1]) return false; }
     if (f.tags.length){ for (var i=0;i<f.tags.length;i++){ if (!l.tags || l.tags.indexOf(f.tags[i]) < 0) return false; } }
     return true;
   });
@@ -334,7 +345,7 @@ function applyFilters(){
   if (countEl) countEl.textContent = (window.__t ? window.__t("prop.count") : "{n} of {m} properties").replace("{n}", list.length).replace("{m}", LISTINGS.length);
 }
 if (grid){
-  ["f-q","f-city","f-district","f-type","f-price","f-elig","f-rooms","f-baths"].forEach(function(id){
+  ["f-q","f-city","f-district","f-type","f-price","f-elig","f-rooms"].forEach(function(id){
     var el = document.getElementById(id);
     if (el) el.addEventListener(el.tagName === "INPUT" ? "input" : "change", applyFilters);
   });
@@ -343,7 +354,7 @@ if (grid){
   if (savedChk) savedChk.addEventListener("change", applyFilters);
   var clearBtn = document.getElementById("f-clear");
   if (clearBtn) clearBtn.addEventListener("click", function(){
-    ["f-q","f-city","f-district","f-type","f-price","f-elig","f-rooms","f-baths"].forEach(function(id){
+    ["f-q","f-city","f-district","f-type","f-price","f-elig","f-rooms"].forEach(function(id){
       var el = document.getElementById(id); if (el) el.value = "";
     });
     document.querySelectorAll("[data-tag]").forEach(function(c){ c.checked = false; });
