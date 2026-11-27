@@ -210,7 +210,11 @@ $("listing-form").addEventListener("submit", function(e){
   if (img) rec.img = img;
   if (editingRef){
     var i = listings.findIndex(function(x){ return x.ref === editingRef; });
-    if (i >= 0) listings[i] = rec;
+    /* Merge over the existing record — never rebuild it from scratch.
+       The form does not cover photos, video, eligibility flags
+       (eligCit/eligRes/eligAirbnb) or price ranges (priceMin/priceMax),
+       so a plain replace would silently wipe them on every edit. */
+    if (i >= 0) listings[i] = Object.assign({}, listings[i], rec);
     toast("Updated " + ref + ".");
   } else {
     listings.push(rec);
