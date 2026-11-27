@@ -92,11 +92,48 @@ window.AZAD = { renderInto: renderInto, cardHtml: cardHtml, esc: esc, waLink: wa
 var tog = document.getElementById("nav-toggle"), mnav = document.getElementById("mobile-nav");
 if (tog && mnav) tog.addEventListener("click", function(){ mnav.classList.toggle("open"); });
 
-/* ---------- currency ---------- */
-document.querySelectorAll("[data-cur]").forEach(function(s){
-  s.value = CUR;
-  s.addEventListener("change", function(){ CUR = s.value; localStorage.setItem("azad-cur", CUR); applyCurrency(); });
-});
+/* ---------- live FX rates (open.er-api.com, free, no key) ----------
+   Shaan flagged the TRY conversion as wrong: the hardcoded TRY 41.2 in data.js
+   is stale (live rate is ~50.7). We fetch live USD rates and update RATES, then
+   re-render prices. Rates are cached 6h in localStorage. If the fetch fails or
+   times out, the hardcoded fallback rates stay — prices never go blank. */
+var RATES_TTL = 6 * 60 * 60 * 1000; /* 6h */
+function applyLiveRates(r){
+  if (!r || typeof RATES === "undefined") return false;
+  var ok = false;
+  ["EUR","GBP","TRY"].forEach(function(c){
+    var v = parseFloat(r[c]);
+    if (isFinite(v) && v > 0 && RATES[c]){ RATES[c].rate = v; ok = true; }
+  });
+  return ok;
+}
+function refreshRates(){
+  try {
+    var raw = localStorage.getItem("azad-rates");
+    if (raw){
+      var c = JSON.parse(raw);
+      if (c && c.ts && (Date.now() - c.ts) < RATES_TTL && applyLiveRates(c.rates)) return;
+    }
+  } catch(e){}
+  var ctl = null, timer = null;
+  try {
+    if (window.AbortController){
+      ctl = new AbortController();
+      timer = setTimeout(function(){ try { ctl.abort(); } catch(e){} }, 8000);
+    }
+    fetch("https://open.er-api.com/v6/latest/USD", ctl ? { signal: ctl.signal } : undefined)
+      .then(function(res){ return res.json(); })
+      .then(function(d){
+        if (timer) clearTimeout(timer);
+        if (!d || d.result !== "success" || !d.rates) return;
+        if (!applyLiveRates(d.rates)) return;
+        try { localStorage.setItem("azad-rates", JSON.stringify({ ts: Date.now(), rates: { EUR: d.rates.EUR, GBP: d.rates.GBP, TRY: d.rates.TRY } })); } catch(e){}
+        applyCurrency();
+      })
+      .catch(function(){ if (timer) clearTimeout(timer); /* keep fallback rates */ });
+  } catch(e){ if (timer) clearTimeout(timer); }
+}
+refreshRates();
 
 /* ---------- language: handled by assets/js/i18n.js (10 languages, English default) ---------- */
 
