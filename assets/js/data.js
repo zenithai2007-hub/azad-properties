@@ -37,12 +37,12 @@ const TEAM = [
 {n:"Fahri Dursun", r:"Senior Property Consultant", d:"Prime Istanbul investments, luxury villas, commercial portfolios.", photo:"assets/img/team/team-07-man-brown-blazer.jpg", wa:true},
 {n:"Mehreen Raza", r:"Property Consultant", d:"Residential sales, CBI portfolio advisory, South Asian buyer desk.", wa:true},
 {n:"Amir Ilyas", r:"Property Consultant", d:"Investment analysis, secondary market listings, client onboarding.", wa:true},
-{n:"Advocate Selçuk Yıldız", r:"Legal Counsel / Senior Lawyer", d:"Land registry due diligence, Tapu transfers, foreign title verification.", wa:false},
+{n:"Advocate Selçuk Yıldız", r:"Legal Counsel / Senior Lawyer", d:"Land registry due diligence, Tapu transfers, foreign title verification.", photo:"assets/img/team/team-10-man-blue-suit.jpg", wa:false},
 {n:"Suleiman", r:"Legal Counsel / Citizenship Specialist", d:"CBI file submission, civil registration, passport application processing.", wa:false},
 {n:"Nasima Abdul Majeed", r:"Client & Operations Coordinator", d:"Client concierge, viewing schedules, post-sale administration.", photo:"assets/img/team/team-03-woman-hijab.jpg", wa:false},
 {n:"Enes Opan", r:"Operations & Coordination", d:"Field management, document verification, authority liaisons.", wa:false},
-{n:"Mutlu Barış Şen", r:"Finance & Accounts Supervisor", d:"Financial compliance, escrow accounts, tax payments.", wa:false},
-{n:"Mustafa Sayan", r:"Finance & Accounts Manager", d:"Currency conversions, transaction reconciliation, bank transfers.", wa:false},
+{n:"Mutlu Barış Şen", r:"Finance & Accounts Supervisor", d:"Financial compliance, escrow accounts, tax payments.", photo:"assets/img/team/team-09-man-bald-beard.jpg", wa:false},
+{n:"Mustafa Sayan", r:"Finance & Accounts Manager", d:"Currency conversions, transaction reconciliation, bank transfers.", photo:"assets/img/team/team-08-man-black-jacket.jpg", wa:false},
 ];
 
 /* ---- Ecosystem (brief §9) ---- */
