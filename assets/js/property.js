@@ -159,6 +159,7 @@
           '</div>' +
         '</div>' +
       '</div>' +
+      (l.desc ? '<div class="desc-box"><h3>About this property</h3><p>' + window.AZAD.esc(l.desc) + '</p></div>' : '') +
       (lp ? '<div class="lp-box"><h3>Layouts &amp; pricing</h3><div class="detail-facts">' + lp + '</div>' +
         '<p class="muted">Floor plans and the full price list are shared on enquiry — ask us on WhatsApp and we will send them.</p></div>' : '') +
       '<div class="map-wrap"><h3>Location</h3><div id="prop-map"></div>' +

@@ -379,6 +379,9 @@ a.card-name:hover{text-decoration:underline}
 .lp-box{margin-top:26px;padding:20px 22px;border:1px solid var(--panel2);border-radius:var(--radius);background:var(--panel)}
 .lp-box h3{margin:0 0 12px}
 .lp-box .detail-facts{margin:0 0 10px}
+.desc-box{margin-top:26px;padding:20px 22px;border:1px solid var(--panel2);border-radius:var(--radius);background:var(--panel)}
+.desc-box h3{margin:0 0 12px}
+.desc-box p{margin:0;line-height:1.65}
 .map-wrap{margin-top:26px}
 .map-wrap h3{margin:0 0 12px}
 #prop-map{height:320px;border-radius:var(--radius);z-index:1}
