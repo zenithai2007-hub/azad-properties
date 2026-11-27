@@ -109,7 +109,6 @@ en: {
 "med.vtTitle":"Video tours",
 "med.vtLede":"Video tours are available on request for select properties. Ask us on WhatsApp and we will send the tour for any listing you like.",
 "med.vtCta":"Ask for a Video Tour"
-}
 },
 tr: {
 "nav.home":"Ana Sayfa","nav.properties":"Satılık Mülkler","nav.citizenship":"Türk Vatandaşlığı","nav.guide":"Alıcı Rehberi","nav.about":"Hakkımızda","nav.ecosystem":"Ekosistem","nav.media":"Medya","nav.contact":"İletişim",
@@ -992,6 +991,7 @@ zh: {
 "med.vtTitle":"视频看房",
 "med.vtLede":"精选房源可应要求提供视频看房。请通过WhatsApp联系我们，我们将为您发送任何您喜欢的房源的视频。",
 "med.vtCta":"索取视频看房"
+}
 },
 faq: { en: null,
 tr: [

@@ -342,3 +342,25 @@ footer{background:var(--ink);color:#C9C9C4;padding:44px 0 26px}
 .social-row a:hover{border-color:#fff;color:#fff}
 .video-embed{position:relative;width:100%;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#000}
 .video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* ---- property detail page + linked cards + team photos ---- */
+.card-img-link{display:block;height:100%;text-decoration:none}
+a.card-name{display:block;text-decoration:none}
+a.card-name:hover{text-decoration:underline}
+.member .avatar-img{width:58px;height:58px;border-radius:50%;object-fit:cover;flex:none}
+.team-banner{margin:26px 0 6px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.team-banner img{width:100%;max-height:420px;object-fit:cover;object-position:top}
+.team-banner figcaption{padding:10px 14px;font-size:13px;color:var(--mut);background:var(--panel)}
+.detail{display:grid;grid-template-columns:1.15fr 1fr;gap:28px;align-items:start;margin-top:26px}
+.detail-img{border-radius:var(--radius);overflow:hidden;position:relative;min-height:280px;background:linear-gradient(135deg,#1c1c1c 0%,#3a3a3a 55%,#0F0F0F 130%)}
+.detail-img img{width:100%;display:block}
+.detail-img .sky{height:64px}
+.detail-img .card-cat{top:14px;left:14px}
+.detail-img .card-badge{top:14px;right:14px}
+.detail-facts{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin:18px 0}
+.detail-facts div{border-bottom:1px solid var(--panel2);padding-bottom:8px}
+.detail-facts span{display:block;font-size:11px;text-transform:uppercase;letter-spacing:1.2px;color:var(--mut2);font-weight:700}
+.detail-facts b{font-size:15px;color:var(--ink)}
+.detail-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.detail-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+@media(max-width:900px){.detail{grid-template-columns:1fr}}

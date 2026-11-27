@@ -27,14 +27,16 @@ function cardHtml(l, gold){
   if (l.units) spec.push(esc(l.units));
   if (l.status) spec.push(esc(l.status));
   if (l.side) spec.push(esc(l.side) + " Side");
+  var det = "property.html?ref=" + encodeURIComponent(l.ref);
   return '<article class="card">' +
     '<div class="card-img' + (gold ? ' gold' : '') + '">' +
+      '<a class="card-img-link" href="' + det + '">' +
       (l.img ? '<img src="' + esc(l.img) + '" alt="' + esc(l.name) + '" loading="lazy">' : '') +
       '<span class="card-cat">' + esc(l.type) + '</span>' + badgeHtml(l) + SKY +
-      '<span class="card-loc">' + esc(l.district) + ', ' + esc(l.city) + '</span>' +
+      '<span class="card-loc">' + esc(l.district) + ', ' + esc(l.city) + '</span></a>' +
       '<button class="fav-btn' + (isFav(l.ref) ? ' on' : '') + '" data-fav="' + esc(l.ref) + '" aria-label="Save to favourites" title="Save to favourites">♥</button></div>' +
     '<div class="card-body">' +
-      '<div class="card-name">' + esc(l.name) + '</div>' +
+      '<a class="card-name" href="' + det + '">' + esc(l.name) + '</a>' +
       (l.d ? '<div class="card-desc">' + esc(l.d) + '</div>' : '') +
       '<div class="small muted">Ref: ' + esc(l.ref) + '</div>' +
       priceHtml(l) +
@@ -403,7 +405,8 @@ function renderTeam(){
   teamWrap.innerHTML = TEAM.map(function(m, i){
     var ini = m.n.split(" ").map(function(w){ return w.charAt(0); }).slice(0,2).join("");
     var role = roles ? roles[i] : m.r;
-    return '<div class="member"><div class="avatar">' + esc(ini) + '</div><div><h3>' + esc(m.n) + '</h3><div class="role">' + esc(role) + '</div><p>' + esc(m.d) + '</p>' +
+    var av = m.photo ? '<img class="avatar-img" src="' + esc(m.photo) + '" alt="' + esc(m.n) + '">' : '<div class="avatar">' + esc(ini) + '</div>';
+    return '<div class="member">' + av + '<div><h3>' + esc(m.n) + '</h3><div class="role">' + esc(role) + '</div><p>' + esc(m.d) + '</p>' +
       (m.wa ? '<a class="wa" target="_blank" rel="noopener" href="' + waLink("Hello " + m.n + ", I would like to speak with you about a property in Türkiye.") + '">Message on WhatsApp →</a>' : '') +
       '</div></div>';
   }).join("");
