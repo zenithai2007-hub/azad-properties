@@ -171,6 +171,8 @@ h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;line-height:1.15;font-we
 .eco::before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:var(--accent,#0F0F0F)}
 .eco h3{font-size:20px;margin-bottom:4px}
 .eco .eco-domain{font-size:13px;color:#111;font-weight:700}
+.eco .eco-domain a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.eco .eco-domain a:hover{color:var(--gold,#B08D2E)}
 .eco p{color:var(--mut);font-size:14px;margin-top:10px}
 .eco .eco-tag{display:inline-block;margin-top:12px;font-size:12px;background:var(--panel2);border-radius:999px;padding:4px 10px;color:var(--mut)}
 .palette-img{margin-top:28px;border:1px solid var(--line);border-radius:12px;overflow:hidden}

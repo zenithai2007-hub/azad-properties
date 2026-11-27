@@ -510,7 +510,10 @@ renderTeam();
 var ecoWrap = document.getElementById("eco-grid");
 if (ecoWrap && typeof ECOSYSTEM !== "undefined"){
   ecoWrap.innerHTML = ECOSYSTEM.map(function(e){
-    return '<div class="eco" style="--accent:' + e.c + '"><h3>' + esc(e.n) + '</h3><div class="eco-domain">' + esc(e.d) + '</div><p>' + esc(e.s) + '</p></div>';
+    var dom = /^www\.[a-z0-9.-]+\.[a-z]{2,}$/i.test(e.d)
+      ? '<a href="https://' + esc(e.d) + '" target="_blank" rel="noopener">' + esc(e.d) + '</a>'
+      : esc(e.d);
+    return '<div class="eco" style="--accent:' + e.c + '"><h3>' + esc(e.n) + '</h3><div class="eco-domain">' + dom + '</div><p>' + esc(e.s) + '</p></div>';
   }).join("");
 }
 
