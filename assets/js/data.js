@@ -36,7 +36,7 @@ const TEAM = [
 {n:"Nuri İçil", r:"Sales Manager", d:"Developer inventory alignment and local Turkish market strategy.", photo:"assets/img/team/team-01-man-grey-blazer.jpg", wa:true},
 {n:"Fahri Dursun", r:"Senior Property Consultant", d:"Prime Istanbul investments, luxury villas, commercial portfolios.", photo:"assets/img/team/team-07-man-brown-blazer.jpg", wa:true},
 {n:"Mehreen Raza", r:"Property Consultant", d:"Residential sales, CBI portfolio advisory, South Asian buyer desk.", wa:true},
-{n:"Amir Ilyas", r:"Property Consultant", d:"Investment analysis, secondary market listings, client onboarding.", wa:true},
+{n:"Amir Ilyas", r:"Property Consultant", d:"Investment analysis, secondary market listings, client onboarding.", photo:"assets/img/team/team-12-man-black-suit.jpg", wa:true},
 {n:"Advocate Selçuk Yıldız", r:"Legal Counsel / Senior Lawyer", d:"Land registry due diligence, Tapu transfers, foreign title verification.", photo:"assets/img/team/team-10-man-blue-suit.jpg", wa:false},
 {n:"Suleiman", r:"Legal Counsel / Citizenship Specialist", d:"CBI file submission, civil registration, passport application processing.", wa:false},
 {n:"Nasima Abdul Majeed", r:"Client & Operations Coordinator", d:"Client concierge, viewing schedules, post-sale administration.", photo:"assets/img/team/team-03-woman-hijab.jpg", wa:false},
