@@ -25,7 +25,7 @@ function fmtPrice(usd, cur){
    The public site fetches it in main.js; the Azad team edits it via admin.html.
    This file keeps constants, team, FAQs, steps and testimonials. */
 
-const FEATURED = ["APH-34101","APH-34107","APH-34105","APH-34111","APH-34120","APH-34129","APH-34401","APH-34402","APH-34408","APH-34411","APH-34417","APH-34421"];
+const FEATURED = ["APH-34102","APH-34108","APH-34105","APH-34207","APH-34211","APH-34129","APH-34401","APH-34402","APH-34408","APH-34411","APH-34417","APH-34421"];
 
 /* ---- Team (brief §6) ---- */
 const TEAM = [
