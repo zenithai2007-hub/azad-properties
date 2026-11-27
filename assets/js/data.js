@@ -49,14 +49,14 @@ const TEAM = [
 
 /* ---- Ecosystem (brief §9) ---- */
 const ECOSYSTEM = [
-{n:"Azad Properties", d:"www.azadproperties.com", c:"#0F0F0F", s:"Luxury real estate brokerage, primary developer partnerships (Nef, Sinpaş, Avrupa Konutları, Emaar), secondary market resales, and end-to-end Turkish Citizenship by Investment advisory."},
-{n:"Azad Builders", d:"Construction arm", c:"#D4AF37", s:"Ground-up residential developments, heritage building restorations in historic Istanbul (Beyoğlu, Galata, Balat), structural retrofitting, and high-end residential interior fit-outs."},
-{n:"Azad Homes", d:"www.azadhomes.com", c:"#800080", s:"Property management division operating hundreds of properties, including luxury short-term rental units across Beyoğlu, Şişli, Beşiktaş, Eyüp, and Fatih. Integrated with Airbnb, Booking.com, and Expedia, supported by a multilingual guest relations team."},
+{n:"Azad Properties", d:"www.azadproperties.com", c:"#0F0F0F", logo:"assets/img/ecosystem/azad-properties.png", s:"Luxury real estate brokerage, primary developer partnerships (Nef, Sinpaş, Avrupa Konutları, Emaar), secondary market resales, and end-to-end Turkish Citizenship by Investment advisory."},
+{n:"Azad Builders", d:"Construction arm", c:"#D4AF37", logo:"assets/img/ecosystem/azad-builders.png", s:"Ground-up residential developments, heritage building restorations in historic Istanbul (Beyoğlu, Galata, Balat), structural retrofitting, and high-end residential interior fit-outs."},
+{n:"Azad Homes", d:"www.azadhomes.com", c:"#800080", logo:"assets/img/ecosystem/azad-homes.png", s:"Property management division operating hundreds of properties, including luxury short-term rental units across Beyoğlu, Şişli, Beşiktaş, Eyüp, and Fatih. Integrated with Airbnb, Booking.com, and Expedia, supported by a multilingual guest relations team."},
 {n:"Azad Ventures", d:"www.azadventures.com.tr", c:"#0A1A3A", s:"Corporate venture capital, foreign direct investment structuring, business incorporation, tax & IP advisory, bilateral trade between Pakistan and Turkey, joint ventures, and family relocation support."},
-{n:"Azad Tours & Events", d:"www.azadtours.com", c:"#00B7E8", s:"TÜRSAB & IATA certified Destination Management Company operating in Istanbul, Cappadocia, and Antalya. Corporate MICE, VIP airport transfers, luxury yacht charters, and private travel itineraries."},
-{n:"Azat Films", d:"www.azatfilms.com", c:"#AA1E2E", s:"Media production studio in Istanbul specializing in TV commercials, documentary features, real estate video tours, and corporate media. Production partner for Turkish Airlines and the Turkish Ministry of Culture & Tourism."},
+{n:"Azad Tours & Events", d:"www.azadtours.com", c:"#00B7E8", logo:"assets/img/ecosystem/azad-tours.png", s:"TÜRSAB & IATA certified Destination Management Company operating in Istanbul, Cappadocia, and Antalya. Corporate MICE, VIP airport transfers, luxury yacht charters, and private travel itineraries."},
+{n:"Azat Films", d:"www.azatfilms.com", c:"#AA1E2E", logo:"assets/img/ecosystem/azat-films.png", s:"Media production studio in Istanbul specializing in TV commercials, documentary features, real estate video tours, and corporate media. Production partner for Turkish Airlines and the Turkish Ministry of Culture & Tourism."},
 {n:"Azad Textiles", d:"www.azadtextiles.com", c:"#01411C", s:"Global textile sourcing, commercial manufacturing, institutional apparel supply, and international export operations connecting Turkish textile mills with global retail buyers."},
-{n:"Azad Medicare", d:"Medical Tourism Division", c:"#008080", s:"Medical tourism division of the Azad Brothers group, connecting international patients with trusted healthcare providers in Türkiye."},
+{n:"Azad Medicare", d:"Medical Tourism Division", c:"#008080", logo:"assets/img/ecosystem/azad-medicare.png", s:"Medical tourism division of the Azad Brothers group, connecting international patients with trusted healthcare providers in Türkiye."},
 ];
 
 /* ---- FAQs (brief §8) ---- */

@@ -513,7 +513,8 @@ if (ecoWrap && typeof ECOSYSTEM !== "undefined"){
     var dom = /^www\.[a-z0-9.-]+\.[a-z]{2,}$/i.test(e.d)
       ? '<a href="https://' + esc(e.d) + '" target="_blank" rel="noopener">' + esc(e.d) + '</a>'
       : esc(e.d);
-    return '<div class="eco" style="--accent:' + e.c + '"><h3>' + esc(e.n) + '</h3><div class="eco-domain">' + dom + '</div><p>' + esc(e.s) + '</p></div>';
+    var logo = e.logo ? '<img class="eco-logo" src="' + esc(e.logo) + '" alt="' + esc(e.n) + ' logo">' : '';
+    return '<div class="eco" style="--accent:' + e.c + '">' + logo + '<h3>' + esc(e.n) + '</h3><div class="eco-domain">' + dom + '</div><p>' + esc(e.s) + '</p></div>';
   }).join("");
 }
 
