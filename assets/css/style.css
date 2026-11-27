@@ -349,7 +349,7 @@ a.card-name{display:block;text-decoration:none}
 a.card-name:hover{text-decoration:underline}
 .member .avatar-img{width:58px;height:58px;border-radius:50%;object-fit:cover;flex:none}
 .team-banner{margin:26px 0 6px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-.team-banner img{width:100%;max-height:420px;object-fit:cover;object-position:top}
+.team-banner img{width:100%;max-height:420px;object-fit:cover;object-position:50% 35%}
 .team-banner figcaption{padding:10px 14px;font-size:13px;color:var(--mut);background:var(--panel)}
 .detail{display:grid;grid-template-columns:1.15fr 1fr;gap:28px;align-items:start;margin-top:26px}
 .detail-img{border-radius:var(--radius);overflow:hidden;position:relative;min-height:280px;background:linear-gradient(135deg,#1c1c1c 0%,#3a3a3a 55%,#0F0F0F 130%)}
