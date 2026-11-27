@@ -14,8 +14,8 @@ function priceHtml(l){
 }
 function badgeHtml(l){
   if (l.tags && l.tags.indexOf("New Development") >= 0) return '<span class="card-badge dev">New Development</span>';
-  if (l.price != null && l.price >= 400000) return '<span class="card-badge cbi">Citizenship Qualified</span>';
-  if (l.price != null && l.price >= 200000) return '<span class="card-badge res">Residence Permit Qualified</span>';
+  if (l.eligCit) return '<span class="card-badge cbi">Citizenship Qualified</span>';
+  if (l.eligRes) return '<span class="card-badge res">Residence Permit Qualified</span>';
   return "";
 }
 function cardHtml(l, gold){
@@ -50,7 +50,7 @@ function cardHtml(l, gold){
 }
 function renderInto(el, list){
   if (!el) return;
-  if (!list.length){ el.innerHTML = '<div class="empty">No properties match these filters. Try clearing a filter — or ask us on WhatsApp and we will find a match.</div>'; return; }
+  if (!list.length){ el.innerHTML = '<div class="empty">No properties match these filters. Try widening the price range or clearing a filter — or ask us on WhatsApp and we will find a match.</div>'; return; }
   el.innerHTML = list.map(function(l,i){ return cardHtml(l, i % 5 === 2); }).join("");
   bindEnquire(el);
   bindFavs(el);
@@ -324,8 +324,22 @@ function currentFilters(){
   document.querySelectorAll("[data-tag]:checked").forEach(function(c){ tags.push(c.getAttribute("data-tag")); });
   var savedEl = document.getElementById("f-saved");
   return { q: (g("f-q")||"").toLowerCase(), city: g("f-city"), district: g("f-district"), type: g("f-type"),
-    rooms: g("f-rooms"), tags: tags,
+    bracket: g("f-price"), rooms: g("f-rooms"), tags: tags, elig: g("f-elig"),
     savedOnly: !!(savedEl && savedEl.checked) };
+}
+/* Price bracket (USD). A selected range shows ONLY priced listings inside it —
+   unpriced projects ("Price on request") are excluded from filtered results. */
+function inBracket(price, b){
+  if (!b) return true;
+  if (price == null) return false;
+  var n = price;
+  if (b === "0-100") return n < 100000;
+  if (b === "100-200") return n >= 100000 && n < 200000;
+  if (b === "200-400") return n >= 200000 && n < 400000;
+  if (b === "400-600") return n >= 400000 && n < 600000;
+  if (b === "600-1000") return n >= 600000 && n < 1000000;
+  if (b === "1000+") return n >= 1000000;
+  return true;
 }
 function applyFilters(){
   if (!grid || !LISTINGS_LOADED) return;
@@ -337,15 +351,25 @@ function applyFilters(){
     if (f.district && l.district !== f.district) return false;
     if (f.savedOnly && !isFav(l.ref)) return false;
     if (f.type && l.type !== f.type) return false;
+    if (f.bracket && !inBracket(l.price, f.bracket)) return false;
+    if (f.elig === "cit" && !l.eligCit) return false;
+    if (f.elig === "res" && !l.eligRes) return false;
     if (f.rooms){ var need = parseInt(f.rooms, 10); var br = bedRange(l); if (!br || need < br[0] || need > br[1]) return false; }
     if (f.tags.length){ for (var i=0;i<f.tags.length;i++){ if (!l.tags || l.tags.indexOf(f.tags[i]) < 0) return false; } }
     return true;
   });
   renderInto(grid, list);
   if (countEl) countEl.textContent = (window.__t ? window.__t("prop.count") : "{n} of {m} properties").replace("{n}", list.length).replace("{m}", LISTINGS.length);
+  /* eligibility totals (full set, shown next to the filter) */
+  var ec = document.getElementById("elig-counts");
+  if (ec){
+    var nc = 0, nr = 0;
+    LISTINGS.forEach(function(x){ if (x.eligCit) nc++; if (x.eligRes) nr++; });
+    ec.textContent = nc + " citizenship-eligible · " + nr + " residence-eligible";
+  }
 }
 if (grid){
-  ["f-q","f-city","f-district","f-type","f-rooms"].forEach(function(id){
+  ["f-q","f-city","f-district","f-type","f-price","f-rooms","f-elig"].forEach(function(id){
     var el = document.getElementById(id);
     if (el) el.addEventListener(el.tagName === "INPUT" ? "input" : "change", applyFilters);
   });
@@ -354,7 +378,7 @@ if (grid){
   if (savedChk) savedChk.addEventListener("change", applyFilters);
   var clearBtn = document.getElementById("f-clear");
   if (clearBtn) clearBtn.addEventListener("click", function(){
-    ["f-q","f-city","f-district","f-type","f-rooms"].forEach(function(id){
+    ["f-q","f-city","f-district","f-type","f-price","f-rooms","f-elig"].forEach(function(id){
       var el = document.getElementById(id); if (el) el.value = "";
     });
     document.querySelectorAll("[data-tag]").forEach(function(c){ c.checked = false; });
@@ -362,11 +386,11 @@ if (grid){
     applyFilters();
   });
   window.__renderCurrent = applyFilters;
-  /* pre-fill from home search / region links (?q= &type= &city= &district=) */
+  /* pre-fill from home search / region links (?q= &type= &price= &city= &district=) */
   try {
     var params = new URLSearchParams(window.location.search);
     var set = function(id, v){ var el = document.getElementById(id); if (el && v) el.value = v; };
-    set("f-q", params.get("q")); set("f-type", params.get("type")); set("f-district", params.get("district")); set("f-city", params.get("city"));
+    set("f-q", params.get("q")); set("f-type", params.get("type")); set("f-price", params.get("price")); set("f-district", params.get("district")); set("f-city", params.get("city"));
   } catch(e){}
   applyFilters();
 }

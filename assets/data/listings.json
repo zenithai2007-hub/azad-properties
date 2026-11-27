@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-27",
-  "count": 82,
+  "count": 134,
   "listings": [
     {
       "ref": "APH-34101",
@@ -21,11 +21,14 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34102",
-      "name": "Bomonti Residences by Rotana",
+      "name": "Bomonti Residence",
       "type": "Apartment",
       "city": "Istanbul",
       "district": "Bomonti",
@@ -55,7 +58,11 @@
         "assets/img/listings/APH-34102-08.jpg",
         "assets/img/listings/APH-34102-09.jpg",
         "assets/img/listings/APH-34102-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1prNNWWLDNfDiQIl51q1HLmjJ5rxpOjcS/preview"
     },
     {
       "ref": "APH-34103",
@@ -81,7 +88,10 @@
       "photos": [
         "assets/img/listings/APH-34103-01.jpg",
         "assets/img/listings/APH-34103-02.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34104",
@@ -108,7 +118,11 @@
         "assets/img/listings/APH-34104-01.jpg",
         "assets/img/listings/APH-34104-02.jpg",
         "assets/img/listings/APH-34104-03.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1kP-WqC8K4jMD3UagsFWycWIHdcU351L7/preview"
     },
     {
       "ref": "APH-34105",
@@ -142,7 +156,11 @@
         "assets/img/listings/APH-34105-08.jpg",
         "assets/img/listings/APH-34105-09.jpg",
         "assets/img/listings/APH-34105-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1wprY7z_KXByLy1nb7Sgo6eIyyx6EDfZy/preview"
     },
     {
       "ref": "APH-34106",
@@ -176,7 +194,11 @@
         "assets/img/listings/APH-34106-09.jpg",
         "assets/img/listings/APH-34106-10.jpg"
       ],
-      "img": "assets/img/listings/APH-34106-01.jpg"
+      "img": "assets/img/listings/APH-34106-01.jpg",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1u0gWhjH4L2lueB9xB4TOe21VPbMggWyY/preview"
     },
     {
       "ref": "APH-34107",
@@ -198,7 +220,10 @@
         "New Development",
         "Installment Plan Available"
       ],
-      "note": "24-month installments"
+      "note": "24-month installments",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34108",
@@ -232,7 +257,11 @@
         "assets/img/listings/APH-34108-08.jpg",
         "assets/img/listings/APH-34108-09.jpg",
         "assets/img/listings/APH-34108-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1gJnrpJqpdLvYmm8cLROwxbkp_yAxoi50/preview"
     },
     {
       "ref": "APH-34109",
@@ -267,7 +296,10 @@
         "assets/img/listings/APH-34109-09.jpg",
         "assets/img/listings/APH-34109-10.jpg"
       ],
-      "desc": "Maslak Koru is a luxury development on a 49,360 m² site in Maslak, with 65% green areas and open views of Belgrade Forest. Eight residential blocks of up to 15 floors hold 754 apartments from 1+1 to 5+1, with 2.85–3.00 m ceiling heights. The project also includes a commercial zone with offices, a Marriott Bonvoy block and 44 shops, plus social facilities with three swimming pools, a 1,000 m² gym, sauna, steam room, pilates studio, playground and underground parking."
+      "desc": "Maslak Koru is a luxury development on a 49,360 m² site in Maslak, with 65% green areas and open views of Belgrade Forest. Eight residential blocks of up to 15 floors hold 754 apartments from 1+1 to 5+1, with 2.85–3.00 m ceiling heights. The project also includes a commercial zone with offices, a Marriott Bonvoy block and 44 shops, plus social facilities with three swimming pools, a 1,000 m² gym, sauna, steam room, pilates studio, playground and underground parking.",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34110",
@@ -301,7 +333,11 @@
         "assets/img/listings/APH-34110-08.jpg",
         "assets/img/listings/APH-34110-09.jpg",
         "assets/img/listings/APH-34110-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1DxCESeLcCo_7NrjA1K1EgPYmPup6Ylxl/preview"
     },
     {
       "ref": "APH-34111",
@@ -323,7 +359,10 @@
         "New Development",
         "Installment Plan Available"
       ],
-      "note": "24-month installments"
+      "note": "24-month installments",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34112",
@@ -357,7 +396,11 @@
         "assets/img/listings/APH-34112-08.jpg",
         "assets/img/listings/APH-34112-09.jpg",
         "assets/img/listings/APH-34112-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1RmbZE86Wf8QR1EQ4aA8jAny0G6XE-OJJ/preview"
     },
     {
       "ref": "APH-34113",
@@ -378,7 +421,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34114",
@@ -413,7 +459,10 @@
         "assets/img/listings/APH-34114-09.jpg",
         "assets/img/listings/APH-34114-10.jpg"
       ],
-      "desc": "Pearl Residence Topkapı is a 15-floor tower on the E5 highway in Topkapı, with metro, metrobus and tram within walking distance — Fatih 5 minutes, Taksim Square 15 minutes and Istanbul Airport 35 minutes away. The project offers 1+1 apartments of 65–92 m² and 2+1 apartments of 80–129 m², with panoramic views, open and covered parking, a gym with open views and landscaped gardens. It is eligible for Turkish Citizenship."
+      "desc": "Pearl Residence Topkapı is a 15-floor tower on the E5 highway in Topkapı, with metro, metrobus and tram within walking distance — Fatih 5 minutes, Taksim Square 15 minutes and Istanbul Airport 35 minutes away. The project offers 1+1 apartments of 65–92 m² and 2+1 apartments of 80–129 m², with panoramic views, open and covered parking, a gym with open views and landscaped gardens. It is eligible for Turkish Citizenship.",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34115",
@@ -434,7 +483,23 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34115-01.jpg",
+        "assets/img/listings/APH-34115-02.jpg",
+        "assets/img/listings/APH-34115-03.jpg",
+        "assets/img/listings/APH-34115-04.jpg",
+        "assets/img/listings/APH-34115-05.jpg",
+        "assets/img/listings/APH-34115-06.jpg",
+        "assets/img/listings/APH-34115-07.jpg",
+        "assets/img/listings/APH-34115-08.jpg",
+        "assets/img/listings/APH-34115-09.jpg",
+        "assets/img/listings/APH-34115-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34115-01.jpg"
     },
     {
       "ref": "APH-34116",
@@ -455,7 +520,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34117",
@@ -476,7 +544,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34118",
@@ -497,7 +568,23 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34118-01.jpg",
+        "assets/img/listings/APH-34118-02.jpg",
+        "assets/img/listings/APH-34118-03.jpg",
+        "assets/img/listings/APH-34118-04.jpg",
+        "assets/img/listings/APH-34118-05.jpg",
+        "assets/img/listings/APH-34118-06.jpg",
+        "assets/img/listings/APH-34118-07.jpg",
+        "assets/img/listings/APH-34118-08.jpg",
+        "assets/img/listings/APH-34118-09.jpg",
+        "assets/img/listings/APH-34118-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34118-01.jpg"
     },
     {
       "ref": "APH-34119",
@@ -519,7 +606,10 @@
         "New Development",
         "Installment Plan Available"
       ],
-      "note": "30-month installments"
+      "note": "30-month installments",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34120",
@@ -540,7 +630,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34121",
@@ -561,7 +654,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34122",
@@ -595,7 +691,11 @@
         "assets/img/listings/APH-34122-08.jpg",
         "assets/img/listings/APH-34122-09.jpg",
         "assets/img/listings/APH-34122-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/15MFyBg8YuewaWwc-8wX0RsaAyn-CzjhT/preview"
     },
     {
       "ref": "APH-34123",
@@ -616,28 +716,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
-    },
-    {
-      "ref": "APH-34124",
-      "name": "Focus Güneşli",
-      "type": "Apartment",
-      "city": "Istanbul",
-      "district": "Güneşli",
-      "side": "European",
-      "price": null,
-      "layout": "1+1 to 3+1",
-      "beds": 1,
-      "bedsMin": 1,
-      "bedsMax": 3,
-      "baths": 1,
-      "sqm": null,
-      "units": "",
-      "status": "",
-      "tags": [
-        "New Development"
-      ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34125",
@@ -671,7 +753,10 @@
         "assets/img/listings/APH-34125-08.jpg",
         "assets/img/listings/APH-34125-09.jpg",
         "assets/img/listings/APH-34125-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34126",
@@ -692,7 +777,23 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34126-01.jpg",
+        "assets/img/listings/APH-34126-02.jpg",
+        "assets/img/listings/APH-34126-03.jpg",
+        "assets/img/listings/APH-34126-04.jpg",
+        "assets/img/listings/APH-34126-05.jpg",
+        "assets/img/listings/APH-34126-06.jpg",
+        "assets/img/listings/APH-34126-07.jpg",
+        "assets/img/listings/APH-34126-08.jpg",
+        "assets/img/listings/APH-34126-09.jpg",
+        "assets/img/listings/APH-34126-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34126-01.jpg"
     },
     {
       "ref": "APH-34127",
@@ -714,7 +815,10 @@
         "New Development",
         "Installment Plan Available"
       ],
-      "note": "40-month installments"
+      "note": "40-month installments",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34128",
@@ -748,7 +852,11 @@
         "assets/img/listings/APH-34128-08.jpg",
         "assets/img/listings/APH-34128-09.jpg",
         "assets/img/listings/APH-34128-10.jpg"
-      ]
+      ],
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1FZqB_g--1eHSSaxEn6RQ4xeLP-AMb1PQ/preview"
     },
     {
       "ref": "APH-34129",
@@ -782,7 +890,10 @@
         "assets/img/listings/APH-34129-09.jpg",
         "assets/img/listings/APH-34129-10.jpg"
       ],
-      "img": "assets/img/listings/APH-34129-01.jpg"
+      "img": "assets/img/listings/APH-34129-01.jpg",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34130",
@@ -803,7 +914,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34131",
@@ -824,7 +938,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34132",
@@ -845,7 +962,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34133",
@@ -866,7 +986,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34134",
@@ -887,7 +1010,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34135",
@@ -908,7 +1034,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34136",
@@ -929,7 +1058,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34137",
@@ -950,7 +1082,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34138",
@@ -984,7 +1119,10 @@
         "assets/img/listings/APH-34138-08.jpg",
         "assets/img/listings/APH-34138-09.jpg",
         "assets/img/listings/APH-34138-10.jpg"
-      ]
+      ],
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34139",
@@ -1005,7 +1143,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34140",
@@ -1026,7 +1167,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34141",
@@ -1047,7 +1191,23 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34141-01.jpg",
+        "assets/img/listings/APH-34141-02.jpg",
+        "assets/img/listings/APH-34141-03.jpg",
+        "assets/img/listings/APH-34141-04.jpg",
+        "assets/img/listings/APH-34141-05.jpg",
+        "assets/img/listings/APH-34141-06.jpg",
+        "assets/img/listings/APH-34141-07.jpg",
+        "assets/img/listings/APH-34141-08.jpg",
+        "assets/img/listings/APH-34141-09.jpg",
+        "assets/img/listings/APH-34141-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34141-01.jpg"
     },
     {
       "ref": "APH-34142",
@@ -1068,7 +1228,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34143",
@@ -1089,7 +1252,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34144",
@@ -1110,7 +1276,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34145",
@@ -1144,7 +1313,11 @@
         "assets/img/listings/APH-34145-08.jpg",
         "assets/img/listings/APH-34145-09.jpg",
         "assets/img/listings/APH-34145-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1bL9GWyPBOFSAYrFBOENW14UgOdrz4acj/preview"
     },
     {
       "ref": "APH-34146",
@@ -1165,7 +1338,16 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34146-01.jpg",
+        "assets/img/listings/APH-34146-02.jpg",
+        "assets/img/listings/APH-34146-03.jpg"
+      ],
+      "img": "assets/img/listings/APH-34146-01.jpg"
     },
     {
       "ref": "APH-34147",
@@ -1186,7 +1368,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34148",
@@ -1207,7 +1392,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34149",
@@ -1228,7 +1416,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34150",
@@ -1249,7 +1440,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34151",
@@ -1270,7 +1464,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34152",
@@ -1291,7 +1488,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34153",
@@ -1312,7 +1512,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34154",
@@ -1333,7 +1536,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34155",
@@ -1343,10 +1549,10 @@
       "district": "Maltepe",
       "side": "Asian",
       "price": null,
-      "layout": "1+1 to 3+1",
-      "beds": 1,
+      "layout": "1+1 to 2+1",
+      "beds": 2,
       "bedsMin": 1,
-      "bedsMax": 3,
+      "bedsMax": 2,
       "baths": 1,
       "sqm": null,
       "units": "",
@@ -1354,7 +1560,23 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34155-01.jpg",
+        "assets/img/listings/APH-34155-02.jpg",
+        "assets/img/listings/APH-34155-03.jpg",
+        "assets/img/listings/APH-34155-04.jpg",
+        "assets/img/listings/APH-34155-05.jpg",
+        "assets/img/listings/APH-34155-06.jpg",
+        "assets/img/listings/APH-34155-07.jpg",
+        "assets/img/listings/APH-34155-08.jpg",
+        "assets/img/listings/APH-34155-09.jpg",
+        "assets/img/listings/APH-34155-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34155-01.jpg"
     },
     {
       "ref": "APH-34156",
@@ -1375,7 +1597,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34157",
@@ -1400,7 +1625,11 @@
       "img": "assets/img/listings/APH-34157-01.jpg",
       "photos": [
         "assets/img/listings/APH-34157-01.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1QNag0swyTkbRdL7-7qLC9o4jMbJtROOi/preview"
     },
     {
       "ref": "APH-34158",
@@ -1421,7 +1650,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34159",
@@ -1442,7 +1674,10 @@
       "tags": [
         "New Development"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34201",
@@ -1451,19 +1686,20 @@
       "city": "Istanbul",
       "district": "Taksim",
       "side": "European",
-      "price": null,
+      "price": 1100000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 2,
+      "bedsMin": 1,
+      "bedsMax": 2,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 468,
+      "units": "7 Apartments: 5x (2+1), 1x (1+1), 1x (1+0)",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "Basement 1+0, Entrance 2+1; Roof floor apartment under construction (awaiting municipality permit); 300m to Taksim Sq.",
       "img": "assets/img/listings/taksim-kurdela.jpg",
       "photos": [
         "assets/img/listings/APH-34201-01.jpg",
@@ -1473,7 +1709,11 @@
         "assets/img/listings/APH-34201-05.jpg",
         "assets/img/listings/APH-34201-06.jpg",
         "assets/img/listings/APH-34201-07.jpg"
-      ]
+      ],
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": true,
+      "floors": "6 Floors"
     },
     {
       "ref": "APH-34202",
@@ -1482,19 +1722,20 @@
       "city": "Istanbul",
       "district": "Taksim",
       "side": "European",
-      "price": null,
+      "price": 700000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 240,
+      "units": "9 Units: 8x Studio Apartments (2 per floor on 4 floors) + 1x (1+1) Top Floor Apt",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "Gagan Building; newly renovated & fully furnished; 300m to Taksim Square",
       "img": "assets/img/listings/APH-34202-01.jpg",
       "photos": [
         "assets/img/listings/APH-34202-01.jpg",
@@ -1507,7 +1748,12 @@
         "assets/img/listings/APH-34202-08.jpg",
         "assets/img/listings/APH-34202-09.jpg",
         "assets/img/listings/APH-34202-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": true,
+      "land": 48,
+      "floors": "5 Floors"
     },
     {
       "ref": "APH-34203",
@@ -1516,23 +1762,29 @@
       "city": "Istanbul",
       "district": "Taksim",
       "side": "European",
-      "price": null,
+      "price": 800000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 237,
+      "units": "Full Building (Commercial / Hospitality / Residential)",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "Prime high-foot-traffic nightlife/restaurant street off İstiklal Ave near Galatasaray Sq.",
       "img": "assets/img/listings/taksim-nevizade.jpg",
       "photos": [
         "assets/img/listings/APH-34203-01.jpg"
-      ]
+      ],
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": true,
+      "land": 47,
+      "floors": "5 Floors"
     },
     {
       "ref": "APH-34204",
@@ -1541,19 +1793,20 @@
       "city": "Istanbul",
       "district": "Taksim",
       "side": "European",
-      "price": null,
+      "price": 700000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 230,
+      "units": "6 Units: 1 Suite w/ Jacuzzi, 3x (1+1), 2x (1+0) + Lobby & Storage",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "Restored 2021; Turnkey apart-hotel on main street frontage; Title deed value $400k; Net profit ~$42,408/yr",
       "img": "assets/img/listings/taksim-cactus.jpg",
       "photos": [
         "assets/img/listings/APH-34204-01.jpg",
@@ -1566,7 +1819,12 @@
         "assets/img/listings/APH-34204-08.jpg",
         "assets/img/listings/APH-34204-09.jpg",
         "assets/img/listings/APH-34204-10.jpg"
-      ]
+      ],
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": true,
+      "floors": "6 Floors",
+      "video": "https://drive.google.com/file/d/1DIM6O1WKQJqBkAcbJ2ecIxv_XCz0xgM0/preview"
     },
     {
       "ref": "APH-34205",
@@ -1575,19 +1833,37 @@
       "city": "Istanbul",
       "district": "Taksim",
       "side": "European",
-      "price": null,
+      "price": 900000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 245,
+      "units": "5 Units: 4x (1+1) Apartments + 1 Basement Commercial Shop",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": ""
+      "note": "Fully renovated & furnished with brand-new furniture; zero CapEx required; steps from Taksim Square",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 49,
+      "floors": "5 Floors (B+G+3)",
+      "video": "https://drive.google.com/file/d/1YvWRCnHPbMVah7QLlhGPV7OPminNqBN1/preview",
+      "photos": [
+        "assets/img/listings/APH-34205-01.jpg",
+        "assets/img/listings/APH-34205-02.jpg",
+        "assets/img/listings/APH-34205-03.jpg",
+        "assets/img/listings/APH-34205-04.jpg",
+        "assets/img/listings/APH-34205-05.jpg",
+        "assets/img/listings/APH-34205-06.jpg",
+        "assets/img/listings/APH-34205-07.jpg",
+        "assets/img/listings/APH-34205-08.jpg",
+        "assets/img/listings/APH-34205-09.jpg"
+      ],
+      "img": "assets/img/listings/APH-34205-01.jpg"
     },
     {
       "ref": "APH-34206",
@@ -1621,7 +1897,10 @@
         "assets/img/listings/APH-34206-08.jpg",
         "assets/img/listings/APH-34206-09.jpg",
         "assets/img/listings/APH-34206-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34207",
@@ -1630,19 +1909,19 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 2500000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
       "sqm": null,
-      "units": "",
+      "units": "Full Building",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": "",
+      "note": "Full building investment in Piyalepaşa, Beyoğlu",
       "img": "assets/img/listings/APH-34207-01.jpg",
       "photos": [
         "assets/img/listings/APH-34207-01.jpg",
@@ -1655,7 +1934,11 @@
         "assets/img/listings/APH-34207-08.jpg",
         "assets/img/listings/APH-34207-09.jpg",
         "assets/img/listings/APH-34207-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "floors": "7 floors ( 9 units. 2+1 and 1+!)"
     },
     {
       "ref": "APH-34208",
@@ -1664,19 +1947,19 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 1300000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 96,
+      "units": "Full Building",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": "",
+      "note": "Full Bosphorus view from top 2 floors; heart of Galata Tower / Karaköy / Şişhane triangle",
       "img": "assets/img/listings/galata-hocali.jpg",
       "photos": [
         "assets/img/listings/APH-34208-01.jpg",
@@ -1689,7 +1972,12 @@
         "assets/img/listings/APH-34208-08.jpg",
         "assets/img/listings/APH-34208-09.jpg",
         "assets/img/listings/APH-34208-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 110,
+      "floors": "6 Floors"
     },
     {
       "ref": "APH-34209",
@@ -1698,19 +1986,19 @@
       "city": "Istanbul",
       "district": "Fatih",
       "side": "European",
-      "price": null,
+      "price": 1500000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 390,
+      "units": "11 Studio Rooms + Reception Area + Laundry Room + Kitchen/Living Area",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": "",
+      "note": "Historic Peninsula along Golden Horn; near Atatürk Bridge, İMÇ & Süleymaniye",
       "img": "assets/img/listings/APH-34209-01.jpg",
       "photos": [
         "assets/img/listings/APH-34209-01.jpg",
@@ -1723,7 +2011,12 @@
         "assets/img/listings/APH-34209-08.jpg",
         "assets/img/listings/APH-34209-09.jpg",
         "assets/img/listings/APH-34209-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 86,
+      "floors": "4 floors"
     },
     {
       "ref": "APH-34210",
@@ -1749,7 +2042,11 @@
       "photos": [
         "assets/img/listings/APH-34210-01.jpg",
         "assets/img/listings/APH-34210-02.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1Mn6ukDHuKE5U28Scv5TukodkhnTNngSP/preview"
     },
     {
       "ref": "APH-34211",
@@ -1758,19 +2055,20 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 350000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
       "baths": 0,
       "sqm": null,
-      "units": "",
+      "units": "5 Units: 4x Studio Apartments (G & 1st fl) + 1x (2+1) Apt (2nd fl) + Basement Storage",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "Fully renovated masonry building with brand-new furniture; walking distance to Taksim & Nişantaşı",
       "img": "assets/img/listings/APH-34211-01.jpg",
       "photos": [
         "assets/img/listings/APH-34211-01.jpg",
@@ -1783,7 +2081,12 @@
         "assets/img/listings/APH-34211-08.jpg",
         "assets/img/listings/APH-34211-09.jpg",
         "assets/img/listings/APH-34211-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": true,
+      "land": 58,
+      "floors": "3 Floors + Basement"
     },
     {
       "ref": "APH-34212",
@@ -1792,19 +2095,20 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 800000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 320,
+      "units": "7 Units: 6x Studio Apartments (w/ kitchen & bath) + 1x (1+1) Apt + 40 m² Back Garden",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "3 min walk to İstiklal St, 4 min to Galata Tower, 5 min to Galataport, 10 min to Taksim",
       "img": "assets/img/listings/APH-34212-01.jpg",
       "photos": [
         "assets/img/listings/APH-34212-01.jpg",
@@ -1817,7 +2121,12 @@
         "assets/img/listings/APH-34212-08.jpg",
         "assets/img/listings/APH-34212-09.jpg",
         "assets/img/listings/APH-34212-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": true,
+      "land": 110,
+      "floors": "4 Floors"
     },
     {
       "ref": "APH-34213",
@@ -1826,19 +2135,19 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 650000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
       "baths": 0,
-      "sqm": null,
-      "units": "",
+      "sqm": 330,
+      "units": "9 Units: 8x Studio Units (2 per floor on top 4 floors) + 1x (1+1) Basement Apt",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": "",
+      "note": "10-15 min walk to Taksim Square & M2 Metro; high-connectivity value-gap location",
       "img": "assets/img/listings/APH-34213-01.jpg",
       "photos": [
         "assets/img/listings/APH-34213-01.jpg",
@@ -1851,7 +2160,12 @@
         "assets/img/listings/APH-34213-08.jpg",
         "assets/img/listings/APH-34213-09.jpg",
         "assets/img/listings/APH-34213-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 56,
+      "floors": "5 Floors"
     },
     {
       "ref": "APH-34214",
@@ -1860,19 +2174,19 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 400000,
       "layout": "Whole Building",
-      "beds": 0,
-      "bedsMin": null,
-      "bedsMax": null,
+      "beds": 2,
+      "bedsMin": 1,
+      "bedsMax": 2,
       "baths": 0,
       "sqm": null,
-      "units": "",
+      "units": "4 Units: 2x (2+1) Units (top 2 floors) + 1x (1+1) Basement Unit + 1x Entrance Shop",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": "",
+      "note": "10-15 min walk to Taksim Square & M2 Metro; mixed residential & street shop",
       "img": "assets/img/listings/fitil-2.jpg",
       "photos": [
         "assets/img/listings/APH-34214-01.jpg",
@@ -1885,7 +2199,12 @@
         "assets/img/listings/APH-34214-08.jpg",
         "assets/img/listings/APH-34214-09.jpg",
         "assets/img/listings/APH-34214-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 50,
+      "floors": "4 Floors"
     },
     {
       "ref": "APH-34215",
@@ -1894,19 +2213,20 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 700000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
       "sqm": null,
-      "units": "",
+      "units": "5 Studio Apartments (w/ kitchenette & bathroom) + Basement Storage",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "Equipped with elevator and A/C in every room; walking distance to Taksim Square & Nişantaşı",
       "img": "assets/img/listings/siper.jpg",
       "photos": [
         "assets/img/listings/APH-34215-01.jpg",
@@ -1919,7 +2239,12 @@
         "assets/img/listings/APH-34215-08.jpg",
         "assets/img/listings/APH-34215-09.jpg",
         "assets/img/listings/APH-34215-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": true,
+      "land": 55,
+      "floors": "5 Floors + Basement"
     },
     {
       "ref": "APH-34216",
@@ -1928,19 +2253,20 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 350000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
       "sqm": null,
-      "units": "",
+      "units": "Full Building",
       "status": "",
       "tags": [
-        "Whole Building"
+        "Whole Building",
+        "Airbnb Eligible"
       ],
-      "note": "",
+      "note": "Adjacent to Taksim Square, İstiklal Street & Tarlabaşı Renewal zone",
       "img": "assets/img/listings/nilgun.jpg",
       "photos": [
         "assets/img/listings/APH-34216-01.jpg",
@@ -1953,7 +2279,12 @@
         "assets/img/listings/APH-34216-08.jpg",
         "assets/img/listings/APH-34216-09.jpg",
         "assets/img/listings/APH-34216-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": true,
+      "land": 50,
+      "floors": "4 Floors"
     },
     {
       "ref": "APH-34217",
@@ -1962,19 +2293,19 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 350000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
       "sqm": null,
-      "units": "",
+      "units": "Full Building",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": "",
+      "note": "Central Şişli İnönü neighborhood between Taksim Square and Nişantaşı",
       "img": "assets/img/listings/APH-34217-01.jpg",
       "photos": [
         "assets/img/listings/APH-34217-01.jpg",
@@ -1987,7 +2318,12 @@
         "assets/img/listings/APH-34217-08.jpg",
         "assets/img/listings/APH-34217-09.jpg",
         "assets/img/listings/APH-34217-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 60,
+      "floors": "5 floors"
     },
     {
       "ref": "APH-34218",
@@ -1996,19 +2332,19 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 400000,
       "layout": "Whole Building",
       "beds": 0,
       "bedsMin": null,
       "bedsMax": null,
       "baths": 0,
       "sqm": null,
-      "units": "",
+      "units": "Full Building",
       "status": "",
       "tags": [
         "Whole Building"
       ],
-      "note": "",
+      "note": "Central Şişli İnönü neighborhood between Taksim Square and Nişantaşı",
       "img": "assets/img/listings/APH-34218-01.jpg",
       "photos": [
         "assets/img/listings/APH-34218-01.jpg",
@@ -2021,7 +2357,12 @@
         "assets/img/listings/APH-34218-08.jpg",
         "assets/img/listings/APH-34218-09.jpg",
         "assets/img/listings/APH-34218-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 60,
+      "floors": "7 floors"
     },
     {
       "ref": "APH-34301",
@@ -2042,7 +2383,11 @@
       "tags": [
         "Commercial"
       ],
-      "note": ""
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1nKFdeGwdOkxF7qVd_zQvnzgwP37C_PH_/preview"
     },
     {
       "ref": "APH-34302",
@@ -2076,7 +2421,11 @@
         "assets/img/listings/APH-34302-08.jpg",
         "assets/img/listings/APH-34302-09.jpg",
         "assets/img/listings/APH-34302-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1BES15FDkZEIB1D0gi7e8283UDTfPeCAA/preview"
     },
     {
       "ref": "APH-34303",
@@ -2110,7 +2459,11 @@
         "assets/img/listings/APH-34303-08.jpg",
         "assets/img/listings/APH-34303-09.jpg",
         "assets/img/listings/APH-34303-10.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1BZyJiMNWMZXFXamRNPIn0r5wW2N_yU_b/preview"
     },
     {
       "ref": "APH-34304",
@@ -2139,7 +2492,10 @@
         "assets/img/listings/APH-34304-03.jpg",
         "assets/img/listings/APH-34304-04.jpg",
         "assets/img/listings/APH-34304-05.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false
     },
     {
       "ref": "APH-34305",
@@ -2164,7 +2520,1908 @@
       "img": "assets/img/listings/moda-restaurant.jpg",
       "photos": [
         "assets/img/listings/APH-34305-01.jpg"
-      ]
+      ],
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1gp-GjobPx9-Lr7U4Id0-aFuxrYnaNWrd/preview"
+    },
+    {
+      "ref": "APH-34219",
+      "name": "Yeni Eyüp Evleri",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Eyüp",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 3,
+      "bedsMin": 1,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": null,
+      "units": "~389 units",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "land": 10700,
+      "photos": [
+        "assets/img/listings/APH-34219-01.jpg",
+        "assets/img/listings/APH-34219-02.jpg",
+        "assets/img/listings/APH-34219-03.jpg",
+        "assets/img/listings/APH-34219-04.jpg",
+        "assets/img/listings/APH-34219-05.jpg",
+        "assets/img/listings/APH-34219-06.jpg",
+        "assets/img/listings/APH-34219-07.jpg",
+        "assets/img/listings/APH-34219-08.jpg",
+        "assets/img/listings/APH-34219-09.jpg",
+        "assets/img/listings/APH-34219-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34219-01.jpg",
+      "desc": "Yeni Eyüp Evleri is a modern residential project in Eyüpsultan, on the European side of Istanbul, set on approximately 10,700 m² of land with 7 residential blocks and around 389 apartments. It offers 1+1 to 3+1 layouts suited to both small households and families. Residents enjoy a fitness centre, sauna, children's playground, cafés and green landscaped areas, along with parking and 24/7 security. The project is built to earthquake regulations and offers easy access to public transport, including metro and tram connections, with quick links to Levent, Maslak and Taksim."
+    },
+    {
+      "ref": "APH-34220",
+      "name": "HAYAT CITY",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Mahmutbey",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 3,
+      "bedsMin": 1,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": 113,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1z9VBqLByDOhTOIdbn_ErA-Brcl2kTtxY/preview",
+      "photos": [
+        "assets/img/listings/APH-34220-01.jpg",
+        "assets/img/listings/APH-34220-02.jpg",
+        "assets/img/listings/APH-34220-03.jpg",
+        "assets/img/listings/APH-34220-04.jpg",
+        "assets/img/listings/APH-34220-05.jpg",
+        "assets/img/listings/APH-34220-06.jpg",
+        "assets/img/listings/APH-34220-07.jpg",
+        "assets/img/listings/APH-34220-08.jpg",
+        "assets/img/listings/APH-34220-09.jpg",
+        "assets/img/listings/APH-34220-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34220-01.jpg",
+      "sqmMax": 308.94
+    },
+    {
+      "ref": "APH-34221",
+      "name": "ÖZAK DRAGOS",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Maltepe",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 3,
+      "bedsMin": 1,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": 68.19,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1SW5G7I5ciuVhgl4jFvIyt8lH5HYFcOn-/preview",
+      "photos": [
+        "assets/img/listings/APH-34221-01.jpg",
+        "assets/img/listings/APH-34221-02.jpg",
+        "assets/img/listings/APH-34221-03.jpg",
+        "assets/img/listings/APH-34221-04.jpg",
+        "assets/img/listings/APH-34221-05.jpg",
+        "assets/img/listings/APH-34221-06.jpg",
+        "assets/img/listings/APH-34221-07.jpg",
+        "assets/img/listings/APH-34221-08.jpg",
+        "assets/img/listings/APH-34221-09.jpg",
+        "assets/img/listings/APH-34221-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34221-01.jpg",
+      "sqmMax": 218.92
+    },
+    {
+      "ref": "APH-34222",
+      "name": "Stara Tem",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 4,
+      "bedsMin": 1,
+      "bedsMax": 4,
+      "baths": 1,
+      "sqm": 68.3,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1ZQkdnkIjEaUJUaeMfsgahxw8eh9eznN0/preview",
+      "sqmMax": 204.3
+    },
+    {
+      "ref": "APH-34223",
+      "name": "Banuevleri Ispartakule 4",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Başakşehir",
+      "side": "European",
+      "price": null,
+      "layout": "2+1, 3+1, Commercial",
+      "beds": 3,
+      "bedsMin": 2,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": 129,
+      "units": "70 units",
+      "status": "Delivered",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "sqmMax": 163,
+      "land": 4700
+    },
+    {
+      "ref": "APH-34224",
+      "name": "Banuevleri Bahçekent",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Esenyurt",
+      "side": "European",
+      "price": null,
+      "layout": "2+1, 3+1, Commercial",
+      "beds": 3,
+      "bedsMin": 2,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": 136,
+      "units": "84 units",
+      "status": "",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "sqmMax": 180,
+      "land": 9270
+    },
+    {
+      "ref": "APH-34225",
+      "name": "Çatma Mescid & Harman Sokak Portfolio",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 420000,
+      "layout": "Whole Building",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": 49,
+      "units": "5 Units: 3x (1+1) + 1x Studio + 1x Street-Level Shop",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "Turnkey freehold deed; fully furnished to apart-hotel standards; zero CapEx",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "land": 50,
+      "floors": "4 floors",
+      "photos": [
+        "assets/img/listings/APH-34225-01.jpg",
+        "assets/img/listings/APH-34225-02.jpg",
+        "assets/img/listings/APH-34225-03.jpg",
+        "assets/img/listings/APH-34225-04.jpg",
+        "assets/img/listings/APH-34225-05.jpg",
+        "assets/img/listings/APH-34225-06.jpg",
+        "assets/img/listings/APH-34225-07.jpg",
+        "assets/img/listings/APH-34225-08.jpg",
+        "assets/img/listings/APH-34225-09.jpg",
+        "assets/img/listings/APH-34225-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34225-01.jpg"
+    },
+    {
+      "ref": "APH-34226",
+      "name": "Harman Sokak Asset",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 420000,
+      "layout": "Whole Building",
+      "beds": 2,
+      "bedsMin": 1,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": 204,
+      "units": "5 Turnkey Units: 1x (2+1), 2x (1+1), 2x Studio (Loft layouts)",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "Renovated historic facade with exposed brick & loft bedrooms; steps from Taksim Square",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "land": 51,
+      "floors": "4 floors",
+      "photos": [
+        "assets/img/listings/APH-34226-01.jpg",
+        "assets/img/listings/APH-34226-02.jpg",
+        "assets/img/listings/APH-34226-03.jpg",
+        "assets/img/listings/APH-34226-04.jpg",
+        "assets/img/listings/APH-34226-05.jpg",
+        "assets/img/listings/APH-34226-06.jpg",
+        "assets/img/listings/APH-34226-07.jpg",
+        "assets/img/listings/APH-34226-08.jpg",
+        "assets/img/listings/APH-34226-09.jpg",
+        "assets/img/listings/APH-34226-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34226-01.jpg"
+    },
+    {
+      "ref": "APH-34227",
+      "name": "Taksim Investment Feridiye",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 420000,
+      "layout": "Whole Building",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": 49,
+      "units": "5 Units: 3x (1+1) + 1x Studio + 1x Street-Level Shop",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "Direct pedestrian flow from Taksim Square; turnkey multi-unit freehold",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "land": 50,
+      "floors": "5 floors",
+      "photos": [
+        "assets/img/listings/APH-34227-01.jpg",
+        "assets/img/listings/APH-34227-02.jpg",
+        "assets/img/listings/APH-34227-03.jpg",
+        "assets/img/listings/APH-34227-04.jpg",
+        "assets/img/listings/APH-34227-05.jpg",
+        "assets/img/listings/APH-34227-06.jpg",
+        "assets/img/listings/APH-34227-07.jpg"
+      ],
+      "img": "assets/img/listings/APH-34227-01.jpg"
+    },
+    {
+      "ref": "APH-34501",
+      "name": "2+1 Cihangir AMR S.",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 160000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Cihangir, Beyoğlu",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34501-01.jpg",
+        "assets/img/listings/APH-34501-02.jpg",
+        "assets/img/listings/APH-34501-03.jpg",
+        "assets/img/listings/APH-34501-04.jpg",
+        "assets/img/listings/APH-34501-05.jpg",
+        "assets/img/listings/APH-34501-06.jpg",
+        "assets/img/listings/APH-34501-07.jpg",
+        "assets/img/listings/APH-34501-08.jpg",
+        "assets/img/listings/APH-34501-09.jpg",
+        "assets/img/listings/APH-34501-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34501-01.jpg"
+    },
+    {
+      "ref": "APH-34502",
+      "name": "Beyoglu 2+1 Golden Horn TSF",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 300000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Golden Horn view, Beyoğlu",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34502-01.jpg",
+        "assets/img/listings/APH-34502-02.jpg",
+        "assets/img/listings/APH-34502-03.jpg",
+        "assets/img/listings/APH-34502-04.jpg",
+        "assets/img/listings/APH-34502-05.jpg",
+        "assets/img/listings/APH-34502-06.jpg",
+        "assets/img/listings/APH-34502-07.jpg",
+        "assets/img/listings/APH-34502-08.jpg",
+        "assets/img/listings/APH-34502-09.jpg",
+        "assets/img/listings/APH-34502-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34502-01.jpg"
+    },
+    {
+      "ref": "APH-34503",
+      "name": "Gumussuyu cihangir 2+1 A. ZBR",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 250000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Gümüşsuyu / Cihangir",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34503-01.jpg",
+        "assets/img/listings/APH-34503-02.jpg",
+        "assets/img/listings/APH-34503-03.jpg",
+        "assets/img/listings/APH-34503-04.jpg",
+        "assets/img/listings/APH-34503-05.jpg",
+        "assets/img/listings/APH-34503-06.jpg",
+        "assets/img/listings/APH-34503-07.jpg",
+        "assets/img/listings/APH-34503-08.jpg",
+        "assets/img/listings/APH-34503-09.jpg",
+        "assets/img/listings/APH-34503-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34503-01.jpg"
+    },
+    {
+      "ref": "APH-34504",
+      "name": "Taksim Bogaz A.LKHN",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 600000,
+      "layout": "-",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Bosphorus view, Taksim",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34504-01.jpg",
+        "assets/img/listings/APH-34504-02.jpg",
+        "assets/img/listings/APH-34504-03.jpg",
+        "assets/img/listings/APH-34504-04.jpg",
+        "assets/img/listings/APH-34504-05.jpg",
+        "assets/img/listings/APH-34504-06.jpg",
+        "assets/img/listings/APH-34504-07.jpg",
+        "assets/img/listings/APH-34504-08.jpg",
+        "assets/img/listings/APH-34504-09.jpg",
+        "assets/img/listings/APH-34504-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34504-01.jpg"
+    },
+    {
+      "ref": "APH-34505",
+      "name": "Beyoglu incekas 2+1",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 300000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "İncekaş, Beyoğlu",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34505-01.jpg",
+        "assets/img/listings/APH-34505-02.jpg",
+        "assets/img/listings/APH-34505-03.jpg",
+        "assets/img/listings/APH-34505-04.jpg",
+        "assets/img/listings/APH-34505-05.jpg",
+        "assets/img/listings/APH-34505-06.jpg",
+        "assets/img/listings/APH-34505-07.jpg",
+        "assets/img/listings/APH-34505-08.jpg",
+        "assets/img/listings/APH-34505-09.jpg",
+        "assets/img/listings/APH-34505-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34505-01.jpg"
+    },
+    {
+      "ref": "APH-34506",
+      "name": "Sutluce Duplex",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 400000,
+      "layout": "Duplex",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Sütlüce, Beyoğlu",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34506-01.jpg",
+        "assets/img/listings/APH-34506-02.jpg",
+        "assets/img/listings/APH-34506-03.jpg",
+        "assets/img/listings/APH-34506-04.jpg",
+        "assets/img/listings/APH-34506-05.jpg",
+        "assets/img/listings/APH-34506-06.jpg",
+        "assets/img/listings/APH-34506-07.jpg",
+        "assets/img/listings/APH-34506-08.jpg",
+        "assets/img/listings/APH-34506-09.jpg",
+        "assets/img/listings/APH-34506-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34506-01.jpg"
+    },
+    {
+      "ref": "APH-34507",
+      "name": "Tophane 1+1 KMRN",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 225000,
+      "layout": "1+1",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Tophane, Beyoğlu",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34507-01.jpg",
+        "assets/img/listings/APH-34507-02.jpg",
+        "assets/img/listings/APH-34507-03.jpg",
+        "assets/img/listings/APH-34507-04.jpg",
+        "assets/img/listings/APH-34507-05.jpg",
+        "assets/img/listings/APH-34507-06.jpg",
+        "assets/img/listings/APH-34507-07.jpg",
+        "assets/img/listings/APH-34507-08.jpg",
+        "assets/img/listings/APH-34507-09.jpg",
+        "assets/img/listings/APH-34507-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34507-01.jpg"
+    },
+    {
+      "ref": "APH-34508",
+      "name": "Benesta",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Benesta Beyoğlu",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34508-01.jpg",
+        "assets/img/listings/APH-34508-02.jpg",
+        "assets/img/listings/APH-34508-03.jpg",
+        "assets/img/listings/APH-34508-04.jpg",
+        "assets/img/listings/APH-34508-05.jpg",
+        "assets/img/listings/APH-34508-06.jpg",
+        "assets/img/listings/APH-34508-07.jpg",
+        "assets/img/listings/APH-34508-08.jpg",
+        "assets/img/listings/APH-34508-09.jpg",
+        "assets/img/listings/APH-34508-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34508-01.jpg"
+    },
+    {
+      "ref": "APH-34509",
+      "name": "3+1 Galata Beyoglu ASH",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 450000,
+      "layout": "3+1",
+      "beds": 3,
+      "bedsMin": 3,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Galata, Beyoğlu",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34509-01.jpg",
+        "assets/img/listings/APH-34509-02.jpg",
+        "assets/img/listings/APH-34509-03.jpg",
+        "assets/img/listings/APH-34509-04.jpg",
+        "assets/img/listings/APH-34509-05.jpg",
+        "assets/img/listings/APH-34509-06.jpg",
+        "assets/img/listings/APH-34509-07.jpg",
+        "assets/img/listings/APH-34509-08.jpg",
+        "assets/img/listings/APH-34509-09.jpg",
+        "assets/img/listings/APH-34509-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34509-01.jpg"
+    },
+    {
+      "ref": "APH-34510",
+      "name": "Cihangir 2+1 NB",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 300000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Cihangir (Sur Balık area)",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34510-01.jpg",
+        "assets/img/listings/APH-34510-02.jpg",
+        "assets/img/listings/APH-34510-03.jpg",
+        "assets/img/listings/APH-34510-04.jpg",
+        "assets/img/listings/APH-34510-05.jpg"
+      ],
+      "img": "assets/img/listings/APH-34510-01.jpg"
+    },
+    {
+      "ref": "APH-34511",
+      "name": "Siraselviler Cihangir 4+1 WZ",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 350000,
+      "layout": "4+1",
+      "beds": 4,
+      "bedsMin": 4,
+      "bedsMax": 4,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Sıraselviler, Cihangir",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34511-01.jpg",
+        "assets/img/listings/APH-34511-02.jpg",
+        "assets/img/listings/APH-34511-03.jpg",
+        "assets/img/listings/APH-34511-04.jpg",
+        "assets/img/listings/APH-34511-05.jpg",
+        "assets/img/listings/APH-34511-06.jpg",
+        "assets/img/listings/APH-34511-07.jpg",
+        "assets/img/listings/APH-34511-08.jpg",
+        "assets/img/listings/APH-34511-09.jpg",
+        "assets/img/listings/APH-34511-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34511-01.jpg"
+    },
+    {
+      "ref": "APH-34512",
+      "name": "Cihangir 1+1 ND",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 200000,
+      "layout": "1+1",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Cihangir, Beyoğlu",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34512-01.jpg",
+        "assets/img/listings/APH-34512-02.jpg",
+        "assets/img/listings/APH-34512-03.jpg",
+        "assets/img/listings/APH-34512-04.jpg",
+        "assets/img/listings/APH-34512-05.jpg",
+        "assets/img/listings/APH-34512-06.jpg",
+        "assets/img/listings/APH-34512-07.jpg",
+        "assets/img/listings/APH-34512-08.jpg",
+        "assets/img/listings/APH-34512-09.jpg",
+        "assets/img/listings/APH-34512-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34512-01.jpg"
+    },
+    {
+      "ref": "APH-34513",
+      "name": "Kabatas 3+1 MHZ",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 350000,
+      "layout": "3+1",
+      "beds": 3,
+      "bedsMin": 3,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Kabataş / Cihangir",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34513-01.jpg",
+        "assets/img/listings/APH-34513-02.jpg",
+        "assets/img/listings/APH-34513-03.jpg",
+        "assets/img/listings/APH-34513-04.jpg",
+        "assets/img/listings/APH-34513-05.jpg",
+        "assets/img/listings/APH-34513-06.jpg",
+        "assets/img/listings/APH-34513-07.jpg",
+        "assets/img/listings/APH-34513-08.jpg",
+        "assets/img/listings/APH-34513-09.jpg",
+        "assets/img/listings/APH-34513-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34513-01.jpg"
+    },
+    {
+      "ref": "APH-34514",
+      "name": "Taksim Petek Residence",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Petek Residence, Taksim",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34514-01.jpg",
+        "assets/img/listings/APH-34514-02.jpg",
+        "assets/img/listings/APH-34514-03.jpg",
+        "assets/img/listings/APH-34514-04.jpg",
+        "assets/img/listings/APH-34514-05.jpg",
+        "assets/img/listings/APH-34514-06.jpg",
+        "assets/img/listings/APH-34514-07.jpg",
+        "assets/img/listings/APH-34514-08.jpg",
+        "assets/img/listings/APH-34514-09.jpg",
+        "assets/img/listings/APH-34514-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34514-01.jpg"
+    },
+    {
+      "ref": "APH-34515",
+      "name": "Elysium Soul (2+1 / 1+1 / Garden)",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 200000,
+      "layout": "1+1 & 2+1",
+      "beds": 2,
+      "bedsMin": 1,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Soul Ofton / Elysium Soul Beyoğlu — $200,000 - $350,000",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1DZ_jZvYZcA7TgSLeCegSxAQEiKDYl8LH/preview",
+      "photos": [
+        "assets/img/listings/APH-34515-01.jpg",
+        "assets/img/listings/APH-34515-02.jpg",
+        "assets/img/listings/APH-34515-03.jpg",
+        "assets/img/listings/APH-34515-04.jpg",
+        "assets/img/listings/APH-34515-05.jpg",
+        "assets/img/listings/APH-34515-06.jpg",
+        "assets/img/listings/APH-34515-07.jpg",
+        "assets/img/listings/APH-34515-08.jpg",
+        "assets/img/listings/APH-34515-09.jpg",
+        "assets/img/listings/APH-34515-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34515-01.jpg"
+    },
+    {
+      "ref": "APH-34516",
+      "name": "ETR Taksim residence",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "ETR Residence, Taksim",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/14-_vCWBhqUr39bMlE96n4mmnhZMMDPn8/preview",
+      "photos": [
+        "assets/img/listings/APH-34516-01.jpg",
+        "assets/img/listings/APH-34516-02.jpg",
+        "assets/img/listings/APH-34516-03.jpg",
+        "assets/img/listings/APH-34516-04.jpg",
+        "assets/img/listings/APH-34516-05.jpg",
+        "assets/img/listings/APH-34516-06.jpg",
+        "assets/img/listings/APH-34516-07.jpg",
+        "assets/img/listings/APH-34516-08.jpg",
+        "assets/img/listings/APH-34516-09.jpg",
+        "assets/img/listings/APH-34516-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34516-01.jpg"
+    },
+    {
+      "ref": "APH-34517",
+      "name": "Nuri ziya 1+1",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 250000,
+      "layout": "1.5+1 / 1+1",
+      "beds": 5,
+      "bedsMin": 1,
+      "bedsMax": 5,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Nuri Ziya Sokak, İstiklal Street",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34517-01.jpg",
+        "assets/img/listings/APH-34517-02.jpg",
+        "assets/img/listings/APH-34517-03.jpg",
+        "assets/img/listings/APH-34517-04.jpg",
+        "assets/img/listings/APH-34517-05.jpg",
+        "assets/img/listings/APH-34517-06.jpg",
+        "assets/img/listings/APH-34517-07.jpg",
+        "assets/img/listings/APH-34517-08.jpg",
+        "assets/img/listings/APH-34517-09.jpg",
+        "assets/img/listings/APH-34517-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34517-01.jpg"
+    },
+    {
+      "ref": "APH-34518",
+      "name": "Camekan Galata 1+1",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": 250000,
+      "layout": "1+1",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Near Galata Tower",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34518-01.jpg",
+        "assets/img/listings/APH-34518-02.jpg",
+        "assets/img/listings/APH-34518-03.jpg",
+        "assets/img/listings/APH-34518-04.jpg",
+        "assets/img/listings/APH-34518-05.jpg",
+        "assets/img/listings/APH-34518-06.jpg",
+        "assets/img/listings/APH-34518-07.jpg",
+        "assets/img/listings/APH-34518-08.jpg",
+        "assets/img/listings/APH-34518-09.jpg",
+        "assets/img/listings/APH-34518-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34518-01.jpg"
+    },
+    {
+      "ref": "APH-34520",
+      "name": "Kagithane Dky On",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kağıthane",
+      "side": "European",
+      "price": 150000,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "DKY On Kağıthane",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1EN5kTkOJA2IY3Su0Vlz-QKVITi70xNtF/preview",
+      "photos": [
+        "assets/img/listings/APH-34520-01.jpg",
+        "assets/img/listings/APH-34520-02.jpg",
+        "assets/img/listings/APH-34520-03.jpg",
+        "assets/img/listings/APH-34520-04.jpg",
+        "assets/img/listings/APH-34520-05.jpg",
+        "assets/img/listings/APH-34520-06.jpg",
+        "assets/img/listings/APH-34520-07.jpg",
+        "assets/img/listings/APH-34520-08.jpg",
+        "assets/img/listings/APH-34520-09.jpg",
+        "assets/img/listings/APH-34520-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34520-01.jpg"
+    },
+    {
+      "ref": "APH-34521",
+      "name": "Greenox",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kağıthane",
+      "side": "European",
+      "price": 200000,
+      "layout": "1+1",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Greenox Residence, Kağıthane / Levent",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34521-01.jpg",
+        "assets/img/listings/APH-34521-02.jpg",
+        "assets/img/listings/APH-34521-03.jpg",
+        "assets/img/listings/APH-34521-04.jpg",
+        "assets/img/listings/APH-34521-05.jpg",
+        "assets/img/listings/APH-34521-06.jpg",
+        "assets/img/listings/APH-34521-07.jpg",
+        "assets/img/listings/APH-34521-08.jpg",
+        "assets/img/listings/APH-34521-09.jpg",
+        "assets/img/listings/APH-34521-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34521-01.jpg"
+    },
+    {
+      "ref": "APH-34522",
+      "name": "SF vadi istanbul 2+1",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kağıthane",
+      "side": "European",
+      "price": 400000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Vadi Istanbul area, Kağıthane",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34522-01.jpg",
+        "assets/img/listings/APH-34522-02.jpg",
+        "assets/img/listings/APH-34522-03.jpg",
+        "assets/img/listings/APH-34522-04.jpg",
+        "assets/img/listings/APH-34522-05.jpg",
+        "assets/img/listings/APH-34522-06.jpg",
+        "assets/img/listings/APH-34522-07.jpg",
+        "assets/img/listings/APH-34522-08.jpg",
+        "assets/img/listings/APH-34522-09.jpg",
+        "assets/img/listings/APH-34522-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34522-01.jpg"
+    },
+    {
+      "ref": "APH-34523",
+      "name": "Nisantasi 2+1 VQS",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Nişantaşı",
+      "side": "European",
+      "price": 300000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Nişantaşı, Şişli",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34523-01.jpg",
+        "assets/img/listings/APH-34523-02.jpg",
+        "assets/img/listings/APH-34523-03.jpg",
+        "assets/img/listings/APH-34523-04.jpg",
+        "assets/img/listings/APH-34523-05.jpg",
+        "assets/img/listings/APH-34523-06.jpg",
+        "assets/img/listings/APH-34523-07.jpg",
+        "assets/img/listings/APH-34523-08.jpg",
+        "assets/img/listings/APH-34523-09.jpg",
+        "assets/img/listings/APH-34523-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34523-01.jpg"
+    },
+    {
+      "ref": "APH-34524",
+      "name": "Nisantasi Cevher sok TSF",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Nişantaşı",
+      "side": "European",
+      "price": 250000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Cevher Sokak, Nişantaşı",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34524-01.jpg",
+        "assets/img/listings/APH-34524-02.jpg",
+        "assets/img/listings/APH-34524-03.jpg",
+        "assets/img/listings/APH-34524-04.jpg",
+        "assets/img/listings/APH-34524-05.jpg",
+        "assets/img/listings/APH-34524-06.jpg",
+        "assets/img/listings/APH-34524-07.jpg",
+        "assets/img/listings/APH-34524-08.jpg",
+        "assets/img/listings/APH-34524-09.jpg",
+        "assets/img/listings/APH-34524-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34524-01.jpg"
+    },
+    {
+      "ref": "APH-34525",
+      "name": "Nisantasi 2+1 (cevher sokak)",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Nişantaşı",
+      "side": "European",
+      "price": 300000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Cevher Sokak, Nişantaşı",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34525-01.jpg",
+        "assets/img/listings/APH-34525-02.jpg",
+        "assets/img/listings/APH-34525-03.jpg",
+        "assets/img/listings/APH-34525-04.jpg",
+        "assets/img/listings/APH-34525-05.jpg",
+        "assets/img/listings/APH-34525-06.jpg",
+        "assets/img/listings/APH-34525-07.jpg",
+        "assets/img/listings/APH-34525-08.jpg",
+        "assets/img/listings/APH-34525-09.jpg",
+        "assets/img/listings/APH-34525-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34525-01.jpg"
+    },
+    {
+      "ref": "APH-34526",
+      "name": "Madalyon sokak 3.5+1",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Nişantaşı",
+      "side": "European",
+      "price": 550000,
+      "layout": "3.5+1 / 3+1",
+      "beds": 5,
+      "bedsMin": 3,
+      "bedsMax": 5,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Madalyon Sokak, Nişantaşı",
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34526-01.jpg",
+        "assets/img/listings/APH-34526-02.jpg",
+        "assets/img/listings/APH-34526-03.jpg",
+        "assets/img/listings/APH-34526-04.jpg",
+        "assets/img/listings/APH-34526-05.jpg",
+        "assets/img/listings/APH-34526-06.jpg",
+        "assets/img/listings/APH-34526-07.jpg",
+        "assets/img/listings/APH-34526-08.jpg",
+        "assets/img/listings/APH-34526-09.jpg",
+        "assets/img/listings/APH-34526-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34526-01.jpg"
+    },
+    {
+      "ref": "APH-34527",
+      "name": "2+1 Nalbant Sisli THMZ",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": 200000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Nalbant, Şişli",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34527-01.jpg",
+        "assets/img/listings/APH-34527-02.jpg",
+        "assets/img/listings/APH-34527-03.jpg",
+        "assets/img/listings/APH-34527-04.jpg",
+        "assets/img/listings/APH-34527-05.jpg",
+        "assets/img/listings/APH-34527-06.jpg",
+        "assets/img/listings/APH-34527-07.jpg",
+        "assets/img/listings/APH-34527-08.jpg",
+        "assets/img/listings/APH-34527-09.jpg",
+        "assets/img/listings/APH-34527-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34527-01.jpg"
+    },
+    {
+      "ref": "APH-34528",
+      "name": "2+1 Nalbant Sisli A. HRN",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": 200000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Nalbant, Şişli",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34528-01.jpg",
+        "assets/img/listings/APH-34528-02.jpg",
+        "assets/img/listings/APH-34528-03.jpg",
+        "assets/img/listings/APH-34528-04.jpg",
+        "assets/img/listings/APH-34528-05.jpg",
+        "assets/img/listings/APH-34528-06.jpg",
+        "assets/img/listings/APH-34528-07.jpg",
+        "assets/img/listings/APH-34528-08.jpg",
+        "assets/img/listings/APH-34528-09.jpg",
+        "assets/img/listings/APH-34528-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34528-01.jpg"
+    },
+    {
+      "ref": "APH-34529",
+      "name": "Harbiye Cayiri 2+1 AHSN",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": 200000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Harbiye Çayırı, Şişli",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34529-01.jpg",
+        "assets/img/listings/APH-34529-02.jpg",
+        "assets/img/listings/APH-34529-03.jpg",
+        "assets/img/listings/APH-34529-04.jpg",
+        "assets/img/listings/APH-34529-05.jpg",
+        "assets/img/listings/APH-34529-06.jpg",
+        "assets/img/listings/APH-34529-07.jpg",
+        "assets/img/listings/APH-34529-08.jpg",
+        "assets/img/listings/APH-34529-09.jpg",
+        "assets/img/listings/APH-34529-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34529-01.jpg"
+    },
+    {
+      "ref": "APH-34530",
+      "name": "Fulya 2+1 Dr. Khu",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": 300000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Fulya, Şişli",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34530-01.jpg",
+        "assets/img/listings/APH-34530-02.jpg",
+        "assets/img/listings/APH-34530-03.jpg",
+        "assets/img/listings/APH-34530-04.jpg",
+        "assets/img/listings/APH-34530-05.jpg",
+        "assets/img/listings/APH-34530-06.jpg",
+        "assets/img/listings/APH-34530-07.jpg",
+        "assets/img/listings/APH-34530-08.jpg",
+        "assets/img/listings/APH-34530-09.jpg",
+        "assets/img/listings/APH-34530-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34530-01.jpg"
+    },
+    {
+      "ref": "APH-34531",
+      "name": "Vogue Bomonti",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": 225000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Bomonti, Şişli",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": []
+    },
+    {
+      "ref": "APH-34532",
+      "name": "Fulya 2+1 with Garden",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": 175000,
+      "layout": "2+1 Garden",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Fulya / Nişantaşı border, Şişli",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/13ykW_qkq7p5AYgJlf7Lbcg0Jon5VWSN2/preview",
+      "photos": [
+        "assets/img/listings/APH-34532-01.jpg",
+        "assets/img/listings/APH-34532-02.jpg",
+        "assets/img/listings/APH-34532-03.jpg",
+        "assets/img/listings/APH-34532-04.jpg",
+        "assets/img/listings/APH-34532-05.jpg",
+        "assets/img/listings/APH-34532-06.jpg",
+        "assets/img/listings/APH-34532-07.jpg",
+        "assets/img/listings/APH-34532-08.jpg",
+        "assets/img/listings/APH-34532-09.jpg",
+        "assets/img/listings/APH-34532-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34532-01.jpg"
+    },
+    {
+      "ref": "APH-34533",
+      "name": "Harbiye Cayiri Duplex",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": 200000,
+      "layout": "Duplex",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Harbiye Çayırı, Şişli",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1Tmy1B8uabCRpmd4_vnNDX84EOgiCJt96/preview",
+      "photos": []
+    },
+    {
+      "ref": "APH-34534",
+      "name": "Eyup 3+1 A.N",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Eyüp",
+      "side": "European",
+      "price": 100000,
+      "layout": "3+1",
+      "beds": 3,
+      "bedsMin": 3,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Eyüpsultan",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": []
+    },
+    {
+      "ref": "APH-34535",
+      "name": "Nova Flats Alibeykoy 2+1 A.HRN",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Eyüp",
+      "side": "European",
+      "price": 275000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Nova Flats, Alibeyköy, Eyüp",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34535-01.jpg",
+        "assets/img/listings/APH-34535-02.jpg",
+        "assets/img/listings/APH-34535-03.jpg",
+        "assets/img/listings/APH-34535-04.jpg",
+        "assets/img/listings/APH-34535-05.jpg",
+        "assets/img/listings/APH-34535-06.jpg",
+        "assets/img/listings/APH-34535-07.jpg",
+        "assets/img/listings/APH-34535-08.jpg",
+        "assets/img/listings/APH-34535-09.jpg",
+        "assets/img/listings/APH-34535-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34535-01.jpg"
+    },
+    {
+      "ref": "APH-34536",
+      "name": "Yeni Eyüp Evleri 1+1",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Eyüp",
+      "side": "European",
+      "price": 150000,
+      "layout": "1+1",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Yeni Eyüp Evleri",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34536-01.jpg",
+        "assets/img/listings/APH-34536-02.jpg",
+        "assets/img/listings/APH-34536-03.jpg",
+        "assets/img/listings/APH-34536-04.jpg",
+        "assets/img/listings/APH-34536-05.jpg",
+        "assets/img/listings/APH-34536-06.jpg",
+        "assets/img/listings/APH-34536-07.jpg",
+        "assets/img/listings/APH-34536-08.jpg",
+        "assets/img/listings/APH-34536-09.jpg",
+        "assets/img/listings/APH-34536-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34536-01.jpg"
+    },
+    {
+      "ref": "APH-34537",
+      "name": "Eyup Yesilpinar 2+1 ZBR",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Eyüp",
+      "side": "European",
+      "price": 100000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Yeşilpınar, Eyüp",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34537-01.jpg",
+        "assets/img/listings/APH-34537-02.jpg",
+        "assets/img/listings/APH-34537-03.jpg",
+        "assets/img/listings/APH-34537-04.jpg",
+        "assets/img/listings/APH-34537-05.jpg",
+        "assets/img/listings/APH-34537-06.jpg",
+        "assets/img/listings/APH-34537-07.jpg",
+        "assets/img/listings/APH-34537-08.jpg",
+        "assets/img/listings/APH-34537-09.jpg",
+        "assets/img/listings/APH-34537-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34537-01.jpg"
+    },
+    {
+      "ref": "APH-34538",
+      "name": "Yenitepe Kadikoy Fikirtepe",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kadıköy",
+      "side": "Asian",
+      "price": 450000,
+      "layout": "3+1",
+      "beds": 3,
+      "bedsMin": 3,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Yenitepe Kadıköy, Fikirtepe",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1dRfFRYshpXGDKTodmkunIhYdhrsKQYfC/preview",
+      "photos": [
+        "assets/img/listings/APH-34538-01.jpg",
+        "assets/img/listings/APH-34538-02.jpg",
+        "assets/img/listings/APH-34538-03.jpg",
+        "assets/img/listings/APH-34538-04.jpg",
+        "assets/img/listings/APH-34538-05.jpg",
+        "assets/img/listings/APH-34538-06.jpg",
+        "assets/img/listings/APH-34538-07.jpg",
+        "assets/img/listings/APH-34538-08.jpg",
+        "assets/img/listings/APH-34538-09.jpg",
+        "assets/img/listings/APH-34538-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34538-01.jpg"
+    },
+    {
+      "ref": "APH-34539",
+      "name": "Sur yapi Excellence",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kadıköy",
+      "side": "Asian",
+      "price": 900000,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Sur Yapı Excellence Koşuyolu, Kadıköy",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1AX2y1oRPw0FUhRjBsvzCOKdS99J2S9u-/preview",
+      "photos": [
+        "assets/img/listings/APH-34539-01.jpg",
+        "assets/img/listings/APH-34539-02.jpg",
+        "assets/img/listings/APH-34539-03.jpg",
+        "assets/img/listings/APH-34539-04.jpg",
+        "assets/img/listings/APH-34539-05.jpg",
+        "assets/img/listings/APH-34539-06.jpg",
+        "assets/img/listings/APH-34539-07.jpg",
+        "assets/img/listings/APH-34539-08.jpg",
+        "assets/img/listings/APH-34539-09.jpg",
+        "assets/img/listings/APH-34539-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34539-01.jpg"
+    },
+    {
+      "ref": "APH-34540",
+      "name": "Dragos 3+1 S.",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Maltepe",
+      "side": "Asian",
+      "price": 600000,
+      "layout": "3+1",
+      "beds": 3,
+      "bedsMin": 3,
+      "bedsMax": 3,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Dragos, Maltepe",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34540-01.jpg",
+        "assets/img/listings/APH-34540-02.jpg",
+        "assets/img/listings/APH-34540-03.jpg",
+        "assets/img/listings/APH-34540-04.jpg",
+        "assets/img/listings/APH-34540-05.jpg",
+        "assets/img/listings/APH-34540-06.jpg",
+        "assets/img/listings/APH-34540-07.jpg",
+        "assets/img/listings/APH-34540-08.jpg",
+        "assets/img/listings/APH-34540-09.jpg",
+        "assets/img/listings/APH-34540-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34540-01.jpg"
+    },
+    {
+      "ref": "APH-34541",
+      "name": "Collet Avcılar",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Avcılar",
+      "side": "European",
+      "price": null,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Collet Avcılar",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34541-01.jpg",
+        "assets/img/listings/APH-34541-02.jpg",
+        "assets/img/listings/APH-34541-03.jpg",
+        "assets/img/listings/APH-34541-04.jpg",
+        "assets/img/listings/APH-34541-05.jpg",
+        "assets/img/listings/APH-34541-06.jpg",
+        "assets/img/listings/APH-34541-07.jpg",
+        "assets/img/listings/APH-34541-08.jpg",
+        "assets/img/listings/APH-34541-09.jpg",
+        "assets/img/listings/APH-34541-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34541-01.jpg"
+    },
+    {
+      "ref": "APH-34542",
+      "name": "Meydan Ardicli",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beylikdüzü",
+      "side": "European",
+      "price": null,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Meydan Ardıçlı, Beylikdüzü",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34542-01.jpg",
+        "assets/img/listings/APH-34542-02.jpg",
+        "assets/img/listings/APH-34542-03.jpg",
+        "assets/img/listings/APH-34542-04.jpg",
+        "assets/img/listings/APH-34542-05.jpg",
+        "assets/img/listings/APH-34542-06.jpg",
+        "assets/img/listings/APH-34542-07.jpg",
+        "assets/img/listings/APH-34542-08.jpg",
+        "assets/img/listings/APH-34542-09.jpg",
+        "assets/img/listings/APH-34542-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34542-01.jpg"
+    },
+    {
+      "ref": "APH-34543",
+      "name": "Bayrampasa Irmaklar Residence",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bayrampaşa",
+      "side": "European",
+      "price": 300000,
+      "layout": "",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Irmaklar Residence, Bayrampaşa",
+      "eligCit": false,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "photos": [
+        "assets/img/listings/APH-34543-01.jpg",
+        "assets/img/listings/APH-34543-02.jpg",
+        "assets/img/listings/APH-34543-03.jpg",
+        "assets/img/listings/APH-34543-04.jpg",
+        "assets/img/listings/APH-34543-05.jpg",
+        "assets/img/listings/APH-34543-06.jpg",
+        "assets/img/listings/APH-34543-07.jpg",
+        "assets/img/listings/APH-34543-08.jpg",
+        "assets/img/listings/APH-34543-09.jpg",
+        "assets/img/listings/APH-34543-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34543-01.jpg"
+    },
+    {
+      "ref": "APH-34544",
+      "name": "Yenibosna 2+1 (Farooq)",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçelievler",
+      "side": "European",
+      "price": 150000,
+      "layout": "2+1",
+      "beds": 2,
+      "bedsMin": 2,
+      "bedsMax": 2,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "Yenibosna, Bahçelievler",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1eO1sWUy_2UapsrvrFU4L6fDqCc7SB64p/preview",
+      "photos": []
+    },
+    {
+      "ref": "APH-34545",
+      "name": "Duzce 1+1 Units (5 Floor Options)",
+      "type": "Apartment",
+      "city": "Düzce",
+      "district": "Düzce",
+      "side": "",
+      "price": 50000,
+      "layout": "1+1 (5 Options)",
+      "beds": 1,
+      "bedsMin": 1,
+      "bedsMax": 1,
+      "baths": 1,
+      "sqm": 50,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Resale"
+      ],
+      "note": "50 sqm, Brand new, Swimming pool, Next to university, 5 options on different floors",
+      "eligCit": false,
+      "eligRes": false,
+      "eligAirbnb": false,
+      "video": "https://drive.google.com/file/d/1UqHVpC9OJazwdoQzAtoSR1VD2Dx1Rjjo/preview",
+      "photos": [
+        "assets/img/listings/APH-34545-01.jpg",
+        "assets/img/listings/APH-34545-02.jpg",
+        "assets/img/listings/APH-34545-03.jpg",
+        "assets/img/listings/APH-34545-04.jpg",
+        "assets/img/listings/APH-34545-05.jpg",
+        "assets/img/listings/APH-34545-06.jpg",
+        "assets/img/listings/APH-34545-07.jpg",
+        "assets/img/listings/APH-34545-08.jpg",
+        "assets/img/listings/APH-34545-09.jpg",
+        "assets/img/listings/APH-34545-10.jpg"
+      ],
+      "img": "assets/img/listings/APH-34545-01.jpg"
     }
   ]
 }

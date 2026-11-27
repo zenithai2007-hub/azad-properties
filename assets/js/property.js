@@ -37,8 +37,13 @@
   }
   function badge(l){
     if (l.tags && l.tags.indexOf("New Development") >= 0) return '<span class="card-badge dev">New Development</span>';
-    if (l.price != null && l.price >= 400000) return '<span class="card-badge cbi">Citizenship Qualified</span>';
-    if (l.price != null && l.price >= 200000) return '<span class="card-badge res">Residence Permit Qualified</span>';
+    if (l.eligCit) return '<span class="card-badge cbi">Citizenship Qualified</span>';
+    if (l.eligRes) return '<span class="card-badge res">Residence Permit Qualified</span>';
+    return "";
+  }
+  function areaText(l){
+    if (l.sqmMax && l.sqm) return l.sqm.toLocaleString("en-US") + "–" + l.sqmMax.toLocaleString("en-US") + " sqm";
+    if (l.sqm) return l.sqm.toLocaleString("en-US") + " sqm";
     return "";
   }
   function fact(label, val){
@@ -104,7 +109,9 @@
     facts += fact("Type", l.type);
     facts += fact("Location", (l.district || "") + ", " + (l.city || ""));
     facts += fact("Side", l.side ? l.side + " Side" : "");
-    facts += fact("Area", l.sqm ? l.sqm.toLocaleString("en-US") + " sqm" : "");
+    facts += fact("Area", areaText(l));
+    facts += fact("Land area", l.land ? l.land.toLocaleString("en-US") + " sqm" : "");
+    facts += fact("Floors", l.floors);
     facts += fact("Units", l.units);
     facts += fact("Status", l.status);
     /* Layouts & pricing block — only fields that exist in the data */
@@ -112,7 +119,9 @@
     lp += fact("Layout", l.layout);
     lp += fact("Bedrooms", bedText(l));
     lp += fact("Price", l.price != null ? "$" + l.price.toLocaleString("en-US") : "Price on request");
-    lp += fact("Area", l.sqm ? l.sqm.toLocaleString("en-US") + " sqm" : "");
+    lp += fact("Area", areaText(l));
+    lp += fact("Land area", l.land ? l.land.toLocaleString("en-US") + " sqm" : "");
+    lp += fact("Floors", l.floors);
     lp += fact("Units", l.units);
     lp += fact("Status", l.status);
     lp += fact("Location", (l.district || "") + ", " + (l.city || ""));
@@ -152,7 +161,9 @@
           (l.d ? '<p>' + window.AZAD.esc(l.d) + '</p>' : '') +
           (l.note ? '<p class="muted">' + window.AZAD.esc(l.note) + '</p>' : '') +
           (tags ? '<div class="detail-tags">' + tags + '</div>' : '') +
-          (l.video ? '<a class="video-link" target="_blank" rel="noopener" href="' + window.AZAD.esc(l.video) + '">▶ Video Tour</a>' : '') +
+          (l.video ? (l.video.indexOf("drive.google.com/file/d/") >= 0
+            ? '<div class="video-box"><h3>Video Tour</h3><iframe class="tour-video" src="' + window.AZAD.esc(l.video) + '" allow="autoplay" allowfullscreen loading="lazy" title="Video tour"></iframe></div>'
+            : '<a class="video-link" target="_blank" rel="noopener" href="' + window.AZAD.esc(l.video) + '">▶ Video Tour</a>') : '') +
           '<div class="detail-cta">' +
             '<button class="btn dark" type="button" onclick="window.__openEnquiry(\'' + window.AZAD.esc(l.ref) + '\')">Quick Enquire</button>' +
             '<a class="btn ghost" target="_blank" rel="noopener" href="' + window.AZAD.waLink(waMsg) + '">WhatsApp</a>' +
