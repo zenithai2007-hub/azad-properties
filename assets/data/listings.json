@@ -3998,7 +3998,17 @@
    "eligRes": false,
    "eligAirbnb": false,
    "video": "https://drive.google.com/file/d/1eO1sWUy_2UapsrvrFU4L6fDqCc7SB64p/preview",
-   "photos": []
+   "photos": [
+    "assets/img/listings/APH-34544-01.jpg",
+    "assets/img/listings/APH-34544-02.jpg",
+    "assets/img/listings/APH-34544-03.jpg",
+    "assets/img/listings/APH-34544-04.jpg",
+    "assets/img/listings/APH-34544-05.jpg",
+    "assets/img/listings/APH-34544-06.jpg",
+    "assets/img/listings/APH-34544-07.jpg"
+   ],
+   "img": "assets/img/listings/APH-34544-01.jpg",
+   "desc": "This 2+1 apartment in Yenibosna, Bahçelievler offers 80 sqm with a balcony on the 2nd floor, just a 15-minute walk from the M9 metro line."
   },
   {
    "ref": "APH-34545",
