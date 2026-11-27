@@ -6,11 +6,27 @@ var SKY = '<svg viewBox="0 0 120 40" class="sky" aria-hidden="true"><path d="M6 
 
 function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 function waLink(msg){ return "https://wa.me/" + WA_NUM + "?text=" + encodeURIComponent(msg); }
+/* Price ranges (Shaan sheet, 27 Nov 2026): a listing may carry priceMin/priceMax
+   (priceMaxOpen = range is open-ended, e.g. "$560,000+"). price = priceMin. */
+function priceText(l, cur){
+  if (l.priceMin != null){
+    var mn = fmtPrice(l.priceMin, cur);
+    if (l.priceMax != null) return mn + " – " + fmtPrice(l.priceMax, cur) + (l.priceMaxOpen ? "+" : "");
+    return "From " + mn;
+  }
+  if (l.price != null) return fmtPrice(l.price, cur);
+  return null;
+}
+function priceWa(l){
+  if (l.priceMin != null) return " listed from $" + l.priceMin.toLocaleString("en-US") + " USD";
+  if (l.price != null) return " listed at $" + l.price.toLocaleString("en-US") + " USD";
+  return "";
+}
 function priceHtml(l){
-  if (l.price == null) return '<div class="card-price"><span class="por">Price on request</span></div>';
-  var p = fmtPrice(l.price, CUR);
-  var extra = CUR !== "USD" ? ' <small>($' + l.price.toLocaleString("en-US") + ')</small>' : "";
-  return '<div class="card-price">' + p + extra + (l.note ? '<span class="lnote" style="display:block;font-family:sans-serif;font-size:11px;color:var(--mut2);letter-spacing:.5px">' + esc(l.note) + '</span>' : '') + '</div>';
+  var t = priceText(l, CUR);
+  if (t == null) return '<div class="card-price"><span class="por">Price on request</span></div>';
+  var extra = CUR !== "USD" ? ' <small>(' + priceText(l, "USD") + ')</small>' : "";
+  return '<div class="card-price">' + t + extra + (l.note ? '<span class="lnote" style="display:block;font-family:sans-serif;font-size:11px;color:var(--mut2);letter-spacing:.5px">' + esc(l.note) + '</span>' : '') + '</div>';
 }
 function badgeHtml(l){
   if (l.tags && l.tags.indexOf("New Development") >= 0) return '<span class="card-badge dev">New Development</span>';
@@ -43,7 +59,7 @@ function cardHtml(l, gold){
       (spec.length ? '<div class="card-spec">' + spec.join(" &middot; ") + '</div>' : '') +
       '<div class="card-cta-row">' +
         '<a class="card-cta" href="#" data-enquire="' + esc(l.ref) + '">Quick Enquire</a>' +
-        '<a class="card-cta wa" target="_blank" rel="noopener" href="' + waLink("Hello Azad Properties, I am interested in " + l.name + " (" + l.ref + ")" + (l.price ? " listed at $" + l.price.toLocaleString("en-US") + " USD" : "") + ".") + '">WhatsApp</a>' +
+        '<a class="card-cta wa" target="_blank" rel="noopener" href="' + waLink("Hello Azad Properties, I am interested in " + l.name + " (" + l.ref + ")" + priceWa(l) + ".") + '">WhatsApp</a>' +
       '</div>' +
       (l.video ? '<a class="video-link" target="_blank" rel="noopener" href="' + esc(l.video) + '">▶ Video Tour</a>' : '') +
       '</div></article>';
@@ -70,7 +86,7 @@ function applyCurrency(){
   document.querySelectorAll("[data-price-note]").forEach(function(n){ n.textContent = CUR === "USD" ? "" : RATE_NOTE; });
   if (window.__renderCurrent) window.__renderCurrent();
 }
-window.AZAD = { renderInto: renderInto, cardHtml: cardHtml, esc: esc, waLink: waLink, priceHtml: priceHtml };
+window.AZAD = { renderInto: renderInto, cardHtml: cardHtml, esc: esc, waLink: waLink, priceHtml: priceHtml, priceText: priceText, priceWa: priceWa };
 
 /* ---------- mobile nav ---------- */
 var tog = document.getElementById("nav-toggle"), mnav = document.getElementById("mobile-nav");
@@ -327,18 +343,23 @@ function currentFilters(){
     bracket: g("f-price"), rooms: g("f-rooms"), tags: tags, elig: g("f-elig"),
     savedOnly: !!(savedEl && savedEl.checked) };
 }
-/* Price bracket (USD). A selected range shows ONLY priced listings inside it —
-   unpriced projects ("Price on request") are excluded from filtered results. */
-function inBracket(price, b){
+/* Price bracket (USD). A listing matches a band when its price — or its price
+   RANGE — OVERLAPS the band: e.g. a $338k–$514k project shows in both the
+   $200–400k and the $400–600k bands. Single-price listings behave as before.
+   A trailing "+" on a range ("$560,000+") is shown in the price text, but the
+   filter uses the stated max — a $185k–$285k+ project does not belong in $1M+.
+   Unpriced listings ("Price on request") never match a band. */
+function inBracket(l, b){
   if (!b) return true;
-  if (price == null) return false;
-  var n = price;
-  if (b === "0-100") return n < 100000;
-  if (b === "100-200") return n >= 100000 && n < 200000;
-  if (b === "200-400") return n >= 200000 && n < 400000;
-  if (b === "400-600") return n >= 400000 && n < 600000;
-  if (b === "600-1000") return n >= 600000 && n < 1000000;
-  if (b === "1000+") return n >= 1000000;
+  var lo = l.priceMin != null ? l.priceMin : l.price;
+  var hi = l.priceMax != null ? l.priceMax : l.price;
+  if (lo == null) return false;
+  if (b === "0-100") return lo < 100000;
+  if (b === "100-200") return lo < 200000 && hi >= 100000;
+  if (b === "200-400") return lo < 400000 && hi >= 200000;
+  if (b === "400-600") return lo < 600000 && hi >= 400000;
+  if (b === "600-1000") return lo < 1000000 && hi >= 600000;
+  if (b === "1000+") return hi >= 1000000;
   return true;
 }
 function applyFilters(){
@@ -351,7 +372,7 @@ function applyFilters(){
     if (f.district && l.district !== f.district) return false;
     if (f.savedOnly && !isFav(l.ref)) return false;
     if (f.type && l.type !== f.type) return false;
-    if (f.bracket && !inBracket(l.price, f.bracket)) return false;
+    if (f.bracket && !inBracket(l, f.bracket)) return false;
     if (f.elig === "cit" && !l.eligCit) return false;
     if (f.elig === "res" && !l.eligRes) return false;
     if (f.rooms){ var need = parseInt(f.rooms, 10); var br = bedRange(l); if (!br || need < br[0] || need > br[1]) return false; }

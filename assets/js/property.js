@@ -103,7 +103,7 @@
   function renderDetail(l){
     current = l;
     document.title = l.name + " — Azad Properties";
-    var waMsg = "Hello Azad Properties, I am interested in " + l.name + " (" + l.ref + ")" + (l.price ? " listed at $" + l.price.toLocaleString("en-US") + " USD" : "") + ".";
+    var waMsg = "Hello Azad Properties, I am interested in " + l.name + " (" + l.ref + ")" + window.AZAD.priceWa(l) + ".";
     var facts = "";
     facts += fact("Reference", l.ref);
     facts += fact("Type", l.type);
@@ -118,7 +118,7 @@
     var lp = "";
     lp += fact("Layout", l.layout);
     lp += fact("Bedrooms", bedText(l));
-    lp += fact("Price", l.price != null ? "$" + l.price.toLocaleString("en-US") : "Price on request");
+    lp += fact("Price", (window.AZAD.priceText(l, "USD") || "Price on request"));
     lp += fact("Area", areaText(l));
     lp += fact("Land area", l.land ? l.land.toLocaleString("en-US") + " sqm" : "");
     lp += fact("Floors", l.floors);

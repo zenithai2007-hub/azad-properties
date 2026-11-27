@@ -33,7 +33,7 @@
       "city": "Istanbul",
       "district": "Bomonti",
       "side": "European",
-      "price": null,
+      "price": 847000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -59,10 +59,12 @@
         "assets/img/listings/APH-34102-09.jpg",
         "assets/img/listings/APH-34102-10.jpg"
       ],
-      "eligCit": false,
-      "eligRes": false,
+      "eligCit": true,
+      "eligRes": true,
       "eligAirbnb": false,
-      "video": "https://drive.google.com/file/d/1prNNWWLDNfDiQIl51q1HLmjJ5rxpOjcS/preview"
+      "video": "https://drive.google.com/file/d/1prNNWWLDNfDiQIl51q1HLmjJ5rxpOjcS/preview",
+      "priceMin": 847000,
+      "priceMax": 3700000
     },
     {
       "ref": "APH-34103",
@@ -71,7 +73,7 @@
       "city": "Istanbul",
       "district": "Şişli",
       "side": "European",
-      "price": null,
+      "price": 338000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -89,9 +91,12 @@
         "assets/img/listings/APH-34103-01.jpg",
         "assets/img/listings/APH-34103-02.jpg"
       ],
-      "eligCit": false,
-      "eligRes": false,
-      "eligAirbnb": false
+      "eligCit": true,
+      "eligRes": true,
+      "eligAirbnb": false,
+      "priceMin": 338000,
+      "priceMax": 514000,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34104",
@@ -100,7 +105,7 @@
       "city": "Istanbul",
       "district": "Şişli",
       "side": "European",
-      "price": null,
+      "price": 662400,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -119,10 +124,13 @@
         "assets/img/listings/APH-34104-02.jpg",
         "assets/img/listings/APH-34104-03.jpg"
       ],
-      "eligCit": false,
-      "eligRes": false,
+      "eligCit": true,
+      "eligRes": true,
       "eligAirbnb": false,
-      "video": "https://drive.google.com/file/d/1kP-WqC8K4jMD3UagsFWycWIHdcU351L7/preview"
+      "video": "https://drive.google.com/file/d/1kP-WqC8K4jMD3UagsFWycWIHdcU351L7/preview",
+      "priceMin": 662400,
+      "priceMax": 2549800,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34105",
@@ -131,7 +139,7 @@
       "city": "Istanbul",
       "district": "Beyoğlu",
       "side": "European",
-      "price": null,
+      "price": 551000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -157,10 +165,12 @@
         "assets/img/listings/APH-34105-09.jpg",
         "assets/img/listings/APH-34105-10.jpg"
       ],
-      "eligCit": false,
-      "eligRes": false,
+      "eligCit": true,
+      "eligRes": true,
       "eligAirbnb": false,
-      "video": "https://drive.google.com/file/d/1wprY7z_KXByLy1nb7Sgo6eIyyx6EDfZy/preview"
+      "video": "https://drive.google.com/file/d/1wprY7z_KXByLy1nb7Sgo6eIyyx6EDfZy/preview",
+      "priceMin": 551000,
+      "priceMax": 2406000
     },
     {
       "ref": "APH-34106",
@@ -207,7 +217,7 @@
       "city": "Istanbul",
       "district": "Sarıyer",
       "side": "European",
-      "price": null,
+      "price": 610000,
       "layout": "1+1 to 4+1",
       "beds": 1,
       "bedsMin": 1,
@@ -223,7 +233,9 @@
       "note": "24-month installments",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 610000,
+      "priceMax": 3090000
     },
     {
       "ref": "APH-34108",
@@ -232,7 +244,7 @@
       "city": "Istanbul",
       "district": "Levent",
       "side": "European",
-      "price": null,
+      "price": 665000,
       "layout": "1+1 to 4+1",
       "beds": 1,
       "bedsMin": 1,
@@ -258,10 +270,12 @@
         "assets/img/listings/APH-34108-09.jpg",
         "assets/img/listings/APH-34108-10.jpg"
       ],
-      "eligCit": false,
-      "eligRes": false,
+      "eligCit": true,
+      "eligRes": true,
       "eligAirbnb": false,
-      "video": "https://drive.google.com/file/d/1gJnrpJqpdLvYmm8cLROwxbkp_yAxoi50/preview"
+      "video": "https://drive.google.com/file/d/1gJnrpJqpdLvYmm8cLROwxbkp_yAxoi50/preview",
+      "priceMin": 665000,
+      "priceMax": 34790000
     },
     {
       "ref": "APH-34109",
@@ -409,7 +423,7 @@
       "city": "Istanbul",
       "district": "Zeytinburnu",
       "side": "European",
-      "price": null,
+      "price": 297000,
       "layout": "1+1 to 7+1",
       "beds": 1,
       "bedsMin": 1,
@@ -424,7 +438,9 @@
       "note": "",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 297000,
+      "priceMax": 536000
     },
     {
       "ref": "APH-34114",
@@ -618,7 +634,7 @@
       "city": "Istanbul",
       "district": "Florya",
       "side": "European",
-      "price": null,
+      "price": 2120000,
       "layout": "3+1 to 7+1",
       "beds": 3,
       "bedsMin": 3,
@@ -633,7 +649,10 @@
       "note": "",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 2120000,
+      "priceMax": 4460000,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34121",
@@ -827,7 +846,7 @@
       "city": "Istanbul",
       "district": "Bahçeşehir",
       "side": "European",
-      "price": null,
+      "price": 217000,
       "layout": "2+1 to 5+2 Duplex",
       "beds": 2,
       "bedsMin": 2,
@@ -856,7 +875,10 @@
       "eligCit": true,
       "eligRes": true,
       "eligAirbnb": false,
-      "video": "https://drive.google.com/file/d/1FZqB_g--1eHSSaxEn6RQ4xeLP-AMb1PQ/preview"
+      "video": "https://drive.google.com/file/d/1FZqB_g--1eHSSaxEn6RQ4xeLP-AMb1PQ/preview",
+      "priceMin": 217000,
+      "priceMax": 560000,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34129",
@@ -926,7 +948,7 @@
       "city": "Istanbul",
       "district": "Büyükçekmece",
       "side": "European",
-      "price": null,
+      "price": 148000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -941,7 +963,10 @@
       "note": "",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 148000,
+      "priceMax": 497000,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34132",
@@ -950,7 +975,7 @@
       "city": "Istanbul",
       "district": "Esenyurt",
       "side": "European",
-      "price": null,
+      "price": 125000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -965,7 +990,10 @@
       "note": "",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 125000,
+      "priceMax": 235000,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34133",
@@ -998,7 +1026,7 @@
       "city": "Istanbul",
       "district": "Bahçeşehir",
       "side": "European",
-      "price": null,
+      "price": 919000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -1013,7 +1041,9 @@
       "note": "",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 919000,
+      "priceMax": 1370000
     },
     {
       "ref": "APH-34135",
@@ -1046,7 +1076,7 @@
       "city": "Istanbul",
       "district": "Bahçeşehir",
       "side": "European",
-      "price": null,
+      "price": 175000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -1061,7 +1091,9 @@
       "note": "",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 175000,
+      "priceMax": 618482
     },
     {
       "ref": "APH-34137",
@@ -1070,7 +1102,7 @@
       "city": "Istanbul",
       "district": "Bahçeşehir",
       "side": "European",
-      "price": null,
+      "price": 170000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -1085,7 +1117,10 @@
       "note": "",
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 170000,
+      "priceMax": 230000,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34138",
@@ -1094,7 +1129,7 @@
       "city": "Istanbul",
       "district": "Esenyurt",
       "side": "European",
-      "price": null,
+      "price": 185000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -1122,7 +1157,10 @@
       ],
       "eligCit": true,
       "eligRes": true,
-      "eligAirbnb": false
+      "eligAirbnb": false,
+      "priceMin": 185000,
+      "priceMax": 285000,
+      "priceMaxOpen": true
     },
     {
       "ref": "APH-34139",
@@ -1288,7 +1326,7 @@
       "city": "Istanbul",
       "district": "Erenköy",
       "side": "Asian",
-      "price": null,
+      "price": 331296,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -1314,10 +1352,12 @@
         "assets/img/listings/APH-34145-09.jpg",
         "assets/img/listings/APH-34145-10.jpg"
       ],
-      "eligCit": false,
-      "eligRes": false,
+      "eligCit": true,
+      "eligRes": true,
       "eligAirbnb": false,
-      "video": "https://drive.google.com/file/d/1bL9GWyPBOFSAYrFBOENW14UgOdrz4acj/preview"
+      "video": "https://drive.google.com/file/d/1bL9GWyPBOFSAYrFBOENW14UgOdrz4acj/preview",
+      "priceMin": 331296,
+      "priceMax": 1103159
     },
     {
       "ref": "APH-34146",
@@ -1609,7 +1649,7 @@
       "city": "Istanbul",
       "district": "Maltepe",
       "side": "Asian",
-      "price": null,
+      "price": 244000,
       "layout": "1+1 to 3+1",
       "beds": 1,
       "bedsMin": 1,
@@ -1626,10 +1666,12 @@
       "photos": [
         "assets/img/listings/APH-34157-01.jpg"
       ],
-      "eligCit": false,
-      "eligRes": false,
+      "eligCit": true,
+      "eligRes": true,
       "eligAirbnb": false,
-      "video": "https://drive.google.com/file/d/1QNag0swyTkbRdL7-7qLC9o4jMbJtROOi/preview"
+      "video": "https://drive.google.com/file/d/1QNag0swyTkbRdL7-7qLC9o4jMbJtROOi/preview",
+      "priceMin": 244000,
+      "priceMax": 871000
     },
     {
       "ref": "APH-34158",
@@ -1710,7 +1752,7 @@
         "assets/img/listings/APH-34201-06.jpg",
         "assets/img/listings/APH-34201-07.jpg"
       ],
-      "eligCit": true,
+      "eligCit": false,
       "eligRes": true,
       "eligAirbnb": true,
       "floors": "6 Floors"
@@ -1750,7 +1792,7 @@
         "assets/img/listings/APH-34202-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": true,
       "land": 48,
       "floors": "5 Floors"
@@ -1780,7 +1822,7 @@
       "photos": [
         "assets/img/listings/APH-34203-01.jpg"
       ],
-      "eligCit": true,
+      "eligCit": false,
       "eligRes": true,
       "eligAirbnb": true,
       "land": 47,
@@ -1820,7 +1862,7 @@
         "assets/img/listings/APH-34204-09.jpg",
         "assets/img/listings/APH-34204-10.jpg"
       ],
-      "eligCit": true,
+      "eligCit": false,
       "eligRes": true,
       "eligAirbnb": true,
       "floors": "6 Floors",
@@ -1847,7 +1889,7 @@
       ],
       "note": "Fully renovated & furnished with brand-new furniture; zero CapEx required; steps from Taksim Square",
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "land": 49,
       "floors": "5 Floors (B+G+3)",
@@ -1936,7 +1978,7 @@
         "assets/img/listings/APH-34207-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "floors": "7 floors ( 9 units. 2+1 and 1+!)"
     },
@@ -1974,7 +2016,7 @@
         "assets/img/listings/APH-34208-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "land": 110,
       "floors": "6 Floors"
@@ -2013,7 +2055,7 @@
         "assets/img/listings/APH-34209-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "land": 86,
       "floors": "4 floors"
@@ -2083,7 +2125,7 @@
         "assets/img/listings/APH-34211-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": true,
       "land": 58,
       "floors": "3 Floors + Basement"
@@ -2123,7 +2165,7 @@
         "assets/img/listings/APH-34212-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": true,
       "land": 110,
       "floors": "4 Floors"
@@ -2162,7 +2204,7 @@
         "assets/img/listings/APH-34213-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "land": 56,
       "floors": "5 Floors"
@@ -2201,7 +2243,7 @@
         "assets/img/listings/APH-34214-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "land": 50,
       "floors": "4 Floors"
@@ -2241,7 +2283,7 @@
         "assets/img/listings/APH-34215-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": true,
       "land": 55,
       "floors": "5 Floors + Basement"
@@ -2281,7 +2323,7 @@
         "assets/img/listings/APH-34216-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": true,
       "land": 50,
       "floors": "4 Floors"
@@ -2320,7 +2362,7 @@
         "assets/img/listings/APH-34217-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "land": 60,
       "floors": "5 floors"
@@ -2359,7 +2401,7 @@
         "assets/img/listings/APH-34218-10.jpg"
       ],
       "eligCit": false,
-      "eligRes": false,
+      "eligRes": true,
       "eligAirbnb": false,
       "land": 60,
       "floors": "7 floors"
@@ -2650,7 +2692,7 @@
       "name": "Stara Tem",
       "type": "Apartment",
       "city": "Istanbul",
-      "district": "",
+      "district": "Sultangazi",
       "side": "European",
       "price": null,
       "layout": "1+1 to 4+1",
