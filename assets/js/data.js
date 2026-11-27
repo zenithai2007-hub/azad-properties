@@ -30,7 +30,7 @@ const FEATURED = ["APH-34101","APH-34107","APH-34105","APH-34111","APH-34120","A
 /* ---- Team (brief §6) ---- */
 const TEAM = [
 {n:"Shaan Agha", r:"Chief Executive Officer (CEO)", d:"Strategic leadership, developer relations, foreign direct investment oversight.", photo:"assets/img/team/team-05-man-sunglasses.jpg", wa:true},
-{n:"Syed Asad Abbas", r:"COO & Managing Partner", d:"Operations management, transaction structuring, legal oversight.", photo:"assets/img/team/team-14-man-navy-suit.jpg", wa:true},
+{n:"Syed Asad Abbas", r:"Company Partner & Chief Operating Officer (COO)", d:"He is a company partner and serves as the Chief Operating Officer (COO), overseeing the company's daily operations and management.", photo:"assets/img/team/team-14-man-navy-suit.jpg", wa:true},
 {n:"Mishal Agha", r:"Head of Marketing", d:"Global brand positioning, digital campaigns, international media strategy.", photo:"assets/img/team/team-02-woman-blonde.jpg", wa:false},
 {n:"Mariam Mirza", r:"Sales Director", d:"Oversight of portfolio acquisitions and international sales teams.", photo:"assets/img/team/team-06-woman-blonde-2.jpg", wa:true},
 {n:"Nuri İçil", r:"Sales Manager", d:"Developer inventory alignment and local Turkish market strategy.", photo:"assets/img/team/team-01-man-grey-blazer.jpg", wa:true},
