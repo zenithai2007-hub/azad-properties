@@ -38,7 +38,7 @@ const TEAM = [
 {n:"Mehreen Raza", r:"Property Consultant", d:"Residential sales, CBI portfolio advisory, South Asian buyer desk.", photo:"assets/img/team/team-15-woman-blue-top.jpg", wa:true},
 {n:"Amir Ilyas", r:"Property Consultant", d:"Investment analysis, secondary market listings, client onboarding.", photo:"assets/img/team/team-12-man-black-suit.jpg", wa:true},
 {n:"Advocate Selçuk Yıldız", r:"Legal Counsel / Senior Lawyer", d:"Land registry due diligence, Tapu transfers, foreign title verification.", photo:"assets/img/team/team-10-man-blue-suit.jpg", wa:false},
-{n:"Advocate Suleyman Kubbe", r:"Legal Counsel / Citizenship Specialist", d:"CBI file submission, civil registration, passport application processing.", wa:false},
+{n:"Advocate Suleyman Kubbe", r:"Legal Counsel / Citizenship Specialist", d:"CBI file submission, civil registration, passport application processing.", wa:false, photo:"assets/img/team/team-17-suleyman-kubbe.jpg"},
 {n:"Nasima Abdul Majeed", r:"Client & Operations Coordinator", d:"Client concierge, viewing schedules, post-sale administration.", photo:"assets/img/team/team-03-woman-hijab.jpg", wa:false},
 {n:"Enes Opan", r:"Operations & Coordination", d:"Field management, document verification, authority liaisons.", photo:"assets/img/team/team-11-man-brown-sweatshirt.jpg", wa:false},
 {n:"Mutlu Barış Şen", r:"Finance & Accounts Supervisor", d:"Financial compliance, escrow accounts, tax payments.", photo:"assets/img/team/team-09-man-bald-beard.jpg", wa:false},
