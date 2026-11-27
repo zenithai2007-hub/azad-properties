@@ -64,7 +64,7 @@ en: {
 "chat.sendWa":"Send to sales agent on WhatsApp →",
 "modal.sub":"Tell us what you are looking for — we reply within one business day.",
 "modal.name":"Full name","modal.email":"Email","modal.phone":"Phone / WhatsApp","modal.budget":"Budget (USD)","modal.location":"Preferred location","modal.purpose":"Purpose","modal.msg":"Message","modal.submit":"Send via WhatsApp","modal.note":"Your details go straight to our sales team on WhatsApp — no account needed.",
-"prop.kicker":"Buy Properties","prop.title":"Find your home in Türkiye","prop.lede":"Search real listings across Istanbul, Antalya, Izmir, Bodrum and more — every property verified by our team.",
+"prop.kicker":"Buy Properties","prop.title":"Find your home in Türkiye","prop.lede":"Search real listings across Turkiye",
 "prop.search":"Search","prop.city":"City","prop.cityAll":"All Cities","prop.district":"District","prop.districtAll":"All Districts","prop.type":"Type","prop.typeAll":"All Types","prop.price":"Price","prop.priceAll":"Any Price","prop.elig":"Eligibility","prop.eligAll":"All Properties","prop.eligCbi":"Citizenship Qualified ($400k+)","prop.eligRes":"Residence Qualified ($200k+)","prop.rooms":"Bedrooms","prop.roomsAll":"Any","prop.baths":"Bathrooms","prop.bathsAll":"Any","prop.tags":"Features","prop.saved":"Saved only","prop.clear":"Clear Filters","prop.count":"{n} of {m} properties",
 "cit.kicker":"Turkish Citizenship & Residency","cit.title":"Citizenship by Investment","cit.lede":"A $400,000 real-estate investment can give your whole family a Turkish passport — with no relocation requirement and visa-free travel to 110+ countries.","cit.apply":"Apply Now",
 "cit.b1t":"Whole family included","cit.b1d":"Spouse and children under 18 qualify in the same application.",
