@@ -30,15 +30,15 @@ const FEATURED = ["APH-34101","APH-34107","APH-34105","APH-34111","APH-34120","A
 /* ---- Team (brief §6) ---- */
 const TEAM = [
 {n:"Shaan Agha", r:"Chief Executive Officer (CEO)", d:"Strategic leadership, developer relations, foreign direct investment oversight.", photo:"assets/img/team/team-05-man-sunglasses.jpg", wa:true},
-{n:"Syed Asad Abbas", r:"COO & Managing Partner", d:"Operations management, transaction structuring, legal oversight.", wa:true},
+{n:"Syed Asad Abbas", r:"COO & Managing Partner", d:"Operations management, transaction structuring, legal oversight.", photo:"assets/img/team/team-14-man-navy-suit.jpg", wa:true},
 {n:"Mishal Agha", r:"Head of Marketing", d:"Global brand positioning, digital campaigns, international media strategy.", photo:"assets/img/team/team-02-woman-blonde.jpg", wa:false},
 {n:"Mariam Mirza", r:"Sales Director", d:"Oversight of portfolio acquisitions and international sales teams.", photo:"assets/img/team/team-06-woman-blonde-2.jpg", wa:true},
 {n:"Nuri İçil", r:"Sales Manager", d:"Developer inventory alignment and local Turkish market strategy.", photo:"assets/img/team/team-01-man-grey-blazer.jpg", wa:true},
 {n:"Fahri Dursun", r:"Senior Property Consultant", d:"Prime Istanbul investments, luxury villas, commercial portfolios.", photo:"assets/img/team/team-07-man-brown-blazer.jpg", wa:true},
-{n:"Mehreen Raza", r:"Property Consultant", d:"Residential sales, CBI portfolio advisory, South Asian buyer desk.", wa:true},
+{n:"Mehreen Raza", r:"Property Consultant", d:"Residential sales, CBI portfolio advisory, South Asian buyer desk.", photo:"assets/img/team/team-15-woman-blue-top.jpg", wa:true},
 {n:"Amir Ilyas", r:"Property Consultant", d:"Investment analysis, secondary market listings, client onboarding.", photo:"assets/img/team/team-12-man-black-suit.jpg", wa:true},
 {n:"Advocate Selçuk Yıldız", r:"Legal Counsel / Senior Lawyer", d:"Land registry due diligence, Tapu transfers, foreign title verification.", photo:"assets/img/team/team-10-man-blue-suit.jpg", wa:false},
-{n:"Advocate Suleyman Kubbe", r:"Legal Counsel / Citizenship Specialist", d:"CBI file submission, civil registration, passport application processing.", wa:false},
+{n:"Advocate Suleyman Kubbe", r:"Legal Counsel / Citizenship Specialist", d:"CBI file submission, civil registration, passport application processing.", photo:"assets/img/team/team-16-man-beard-black-polo.jpg", wa:false},
 {n:"Nasima Abdul Majeed", r:"Client & Operations Coordinator", d:"Client concierge, viewing schedules, post-sale administration.", photo:"assets/img/team/team-03-woman-hijab.jpg", wa:false},
 {n:"Enes Opan", r:"Operations & Coordination", d:"Field management, document verification, authority liaisons.", photo:"assets/img/team/team-11-man-brown-sweatshirt.jpg", wa:false},
 {n:"Mutlu Barış Şen", r:"Finance & Accounts Supervisor", d:"Financial compliance, escrow accounts, tax payments.", photo:"assets/img/team/team-09-man-bald-beard.jpg", wa:false},
