@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Listings Manager — Azad Properties Türkiye</title>
+<meta name="description" content="Azad Properties staff area: add, edit and delete property listings.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.admin-wrap{max-width:1100px;margin:0 auto;padding:24px 16px 80px}
+.admin-head{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+.admin-head img{height:52px}
+.admin-head h1{font-size:26px;margin:6px 0 2px}
+.admin-head p{color:#4a5568;margin:0}
+.login-card{max-width:420px;margin:60px auto 0;background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.login-card h2{margin:0 0 6px;font-size:22px}
+.login-card p{color:#4a5568;margin:0 0 18px}
+.login-card input{width:100%;padding:12px 14px;font-size:18px;letter-spacing:4px;border:1px solid #cbd5e0;border-radius:8px;margin-bottom:10px}
+.pin-error{color:#c53030;min-height:20px;margin:0 0 8px;font-size:14px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 12px}
+.toolbar input[type=search]{flex:1;min-width:200px;padding:10px 12px;border:1px solid #cbd5e0;border-radius:8px;font-size:15px}
+.toolbar select{padding:10px;border:1px solid #cbd5e0;border-radius:8px;font-size:15px;background:#fff}
+.stats{background:#0f0f0f;color:#fff;border-radius:10px;padding:12px 16px;font-size:14px}
+.stats b{color:#d4af37}
+.tbl-wrap{overflow-x:auto;background:#fff;border:1px solid #e2e8f0;border-radius:12px}
+table.admin-tbl{width:100%;border-collapse:collapse;font-size:14px}
+.admin-tbl th{text-align:left;padding:12px;border-bottom:2px solid #0f0f0f;background:#f7fafc;white-space:nowrap}
+.admin-tbl td{padding:10px 12px;border-bottom:1px solid #edf2f7;vertical-align:top}
+.admin-tbl tr:hover td{background:#f7fafc}
+.chip{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:20px;margin-left:4px;white-space:nowrap}
+.chip.cbi{background:#0f0f0f;color:#d4af37}
+.chip.res{background:#ebf8ff;color:#2b6cb0}
+.row-actions{white-space:nowrap}
+.btn.small{padding:6px 12px;font-size:13px}
+.btn.danger{background:#fff;color:#c53030;border:1px solid #c53030}
+.btn.danger:hover{background:#c53030;color:#fff}
+.btn.ghost{background:#fff;color:#0f0f0f;border:1px solid #cbd5e0}
+.form-card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:24px;margin:22px 0}
+.form-card h2{margin:0 0 4px}
+.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:16px}
+.form-grid label{display:block;font-size:13px;font-weight:600;color:#2d3748}
+.form-grid input,.form-grid select,.form-grid textarea{width:100%;margin-top:5px;padding:10px;border:1px solid #cbd5e0;border-radius:8px;font-size:15px;font-family:inherit}
+.form-grid textarea{grid-column:1/-1;min-height:90px;resize:vertical}
+.full{grid-column:1/-1}
+.tagchk{display:inline-block;margin:4px 12px 4px 0;font-size:14px;font-weight:400}
+.hint{font-size:13px;color:#4a5568;margin:6px 0 0}
+.cbi-hint{font-weight:700;color:#0f0f0f}
+.howto{background:#fff;border:1px solid #e2e8f0;border-left:4px solid #d4af37;border-radius:12px;padding:20px 24px;margin-top:26px}
+.howto h3{margin:0 0 8px}
+.howto ol{margin:0;padding-left:20px;line-height:1.7}
+.howto p{color:#4a5568;line-height:1.6}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:#0f0f0f;color:#fff;padding:12px 20px;border-radius:10px;border:1px solid #d4af37;opacity:0;pointer-events:none;transition:all .25s;z-index:9999;max-width:90vw;text-align:center}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media(max-width:640px){.admin-head img{height:42px}.admin-head h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="admin-wrap">
+  <div class="admin-head">
+    <div>
+      <img src="assets/img/logo.png" alt="azad PROPERTIES Türkiye">
+      <h1>Listings Manager</h1>
+      <p>Azad Properties staff area — add, edit and delete property listings.</p>
+    </div>
+    <div>
+      <a class="btn ghost" href="index.html">← Back to website</a>
+      <button class="btn ghost" id="logout-btn" type="button">Log out</button>
+    </div>
+  </div>
+
+  <!-- PIN gate -->
+  <div id="login-view">
+    <div class="login-card">
+      <h2>Staff login</h2>
+      <p>Enter the team PIN to manage listings. Ask your team lead if you don't have it.</p>
+      <form id="login-form">
+        <input type="password" id="pin" inputmode="numeric" autocomplete="current-password" placeholder="••••" aria-label="Team PIN" required>
+        <p class="pin-error" id="pin-error"></p>
+        <button class="btn" type="submit" style="width:100%">Log in</button>
+      </form>
+      <p class="hint" style="margin-top:14px">The PIN is set by the site owner. To change it, ask Zenith AI to update the PIN in the site files and re-deploy.</p>
+    </div>
+  </div>
+
+  <!-- App -->
+  <div id="app-view" style="display:none">
+    <div class="stats" id="stats"></div>
+
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Search name, district or Ref code…" aria-label="Search listings">
+      <select id="filter-type" aria-label="Filter by type">
+        <option value="">All types</option>
+        <option>Apartment</option><option>Building</option><option>Commercial</option>
+        <option>Hotel</option><option>Land</option><option>Office</option><option>Villa</option>
+      </select>
+      <button class="btn" id="add-btn" type="button">+ Add new listing</button>
+      <button class="btn ghost" id="preview-btn" type="button">Preview on live site</button>
+      <button class="btn ghost" id="export-btn" type="button">⬇ Export listings.json</button>
+      <button class="btn ghost" id="import-btn" type="button">Import file…</button>
+      <button class="btn ghost" id="reset-btn" type="button">Reset to published</button>
+      <input type="file" id="import-file" accept=".json,application/json" hidden>
+    </div>
+
+    <div class="tbl-wrap">
+      <table class="admin-tbl">
+        <thead><tr><th>Ref</th><th>Property</th><th>District</th><th>Type</th><th>Price</th><th>Photo</th><th>Actions</th></tr></thead>
+        <tbody id="tbody"><tr><td colspan="7">Loading listings…</td></tr></tbody>
+      </table>
+    </div>
+
+    <!-- Add / edit form -->
+    <div class="form-card" id="form-view" style="display:none">
+      <h2 id="form-title">Add new listing</h2>
+      <p class="hint">Fields marked * are required. Price in USD — leave empty for “Price on request”. The CBI badge is added automatically when the price is $400,000 or more.</p>
+      <form id="listing-form">
+        <div class="form-grid">
+          <label>Ref code *<input id="f-ref" required></label>
+          <label>Property name *<input id="f-name" required placeholder="e.g. Ritz-Carlton Residences"></label>
+          <label>Type<select id="f-type"></select></label>
+          <label>District<select id="f-district"></select></label>
+          <label>City<input id="f-city" value="Istanbul"></label>
+          <label>Price (USD)<input id="f-price" type="number" min="0" step="1000" placeholder="Leave empty = Price on request"></label>
+          <label>Bedrooms<input id="f-beds" type="number" min="0" step="1" value="0"></label>
+          <label>Bathrooms<input id="f-baths" type="number" min="0" step="1" value="0"></label>
+          <label>Size (sqm)<input id="f-sqm" type="number" min="0" step="1"></label>
+          <label>Layout<input id="f-layout" placeholder="e.g. 2+1"></label>
+          <label>Units<input id="f-units" type="number" min="0" step="1"></label>
+          <label>Status<input id="f-status" placeholder="e.g. Delivered / Delivery Dec 2026"></label>
+          <label>Side<select id="f-side"><option>European</option><option>Asian</option></select></label>
+          <label class="full">Description<textarea id="f-desc" placeholder="Short description shown on the property card."></textarea></label>
+          <div class="full">
+            <label>Tags</label>
+            <div id="f-tags" style="margin-top:6px"></div>
+          </div>
+          <div class="full">
+            <label>Photo</label>
+            <input id="f-img" placeholder="assets/img/listings/photo.jpg — or paste an image URL" style="margin-top:5px">
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
+              <select id="f-photo-existing" aria-label="Choose an existing site photo"></select>
+              <label class="btn ghost" style="cursor:pointer">Upload photo from device…
+                <input type="file" id="f-photo-file" accept="image/*" hidden>
+              </label>
+            </div>
+            <p class="hint" id="f-photo-note">Best: add the photo to the site's <code>assets/img/listings/</code> folder and paste its path above. Uploading from your device embeds the photo inside listings.json — keep it under ~300 KB.</p>
+          </div>
+          <p class="full hint cbi-hint" id="cbi-hint"></p>
+        </div>
+        <div style="display:flex;gap:10px;margin-top:18px;flex-wrap:wrap">
+          <button class="btn" type="submit">Save listing</button>
+          <button class="btn ghost" type="button" id="form-cancel">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="howto">
+      <h3>How to publish your changes</h3>
+      <ol>
+        <li><b>Edit here</b> — Add, Edit or Delete listings above. Your changes are saved in this browser straight away, and <b>Preview on live site</b> shows them on the website (only in this browser).</li>
+        <li><b>Export</b> — Click <b>⬇ Export listings.json</b>. A file named <code>listings.json</code> downloads to your computer.</li>
+        <li><b>Send it to Zenith AI</b> (or your web person) — they replace <code>assets/data/listings.json</code> on the website and re-deploy. The changes then go live for everyone. Until then, visitors still see the old list.</li>
+      </ol>
+      <p><b>Import:</b> you can also load a <code>listings.json</code> file back into this page to keep editing. <b>Reset to published</b> throws away your unpublished changes and reloads the live list.</p>
+      <p><b>“Today's Recommended Properties”</b> on the home page is a fixed pick of 12 listings — to change which ones are featured, ask Zenith AI. <b>Photos:</b> the site currently has 18 real property photos; more can be added from the Drive folders the same way.</p>
+      <p>Need help? <a href="#" id="wa-help">Message the team on WhatsApp</a> or email <a href="mailto:sales1@azadproperties.com">sales1@azadproperties.com</a>.</p>
+    </div>
+  </div>
+</div>
+<div id="toast" role="status"></div>
+<script src="assets/js/admin.js"></script>
+</body>
+</html>

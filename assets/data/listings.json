@@ -1,0 +1,2040 @@
+{
+  "updated": "2026-11-27",
+  "count": 106,
+  "listings": [
+    {
+      "ref": "APH-34101",
+      "name": "The Ritz-Carlton Residences",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1 & Penthouses",
+      "beds": 1,
+      "baths": 2,
+      "sqm": null,
+      "units": "121 units",
+      "status": "Delivered",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34102",
+      "name": "Bomonti Residences by Rotana",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bomonti",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "img": "assets/img/listings/bomonti-residences.jpg"
+    },
+    {
+      "ref": "APH-34103",
+      "name": "Lotus Şişli",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "img": "assets/img/listings/lotus-sisli.jpg"
+    },
+    {
+      "ref": "APH-34104",
+      "name": "A.K. Şişli",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "img": "assets/img/listings/ak-sisli.jpg"
+    },
+    {
+      "ref": "APH-34105",
+      "name": "Taksim 360",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "img": "assets/img/listings/taksim-360.jpg"
+    },
+    {
+      "ref": "APH-34106",
+      "name": "Piyalepaşa Premium Beyoğlu",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34107",
+      "name": "Skyland Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Sarıyer",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "830 residences + 530 offices + 90 commercial",
+      "status": "Delivered",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "24-month installments"
+    },
+    {
+      "ref": "APH-34108",
+      "name": "Yeni Levent",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Levent",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "img": "assets/img/listings/yeni-levent.jpg"
+    },
+    {
+      "ref": "APH-34109",
+      "name": "Maslak Koru",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Maslak",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34110",
+      "name": "A.K. Çamlıvadi",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Sarıyer",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "img": "assets/img/listings/ak-camlivadi.jpg"
+    },
+    {
+      "ref": "APH-34111",
+      "name": "Babacan Meridian",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beşiktaş",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 & 2+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "70 units",
+      "status": "Delivery Dec 2026",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "24-month installments"
+    },
+    {
+      "ref": "APH-34112",
+      "name": "Büyükyalı Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Zeytinburnu",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34113",
+      "name": "Alya Konutları Merkezefendi",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Zeytinburnu",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 7+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34114",
+      "name": "Pearl Topkapı",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Topkapı",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34115",
+      "name": "Yalı 360",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bakırköy",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34116",
+      "name": "Azure Teras",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bakırköy",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34117",
+      "name": "Namlıvadi",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kağıthane",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 & 2+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34118",
+      "name": "Lotus Evleri",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Eyüp",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34119",
+      "name": "Babacan Lagoon",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Eyüp",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "251 units",
+      "status": "Delivery Mar 2027",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "30-month installments"
+    },
+    {
+      "ref": "APH-34120",
+      "name": "Nivak Florya",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Florya",
+      "side": "European",
+      "price": null,
+      "layout": "3+1 to 7+1",
+      "beds": 3,
+      "baths": 2,
+      "sqm": null,
+      "units": "96 luxury units",
+      "status": "Delivered",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34121",
+      "name": "Babacan Port Royal",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Küçükçekmece",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34122",
+      "name": "Sinpaş Boulevard Sefaköy",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Sefaköy",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34123",
+      "name": "Venara Güneşli",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Güneşli",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34124",
+      "name": "Focus Güneşli",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Güneşli",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34125",
+      "name": "A.K. Güneşli",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Güneşli",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34126",
+      "name": "Elite World Residence",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Güneşli",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34127",
+      "name": "Marmara Koru",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beylikdüzü",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "Delivery Dec 2026",
+      "tags": [
+        "New Development",
+        "Installment Plan Available"
+      ],
+      "note": "40-month installments"
+    },
+    {
+      "ref": "APH-34128",
+      "name": "Alya Dream",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçeşehir",
+      "side": "European",
+      "price": null,
+      "layout": "2+1 to 5+2 Duplex",
+      "beds": 2,
+      "baths": 2,
+      "sqm": null,
+      "units": "",
+      "status": "Delivered",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34129",
+      "name": "Westside Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Beylikdüzü",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 4+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "1,152 units",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34130",
+      "name": "Demir Life Büyükçekmece",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Büyükçekmece",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34131",
+      "name": "Tuna Park Alkent",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Büyükçekmece",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34132",
+      "name": "Favorist Göl Evleri",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Esenyurt",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34133",
+      "name": "Tual Comfort Ispartakule",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçeşehir",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34134",
+      "name": "Alya Bahçe Bahçeşehir",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçeşehir",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34135",
+      "name": "Residence Inn Deluxia",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçeşehir",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34136",
+      "name": "Strada Bahçeşehir",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçeşehir",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34137",
+      "name": "Alya 4 Mevsim",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçeşehir",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34138",
+      "name": "Ahteran Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Esenyurt",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34139",
+      "name": "Babacan Premium Residence",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Esenyurt",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34140",
+      "name": "Sega Metro Park",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Esenyurt",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34141",
+      "name": "Sylvana Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bahçeşehir",
+      "side": "European",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34142",
+      "name": "Evinpark Kadıköy",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kadıköy",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34143",
+      "name": "Uplife Kadıköy",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kadıköy",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34144",
+      "name": "Elite Concept Kadıköy",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kadıköy",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34145",
+      "name": "Elite Erenköy",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Erenköy",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": "",
+      "img": "assets/img/listings/elite-erenkoy.jpg"
+    },
+    {
+      "ref": "APH-34146",
+      "name": "Çamlık Bostancı",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Bostancı",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34147",
+      "name": "Anka Ataşehir",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Ataşehir",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34148",
+      "name": "Cuento Elite Ataşehir",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Ataşehir",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34149",
+      "name": "Otto Ataşehir",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Ataşehir",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34150",
+      "name": "Otto Barbaros Ataşehir",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Ataşehir",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34151",
+      "name": "Ottomed Ataşehir",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Ataşehir",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34152",
+      "name": "Kuzey Adalar Kartal",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kartal",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34153",
+      "name": "Manzara Adalar Kartal",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kartal",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34154",
+      "name": "Yücelpark Kartal",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Kartal",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34155",
+      "name": "Luna Dragos Maltepe",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Maltepe",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34156",
+      "name": "Deluxia Park Business Maltepe",
+      "type": "Office",
+      "city": "Istanbul",
+      "district": "Maltepe",
+      "side": "Asian",
+      "price": null,
+      "layout": "Office",
+      "beds": 0,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34157",
+      "name": "Dünya Şehir Maltepe",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Maltepe",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34158",
+      "name": "Elite Garden Çekmeköy",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Çekmeköy",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34159",
+      "name": "Hill Garden 216",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Çekmeköy",
+      "side": "Asian",
+      "price": null,
+      "layout": "1+1 to 3+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "New Development"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34201",
+      "name": "Taksim Kurdela Building",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Taksim",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/taksim-kurdela.jpg"
+    },
+    {
+      "ref": "APH-34202",
+      "name": "Taksim Duvarcı Adem",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Taksim",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34203",
+      "name": "Taksim Nevizade",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Taksim",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/taksim-nevizade.jpg"
+    },
+    {
+      "ref": "APH-34204",
+      "name": "Taksim Cactus Suites",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Taksim",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/taksim-cactus.jpg"
+    },
+    {
+      "ref": "APH-34205",
+      "name": "Taksim Cami Arkası",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Taksim",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34206",
+      "name": "Taksim Dolapdere",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Taksim",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/taksim-dolapdere.jpg"
+    },
+    {
+      "ref": "APH-34207",
+      "name": "Piyalepaşa Beyoğlu Building",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34208",
+      "name": "Galata Bina Hocalı",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/galata-hocali.jpg"
+    },
+    {
+      "ref": "APH-34209",
+      "name": "Unkapanı Building",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Fatih",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34210",
+      "name": "Maltepe Bina",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Maltepe",
+      "side": "Asian",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34211",
+      "name": "Akkarga Building",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34212",
+      "name": "Tomtom Building",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34213",
+      "name": "Fitil 1",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34214",
+      "name": "Fitil 2",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/fitil-2.jpg"
+    },
+    {
+      "ref": "APH-34215",
+      "name": "Siper Building",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/siper.jpg"
+    },
+    {
+      "ref": "APH-34216",
+      "name": "Nilgün Building",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": "",
+      "img": "assets/img/listings/nilgun.jpg"
+    },
+    {
+      "ref": "APH-34217",
+      "name": "Çimen 99",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34218",
+      "name": "Çimen 103",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Whole Building",
+      "beds": 0,
+      "baths": 0,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Whole Building"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34301",
+      "name": "Skyland Offices",
+      "type": "Office",
+      "city": "Istanbul",
+      "district": "Sarıyer",
+      "side": "European",
+      "price": null,
+      "layout": "Grade-A Office",
+      "beds": 0,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Commercial"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34302",
+      "name": "Nurol Tower Offices",
+      "type": "Office",
+      "city": "Istanbul",
+      "district": "Şişli",
+      "side": "European",
+      "price": null,
+      "layout": "Grade-A Office",
+      "beds": 0,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Commercial"
+      ],
+      "note": "",
+      "img": "assets/img/listings/nurol-tower.jpg"
+    },
+    {
+      "ref": "APH-34303",
+      "name": "Nişantaşı Teşvikiye Retail",
+      "type": "Commercial",
+      "city": "Istanbul",
+      "district": "Nişantaşı",
+      "side": "European",
+      "price": null,
+      "layout": "Prime Street Retail",
+      "beds": 0,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Commercial"
+      ],
+      "note": "",
+      "img": "assets/img/listings/nisantasi-tesvikiye.jpg"
+    },
+    {
+      "ref": "APH-34304",
+      "name": "Beyoğlu Benesta Shops",
+      "type": "Commercial",
+      "city": "Istanbul",
+      "district": "Beyoğlu",
+      "side": "European",
+      "price": null,
+      "layout": "Prime Street Retail",
+      "beds": 0,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Commercial"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34305",
+      "name": "Moda Restaurant",
+      "type": "Commercial",
+      "city": "Istanbul",
+      "district": "Kadıköy",
+      "side": "Asian",
+      "price": null,
+      "layout": "Restaurant",
+      "beds": 0,
+      "baths": 1,
+      "sqm": null,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Commercial"
+      ],
+      "note": "",
+      "img": "assets/img/listings/moda-restaurant.jpg"
+    },
+    {
+      "ref": "APH-34401",
+      "name": "Apartment in Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 525000,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": 125,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34402",
+      "name": "Apartment in Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 560000,
+      "layout": "3+1",
+      "beds": 3,
+      "baths": 3,
+      "sqm": 175,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34403",
+      "name": "Apartment in Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 345000,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": 62,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Residence Permit Qualified"
+      ],
+      "note": "Starting price"
+    },
+    {
+      "ref": "APH-34404",
+      "name": "Apartment in Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 497000,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": 100,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34405",
+      "name": "Apartment in Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 415903,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": 112,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34406",
+      "name": "Apartment in Istanbul",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 135000,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": 90,
+      "units": "",
+      "status": "",
+      "tags": [],
+      "note": ""
+    },
+    {
+      "ref": "APH-34407",
+      "name": "Villa in Istanbul",
+      "type": "Villa",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 430000,
+      "layout": "2+1",
+      "beds": 2,
+      "baths": 2,
+      "sqm": 72,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": "Starting price"
+    },
+    {
+      "ref": "APH-34408",
+      "name": "Villa in Istanbul",
+      "type": "Villa",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 1282000,
+      "layout": "4+1",
+      "beds": 4,
+      "baths": 3,
+      "sqm": 175,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34409",
+      "name": "Villa in Istanbul",
+      "type": "Villa",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 400000,
+      "layout": "2+1",
+      "beds": 2,
+      "baths": 4,
+      "sqm": 280,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34410",
+      "name": "Villa in Istanbul",
+      "type": "Villa",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 565500,
+      "layout": "4+1",
+      "beds": 4,
+      "baths": 6,
+      "sqm": 320,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34411",
+      "name": "Building in Istanbul",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 3600000,
+      "layout": "6+1",
+      "beds": 6,
+      "baths": 7,
+      "sqm": 245,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34412",
+      "name": "Building in Istanbul",
+      "type": "Building",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 6250000,
+      "layout": "8+1",
+      "beds": 8,
+      "baths": 8,
+      "sqm": 1480,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34413",
+      "name": "Hotel in Istanbul",
+      "type": "Hotel",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 8400000,
+      "layout": "21 rooms",
+      "beds": 21,
+      "baths": 21,
+      "sqm": 247,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34414",
+      "name": "Hotel in Istanbul",
+      "type": "Hotel",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 370000,
+      "layout": "5+1",
+      "beds": 5,
+      "baths": 5,
+      "sqm": 150,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Residence Permit Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34415",
+      "name": "Land in Istanbul",
+      "type": "Land",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 400000,
+      "layout": "Land plot",
+      "beds": 0,
+      "baths": 0,
+      "sqm": 15225,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34416",
+      "name": "Land in Istanbul",
+      "type": "Land",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 10000000,
+      "layout": "Land plot",
+      "beds": 0,
+      "baths": 0,
+      "sqm": 253,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34417",
+      "name": "Commercial Property in Istanbul",
+      "type": "Commercial",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 510000,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": 110,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34418",
+      "name": "Commercial Property in Istanbul",
+      "type": "Commercial",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 16500000,
+      "layout": "Whole Building",
+      "beds": 116,
+      "baths": 116,
+      "sqm": 880,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34419",
+      "name": "Office in Istanbul",
+      "type": "Office",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 457300,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": 102,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": ""
+    },
+    {
+      "ref": "APH-34420",
+      "name": "Office in Istanbul",
+      "type": "Office",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 721373,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": 108,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Citizenship Qualified"
+      ],
+      "note": "Starting price"
+    },
+    {
+      "ref": "APH-34421",
+      "name": "Rental Guaranteed Apartment",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 117000,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": 54,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Rental Guaranteed"
+      ],
+      "note": "Starting price"
+    },
+    {
+      "ref": "APH-34422",
+      "name": "Rental Guaranteed Apartment",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 195875,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": 67,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Rental Guaranteed"
+      ],
+      "note": "Starting price"
+    },
+    {
+      "ref": "APH-34423",
+      "name": "Apartment with Installment Plan",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 129000,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 1,
+      "sqm": 1,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Installment Plan Available"
+      ],
+      "note": "Starting price"
+    },
+    {
+      "ref": "APH-34424",
+      "name": "Apartment with Installment Plan",
+      "type": "Apartment",
+      "city": "Istanbul",
+      "district": "Istanbul",
+      "side": "European",
+      "price": 233465,
+      "layout": "1+1",
+      "beds": 1,
+      "baths": 2,
+      "sqm": 114,
+      "units": "",
+      "status": "",
+      "tags": [
+        "Installment Plan Available"
+      ],
+      "note": ""
+    }
+  ]
+}
