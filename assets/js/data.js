@@ -43,6 +43,7 @@ const TEAM = [
 {n:"Enes Opan", r:"Operations & Coordination", d:"Field management, document verification, authority liaisons.", photo:"assets/img/team/team-11-man-brown-sweatshirt.jpg", wa:false},
 {n:"Mutlu Barış Şen", r:"Finance & Accounts Supervisor", d:"Financial compliance, escrow accounts, tax payments.", photo:"assets/img/team/team-09-man-bald-beard.jpg", wa:false},
 {n:"Mustafa Sayan", r:"Finance & Accounts Manager", d:"Currency conversions, transaction reconciliation, bank transfers.", photo:"assets/img/team/team-08-man-black-jacket.jpg", wa:false},
+  {n:"Yusuf Durmaz", r:"Real Estate Consultant", d:"Property sales, buyer advisory, investment guidance.", photo:"assets/img/team/team-13-man-navy-sweater.jpg", wa:true},
 ];
 
 /* ---- Ecosystem (brief §9) ---- */
