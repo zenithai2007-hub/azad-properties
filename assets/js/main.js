@@ -50,7 +50,7 @@ function cardHtml(l, gold){
 }
 function renderInto(el, list){
   if (!el) return;
-  if (!list.length){ el.innerHTML = '<div class="empty">No properties match these filters. Try widening the price range or clearing a filter — or ask us on WhatsApp and we will find a match.</div>'; return; }
+  if (!list.length){ el.innerHTML = '<div class="empty">No properties match these filters. Try clearing a filter — or ask us on WhatsApp and we will find a match.</div>'; return; }
   el.innerHTML = list.map(function(l,i){ return cardHtml(l, i % 5 === 2); }).join("");
   bindEnquire(el);
   bindFavs(el);
@@ -324,22 +324,8 @@ function currentFilters(){
   document.querySelectorAll("[data-tag]:checked").forEach(function(c){ tags.push(c.getAttribute("data-tag")); });
   var savedEl = document.getElementById("f-saved");
   return { q: (g("f-q")||"").toLowerCase(), city: g("f-city"), district: g("f-district"), type: g("f-type"),
-    bracket: g("f-price"), elig: g("f-elig"), rooms: g("f-rooms"), tags: tags,
+    rooms: g("f-rooms"), tags: tags,
     savedOnly: !!(savedEl && savedEl.checked) };
-}
-function inBracket(price, b){
-  if (!b || price == null) return b ? false : true;
-  var n = price;
-  if (b === "0-100") return n < 100000;
-  if (b === "100-200") return n >= 100000 && n < 200000;
-  if (b === "200-300") return n >= 200000 && n < 300000;
-  if (b === "300-400") return n >= 300000 && n < 400000;
-  if (b === "400-500") return n >= 400000 && n < 500000;
-  if (b === "500-750") return n >= 500000 && n < 750000;
-  if (b === "750-1000") return n >= 750000 && n < 1000000;
-  if (b === "1000-2000") return n >= 1000000 && n < 2000000;
-  if (b === "2000+") return n >= 2000000;
-  return true;
 }
 function applyFilters(){
   if (!grid || !LISTINGS_LOADED) return;
@@ -351,9 +337,6 @@ function applyFilters(){
     if (f.district && l.district !== f.district) return false;
     if (f.savedOnly && !isFav(l.ref)) return false;
     if (f.type && l.type !== f.type) return false;
-    if (f.bracket && !inBracket(l.price, f.bracket)) return false;
-    if (f.elig === "cbi" && !(l.price != null && l.price >= 400000)) return false;
-    if (f.elig === "res" && !(l.price != null && l.price >= 200000)) return false;
     if (f.rooms){ var need = parseInt(f.rooms, 10); var br = bedRange(l); if (!br || need < br[0] || need > br[1]) return false; }
     if (f.tags.length){ for (var i=0;i<f.tags.length;i++){ if (!l.tags || l.tags.indexOf(f.tags[i]) < 0) return false; } }
     return true;
@@ -362,7 +345,7 @@ function applyFilters(){
   if (countEl) countEl.textContent = (window.__t ? window.__t("prop.count") : "{n} of {m} properties").replace("{n}", list.length).replace("{m}", LISTINGS.length);
 }
 if (grid){
-  ["f-q","f-city","f-district","f-type","f-price","f-elig","f-rooms"].forEach(function(id){
+  ["f-q","f-city","f-district","f-type","f-rooms"].forEach(function(id){
     var el = document.getElementById(id);
     if (el) el.addEventListener(el.tagName === "INPUT" ? "input" : "change", applyFilters);
   });
@@ -371,7 +354,7 @@ if (grid){
   if (savedChk) savedChk.addEventListener("change", applyFilters);
   var clearBtn = document.getElementById("f-clear");
   if (clearBtn) clearBtn.addEventListener("click", function(){
-    ["f-q","f-city","f-district","f-type","f-price","f-elig","f-rooms"].forEach(function(id){
+    ["f-q","f-city","f-district","f-type","f-rooms"].forEach(function(id){
       var el = document.getElementById(id); if (el) el.value = "";
     });
     document.querySelectorAll("[data-tag]").forEach(function(c){ c.checked = false; });
@@ -379,11 +362,11 @@ if (grid){
     applyFilters();
   });
   window.__renderCurrent = applyFilters;
-  /* pre-fill from home search / region links (?q= &type= &price= &city= &district=) */
+  /* pre-fill from home search / region links (?q= &type= &city= &district=) */
   try {
     var params = new URLSearchParams(window.location.search);
     var set = function(id, v){ var el = document.getElementById(id); if (el && v) el.value = v; };
-    set("f-q", params.get("q")); set("f-type", params.get("type")); set("f-price", params.get("price")); set("f-district", params.get("district")); set("f-city", params.get("city"));
+    set("f-q", params.get("q")); set("f-type", params.get("type")); set("f-district", params.get("district")); set("f-city", params.get("city"));
   } catch(e){}
   applyFilters();
 }
