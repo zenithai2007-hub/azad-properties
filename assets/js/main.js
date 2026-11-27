@@ -118,7 +118,7 @@ window.__toggleFav = toggleFav;
 
 /* ---------- Ask Azad chat: answer basics -> capture lead -> hand over to sales agent on WhatsApp ---------- */
 var CHAT = [
-{k:["steps to apply", "certificate of conformity", "application steps"], a:"The steps are: 1) Turkish tax ID, 2) Turkish bank account, 3) buy property of $400,000+ with a 3-year hold clause, 4) licensed valuation report, 5) register the Tapu, 6) Certificate of Conformity, 7) residence permit, 8) citizenship application — usually processed in 4 to 6 months."},
+{k:["steps to apply", "certificate of conformity", "application steps"], a:"The steps are: 1) Turkish tax ID, 2) Turkish bank account, 3) buy property of $400,000+ with a 3-year hold clause, 4) licensed valuation report, 5) register the Tapu, 6) Certificate of Conformity, 7) residence permit, 8) citizenship application — usually processed in 4 to 8 months."},
 {k:["lira", "convert", "currency conversion", "foreign currency", "exchange certificate"], a:"Yes. All investments must be converted to Turkish Lira through a Turkish bank, and a Foreign Currency Purchase Certificate must accompany the title deed submission."},
 {k:["excluded", "nationalities", "language test", "language requirement"], a:"The main applicant, spouse and children under 18 can apply. No Turkish language test and no residency are required. Excluded nationalities: Armenia, North Korea, Cuba and Syria."},
 {k:["resell", "sell after", "sell my property", "sell the property"], a:"Yes — after the mandatory 3-year holding period you can resell, and your citizenship is not affected."},
