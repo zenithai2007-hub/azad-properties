@@ -1006,7 +1006,7 @@ tr: [
 {q:"Tapu Harcı nedir?", a:"Tapu devir vergisi beyan edilen değerin %4'üdür ve genellikle %2 alıcı / %2 satıcı olarak paylaşılır. Yıllık emlak vergisi konut için %0,1 ile %0,2 arasındadır (İstanbul gibi büyükşehirlerde %0,2 ile %0,4)."},
 {q:"Arabamı Türkiye'ye getirebilir miyim?", a:"Yabancı plakalı araçlar Türkiye'de 730 güne kadar kalabilir. Araç, sahibi dışında kimse tarafından kullanılmamalıdır ve süre dolmadan ülkeden çıkarılmalıdır."},
 {q:"Evcil hayvanlarımı getirebilir miyim?", a:"Evet — veteriner sağlık sertifikası ve geçerli kuduz aşısı ile. Hayvanlar en az 3 aylık olmalı ve kişi başına iki hayvanla sınırlıdır."},
-{q:"Nasıl başlarım?", a:"+90 553 163 3074 numaralı telefondan bizi arayın veya WhatsApp'tan yazın, ya da sales1@azadproperties.com adresine e-posta gönderin. Bütçenizi ve aradığınızı söyleyin, size özel danışmanlıkla uygun mülkleri gönderelim."}
+{q:"Nasıl başlarım?", a:"+90 553 163 3074 numaralı telefondan bizi arayın veya WhatsApp'tan yazın, ya da sales@azadproperties.com adresine e-posta gönderin. Bütçenizi ve aradığınızı söyleyin, size özel danışmanlıkla uygun mülkleri gönderelim."}
 ],
 ur: [
 {q:"ترک شہریت کے لیے کم از کم سرمایہ کاری کیا ہے؟", a:"اہل جائیداد کی سرمایہ کاری کم از کم $400,000 ہونی چاہیے۔ پراپرٹی پر تین سال رکھنے کی شرط ہے، اور مکمل فائل جمع کرانے کے بعد اوسط پروسیسنگ وقت 4 سے 8 ماہ ہے۔"},
@@ -1020,7 +1020,7 @@ ur: [
 {q:"ٹائٹل ڈیڈ ٹرانسفر ٹیکس (تاپو ہارچی) کیا ہے؟", a:"ٹائٹل ڈیڈ ٹرانسفر ٹیکس اعلان شدہ قیمت کا 4% ہے، عام طور پر 2% خریدار / 2% فروخت کنندہ تقسیم ہوتا ہے۔ سالانہ پراپرٹی ٹیکس رہائشی پراپرٹی کے لیے 0.1% سے 0.2% ہے (استنبول جیسے میٹروپولیٹن علاقوں میں 0.2% سے 0.4%)۔"},
 {q:"کیا میں اپنی گاڑی ترکیہ لا سکتا ہوں؟", a:"غیر ملکی نمبر پلیٹ والی گاڑیاں ترکیہ میں 730 دن تک رہ سکتی ہیں۔ انہیں مالک کے علاوہ کوئی اور نہیں چلا سکتا، اور مدت ختم ہونے سے پہلے ملک سے باہر لے جانا ضروری ہے۔"},
 {q:"کیا میں اپنے پالتو جانور لا سکتا ہوں؟", a:"جی ہاں — ویٹرنری ہیلتھ سرٹیفکیٹ اور درست ریبیز ویکسینیشن کے ساتھ۔ جانور کم از کم 3 ماہ کے ہونے چاہئیں اور فی شخص دو تک محدود ہیں۔"},
-{q:"میں کیسے شروع کروں؟", a:"+90 553 163 3074 پر کال کریں یا واٹس ایپ کریں، یا sales1@azadproperties.com پر ای میل کریں۔ اپنا بجٹ اور اپنی تلاش بتائیں، اور ہم نجی مشاورت کے ساتھ مماثل پراپرٹیز بھیجیں گے۔"}
+{q:"میں کیسے شروع کروں؟", a:"+90 553 163 3074 پر کال کریں یا واٹس ایپ کریں، یا sales@azadproperties.com پر ای میل کریں۔ اپنا بجٹ اور اپنی تلاش بتائیں، اور ہم نجی مشاورت کے ساتھ مماثل پراپرٹیز بھیجیں گے۔"}
 ]
 , ar: [
 {q:"ما هو الحد الأدنى للاستثمار للحصول على الجنسية التركية؟", a:"استثمار عقاري مؤهل لا يقل عن 400,000 دولار. يحمل العقار التزامًا بالاحتفاظ لمدة ثلاث سنوات، ومتوسط مدة المعالجة من 4 إلى 8 أشهر من تقديم الملف الكامل."},
@@ -1034,7 +1034,7 @@ ur: [
 {q:"ما هي ضريبة نقل سند الملكية (تابو هارجي)؟", a:"ضريبة نقل سند الملكية هي 4% من القيمة المعلنة، وتُقسم عادة 2% للمشتري / 2% للبائع. الضريبة العقارية السنوية هي 0.1% إلى 0.2% للعقارات السكنية (0.2% إلى 0.4% في المناطق الحضرية مثل إسطنبول)."},
 {q:"هل يمكنني إحضار سيارتي إلى تركيا؟", a:"يمكن للسيارات ذات اللوحات الأجنبية البقاء في تركيا حتى 730 يومًا. يجب ألا يقودها أي شخص غير المالك، ويجب إخراجها من البلاد قبل انتهاء الفترة."},
 {q:"هل يمكنني إحضار حيواناتي الأليفة؟", a:"نعم — مع شهادة صحية بيطرية وتطعيم ساري ضد داء الكلب. يجب أن تكون الحيوانات بعمر 3 أشهر على الأقل ومحدودة باثنين لكل شخص."},
-{q:"كيف أبدأ؟", a:"اتصل بنا أو راسلنا على واتساب على الرقم +90 553 163 3074، أو أرسل بريدًا إلكترونيًا إلى sales1@azadproperties.com. أخبرنا بميزانيتك وما تبحث عنه، وسنرسل لك العقارات المناسبة مع استشارة خاصة."}
+{q:"كيف أبدأ؟", a:"اتصل بنا أو راسلنا على واتساب على الرقم +90 553 163 3074، أو أرسل بريدًا إلكترونيًا إلى sales@azadproperties.com. أخبرنا بميزانيتك وما تبحث عنه، وسنرسل لك العقارات المناسبة مع استشارة خاصة."}
 ],
 fa: [
 {q:"حداقل سرمایه‌گذاری برای شهروندی ترکیه چقدر است؟", a:"سرمایه‌گذاری واجد شرایط در املاک حداقل ۴۰۰٬۰۰۰ دلار است. ملک تعهد نگهداری سه‌ساله دارد و میانگین زمان پردازش از زمان ارائه پرونده کامل ۴ تا ۸ ماه است."},
@@ -1048,7 +1048,7 @@ fa: [
 {q:"مالیات انتقال سند مالکیت (تاپو هارجی) چیست؟", a:"مالیات انتقال سند مالکیت ۴٪ از ارزش اعلام‌شده است که معمولاً ۲٪ خریدار / ۲٪ فروشنده تقسیم می‌شود. مالیات سالانه ملک برای املاک مسکونی ۰٫۱٪ تا ۰٫۲٪ است (۰٫۲٪ تا ۰٫۴٪ در مناطق کلان‌شهری مانند استانبول)."},
 {q:"آیا می‌توانم خودرویم را به ترکیه بیاورم؟", a:"خودروهای با پلاک خارجی می‌توانند تا ۷۳۰ روز در ترکیه بمانند. نباید کسی غیر از مالک آن را براند و باید پیش از پایان دوره از کشور خارج شود."},
 {q:"آیا می‌توانم حیوانات خانگی‌ام را بیاورم؟", a:"بله — با گواهی سلامت دامپزشکی و واکسیناسیون معتبر هاری. حیوانات باید حداقل ۳ ماهه باشند و به دو حیوان برای هر نفر محدود می‌شوند."},
-{q:"چگونه شروع کنم؟", a:"با شماره ‎+90 553 163 3074‎ تماس بگیرید یا در واتساپ پیام دهید، یا به sales1@azadproperties.com ایمیل بزنید. بودجه و خواسته‌تان را بگویید تا ملک‌های مناسب را با مشاوره خصوصی برایتان بفرستیم."}
+{q:"چگونه شروع کنم؟", a:"با شماره ‎+90 553 163 3074‎ تماس بگیرید یا در واتساپ پیام دهید، یا به sales@azadproperties.com ایمیل بزنید. بودجه و خواسته‌تان را بگویید تا ملک‌های مناسب را با مشاوره خصوصی برایتان بفرستیم."}
 ]
 , ru: [
 {q:"Каковы минимальные инвестиции для турецкого гражданства?", a:"Подходящие инвестиции в недвижимость — не менее $400 000. Недвижимость имеет обязательство владения три года, а средний срок рассмотрения — от 4 до 8 месяцев с момента подачи полного досье."},
@@ -1062,7 +1062,7 @@ fa: [
 {q:"Что такое налог на передачу права собственности (Тапу Харджи)?", a:"Налог на передачу права собственности составляет 4% от заявленной стоимости, обычно делится 2% покупатель / 2% продавец. Ежегодный налог на недвижимость — от 0,1% до 0,2% для жилой недвижимости (от 0,2% до 0,4% в мегаполисах, таких как Стамбул)."},
 {q:"Могу ли я привезти свой автомобиль в Турцию?", a:"Автомобили с иностранными номерами могут находиться в Турции до 730 дней. Ими не должен управлять никто, кроме владельца, и их нужно вывезти из страны до истечения срока."},
 {q:"Могу ли я привезти своих питомцев?", a:"Да — при наличии ветеринарного сертификата здоровья и действующей прививки от бешенства. Животные должны быть не младше 3 месяцев, не более двух на человека."},
-{q:"Как мне начать?", a:"Позвоните или напишите нам в WhatsApp по номеру +90 553 163 3074 или отправьте email на sales1@azadproperties.com. Назовите бюджет и пожелания — мы пришлём подходящие объекты с личной консультацией."}
+{q:"Как мне начать?", a:"Позвоните или напишите нам в WhatsApp по номеру +90 553 163 3074 или отправьте email на sales@azadproperties.com. Назовите бюджет и пожелания — мы пришлём подходящие объекты с личной консультацией."}
 ],
 de: [
 {q:"Was ist die Mindestinvestition für die türkische Staatsbürgerschaft?", a:"Eine geeignete Immobilieninvestition von mindestens 400.000 $. Die Immobilie hat eine dreijährige Halteverpflichtung, und die durchschnittliche Bearbeitungszeit beträgt 4 bis 8 Monate ab Einreichung der vollständigen Unterlagen."},
@@ -1076,7 +1076,7 @@ de: [
 {q:"Was ist die Grunderwerbsteuer (Tapu Harcı)?", a:"Die Grunderwerbsteuer beträgt 4 % des erklärten Werts, in der Regel aufgeteilt 2 % Käufer / 2 % Verkäufer. Die jährliche Grundsteuer beträgt 0,1 % bis 0,2 % für Wohnimmobilien (0,2 % bis 0,4 % in Ballungsräumen wie Istanbul)."},
 {q:"Kann ich mein Auto in die Türkei mitbringen?", a:"Autos mit ausländischem Kennzeichen dürfen bis zu 730 Tage in der Türkei bleiben. Sie dürfen von niemandem außer dem Eigentümer gefahren werden und müssen vor Ablauf der Frist aus dem Land gebracht werden."},
 {q:"Kann ich meine Haustiere mitbringen?", a:"Ja — mit tierärztlichem Gesundheitszeugnis und gültiger Tollwutimpfung. Die Tiere müssen mindestens 3 Monate alt sein und sind auf zwei pro Person begrenzt."},
-{q:"Wie fange ich an?", a:"Rufen Sie uns an oder schreiben Sie uns per WhatsApp unter +90 553 163 3074 oder per E-Mail an sales1@azadproperties.com. Nennen Sie uns Ihr Budget und Ihre Wünsche — wir schicken passende Immobilien mit einer privaten Beratung."}
+{q:"Wie fange ich an?", a:"Rufen Sie uns an oder schreiben Sie uns per WhatsApp unter +90 553 163 3074 oder per E-Mail an sales@azadproperties.com. Nennen Sie uns Ihr Budget und Ihre Wünsche — wir schicken passende Immobilien mit einer privaten Beratung."}
 ]
 , fr: [
 {q:"Quel est l'investissement minimum pour la citoyenneté turque ?", a:"Un investissement immobilier éligible d'au moins 400 000 $. Le bien comporte un engagement de détention de trois ans, et le délai moyen de traitement est de 4 à 8 mois à compter du dépôt du dossier complet."},
@@ -1090,7 +1090,7 @@ de: [
 {q:"Qu'est-ce que la taxe de transfert de titre de propriété (Tapu Harcı) ?", a:"La taxe de transfert de titre de propriété est de 4 % de la valeur déclarée, généralement répartie 2 % acheteur / 2 % vendeur. La taxe foncière annuelle est de 0,1 % à 0,2 % pour les biens résidentiels (0,2 % à 0,4 % dans les zones métropolitaines comme Istanbul)."},
 {q:"Puis-je apporter ma voiture en Turquie ?", a:"Les voitures à plaques étrangères peuvent rester en Turquie jusqu'à 730 jours. Elles ne doivent être conduites par personne d'autre que le propriétaire et doivent quitter le pays avant l'expiration du délai."},
 {q:"Puis-je apporter mes animaux de compagnie ?", a:"Oui — avec un certificat de santé vétérinaire et un vaccin antirabique valide. Les animaux doivent avoir au moins 3 mois et sont limités à deux par personne."},
-{q:"Comment commencer ?", a:"Appelez-nous ou écrivez-nous sur WhatsApp au +90 553 163 3074, ou envoyez un e-mail à sales1@azadproperties.com. Dites-nous votre budget et ce que vous cherchez — nous vous enverrons des biens correspondants avec une consultation privée."}
+{q:"Comment commencer ?", a:"Appelez-nous ou écrivez-nous sur WhatsApp au +90 553 163 3074, ou envoyez un e-mail à sales@azadproperties.com. Dites-nous votre budget et ce que vous cherchez — nous vous enverrons des biens correspondants avec une consultation privée."}
 ],
 es: [
 {q:"¿Cuál es la inversión mínima para la ciudadanía turca?", a:"Una inversión inmobiliaria elegible de al menos $400,000. La propiedad tiene un compromiso de tenencia de tres años, y el tiempo medio de tramitación es de 4 a 8 meses desde la presentación del expediente completo."},
@@ -1104,7 +1104,7 @@ es: [
 {q:"¿Qué es el impuesto de transferencia de escritura (Tapu Harcı)?", a:"El impuesto de transferencia de escritura es del 4% del valor declarado, normalmente repartido 2% comprador / 2% vendedor. El impuesto anual de propiedad es del 0.1% al 0.2% para propiedades residenciales (0.2% al 0.4% en zonas metropolitanas como Estambul)."},
 {q:"¿Puedo traer mi coche a Turquía?", a:"Los coches con matrícula extranjera pueden permanecer en Turquía hasta 730 días. No deben ser conducidos por nadie que no sea el propietario, y deben salir del país antes de que expire el plazo."},
 {q:"¿Puedo traer a mis mascotas?", a:"Sí — con un certificado veterinario de salud y una vacuna antirrábica válida. Los animales deben tener al menos 3 meses y están limitados a dos por persona."},
-{q:"¿Cómo empiezo?", a:"Llámanos o escríbenos por WhatsApp al +90 553 163 3074, o envía un correo a sales1@azadproperties.com. Cuéntanos tu presupuesto y lo que buscas — te enviaremos propiedades adecuadas con una consulta privada."}
+{q:"¿Cómo empiezo?", a:"Llámanos o escríbenos por WhatsApp al +90 553 163 3074, o envía un correo a sales@azadproperties.com. Cuéntanos tu presupuesto y lo que buscas — te enviaremos propiedades adecuadas con una consulta privada."}
 ],
 zh: [
 {q:"获得土耳其国籍的最低投资是多少？", a:"符合条件的房地产投资至少为40万美元。该房产有三年的持有承诺，提交完整文件后的平均办理时间为4至8个月。"},
@@ -1118,7 +1118,7 @@ zh: [
 {q:"什么是地契过户税（Tapu Harcı）？", a:"地契过户税为申报价值的4%，通常由买方2% / 卖方2%分摊。住宅房产的年度房产税为0.1%至0.2%（伊斯坦布尔等大都市地区为0.2%至0.4%）。"},
 {q:"我可以把车带到土耳其吗？", a:"外国牌照车辆可在土耳其停留最多730天。除车主外，任何人不得驾驶该车辆，且必须在期限届满前将车辆开出国境。"},
 {q:"我可以带宠物吗？", a:"可以 — 凭兽医健康证明和有效的狂犬病疫苗接种证明。动物必须至少3个月大，每人限带两只。"},
-{q:"我如何开始？", a:"请致电或通过WhatsApp联系我们 +90 553 163 3074，或发送电子邮件至 sales1@azadproperties.com。告诉我们您的预算和需求，我们将通过私人咨询发送匹配的房产。"}
+{q:"我如何开始？", a:"请致电或通过WhatsApp联系我们 +90 553 163 3074，或发送电子邮件至 sales@azadproperties.com。告诉我们您的预算和需求，我们将通过私人咨询发送匹配的房产。"}
 ]
 },
 steps: { en: null,

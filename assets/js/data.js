@@ -6,7 +6,7 @@
    NO company metrics (years/clients/citizenships counts) anywhere by client order. */
 const WA_NUM = "905531633074";          // WhatsApp for bot + leads (Shaan, 27 Nov 2026)
 const PHONE = "+90 212 296 33 31";
-const EMAIL = "sales1@azadproperties.com";
+const EMAIL = "sales@azadproperties.com";
 
 const RATES = { USD:{rate:1, sym:"$"}, EUR:{rate:0.92, sym:"€"}, GBP:{rate:0.79, sym:"£"}, TRY:{rate:41.2, sym:"₺"} };
 const RATE_NOTE = "Indicative conversion — final price confirmed on enquiry.";
@@ -72,7 +72,7 @@ const FAQS = [
 {q:"Are there capital gains taxes when selling a property in Turkey?", a:"If an individual holds a property for 5 full years before selling, the capital gains income tax is 100% exempt. If sold within 5 years, standard progressive tax rates apply to net profit."},
 {q:"What are the legal rules for short-term / Airbnb rentals in Turkey?", a:"Under current regulations, short-term residential rentals (under 100 days) require an official short-term rental license from the Ministry of Culture and Tourism, approval from 100% of building co-owners, and installation of compliant safety systems. Azad Homes manages this compliance process end-to-end for property owners. Unlicensed short-term rentals risk fines of TRY 100,000 to TRY 1,000,000."},
 {q:"What does Rental Guaranteed mean?", a:"Selected properties that come with guaranteed rental income. Rental Guaranteed listings start from $117,000."},
-{q:"How do I start?", a:"Call or WhatsApp us on +90 553 163 3074, or email sales1@azadproperties.com. Tell us your budget and what you are looking for, and we will send matching properties with a private consultation."},{q:"What are the steps to apply for citizenship through real estate?", a:"Get a Turkish tax ID, open a Turkish bank account, buy property of $400,000 or more with a 3-year hold clause, get a licensed valuation report, register the title deed (Tapu), obtain a Certificate of Conformity, apply for a residence permit, then submit the citizenship application — usually processed in 4 to 8 months."},
+{q:"How do I start?", a:"Call or WhatsApp us on +90 553 163 3074, or email sales@azadproperties.com. Tell us your budget and what you are looking for, and we will send matching properties with a private consultation."},{q:"What are the steps to apply for citizenship through real estate?", a:"Get a Turkish tax ID, open a Turkish bank account, buy property of $400,000 or more with a 3-year hold clause, get a licensed valuation report, register the title deed (Tapu), obtain a Certificate of Conformity, apply for a residence permit, then submit the citizenship application — usually processed in 4 to 8 months."},
 {q:"Do I have to convert foreign currency to Turkish Lira?", a:"Yes. All investments must be converted to Turkish Lira through a Turkish bank, and a Foreign Currency Purchase Certificate must accompany the title deed submission."},
 {q:"Who can apply for citizenship, and is anyone excluded?", a:"The main applicant, spouse and children under 18 can apply. No Turkish language test and no residency are required — only a domestic background check applies. Excluded nationalities: Armenia, North Korea, Cuba and Syria."},
 {q:"Can I sell the property after the 3-year holding period?", a:"Yes. After the mandatory 3-year holding period you can resell, and your citizenship is not affected by the resale."},
