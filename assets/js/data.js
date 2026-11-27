@@ -40,7 +40,7 @@ const TEAM = [
 {n:"Advocate Selçuk Yıldız", r:"Legal Counsel / Senior Lawyer", d:"Land registry due diligence, Tapu transfers, foreign title verification.", photo:"assets/img/team/team-10-man-blue-suit.jpg", wa:false},
 {n:"Suleiman", r:"Legal Counsel / Citizenship Specialist", d:"CBI file submission, civil registration, passport application processing.", wa:false},
 {n:"Nasima Abdul Majeed", r:"Client & Operations Coordinator", d:"Client concierge, viewing schedules, post-sale administration.", photo:"assets/img/team/team-03-woman-hijab.jpg", wa:false},
-{n:"Enes Opan", r:"Operations & Coordination", d:"Field management, document verification, authority liaisons.", wa:false},
+{n:"Enes Opan", r:"Operations & Coordination", d:"Field management, document verification, authority liaisons.", photo:"assets/img/team/team-11-man-brown-sweatshirt.jpg", wa:false},
 {n:"Mutlu Barış Şen", r:"Finance & Accounts Supervisor", d:"Financial compliance, escrow accounts, tax payments.", photo:"assets/img/team/team-09-man-bald-beard.jpg", wa:false},
 {n:"Mustafa Sayan", r:"Finance & Accounts Manager", d:"Currency conversions, transaction reconciliation, bank transfers.", photo:"assets/img/team/team-08-man-black-jacket.jpg", wa:false},
 ];
