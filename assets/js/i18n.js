@@ -13,7 +13,7 @@ langs: {
 },
 t: {
 en: {
-"nav.home":"Home","nav.properties":"Buy Properties","nav.citizenship":"Turkish Citizenship","nav.guide":"Buyer's Guide","nav.about":"About Us","nav.ecosystem":"Ecosystem","nav.media":"Media","nav.contact":"Contact",
+"nav.home":"Home","nav.properties":"Buy Properties","nav.citizenship":"Turkish Citizenship","nav.guide":"Buyer's Guide","nav.about":"About Us","nav.ecosystem":"Azad Brothers","nav.media":"Media","nav.contact":"Contact",
 "util.consult":"Book a Consultation",
 "hero.eyebrow":"Turkish Citizenship by Investment — from $400,000",
 "hero.title":"Your Home in <em>Türkiye</em>. Your Passport to the World.",
@@ -111,7 +111,7 @@ en: {
 "med.vtCta":"Ask for a Video Tour"
 },
 tr: {
-"nav.home":"Ana Sayfa","nav.properties":"Satılık Mülkler","nav.citizenship":"Türk Vatandaşlığı","nav.guide":"Alıcı Rehberi","nav.about":"Hakkımızda","nav.ecosystem":"Ekosistem","nav.media":"Medya","nav.contact":"İletişim",
+"nav.home":"Ana Sayfa","nav.properties":"Satılık Mülkler","nav.citizenship":"Türk Vatandaşlığı","nav.guide":"Alıcı Rehberi","nav.about":"Hakkımızda","nav.ecosystem":"Azad Brothers","nav.media":"Medya","nav.contact":"İletişim",
 "util.consult":"Danışmanlık Randevusu Al",
 "hero.eyebrow":"Yatırımla Türk Vatandaşlığı — 400.000 $'dan başlayan",
 "hero.title":"Türkiye'de Eviniz. <em>Dünyaya Açılan Pasaportunuz.</em>",
@@ -209,7 +209,7 @@ tr: {
 "med.vtCta":"Video Tur İsteyin"
 },
 ar: {
-"nav.home":"الرئيسية","nav.properties":"شراء العقارات","nav.citizenship":"الجنسية التركية","nav.guide":"دليل المشتري","nav.about":"من نحن","nav.ecosystem":"المنظومة","nav.media":"الوسائط","nav.contact":"اتصل بنا",
+"nav.home":"الرئيسية","nav.properties":"شراء العقارات","nav.citizenship":"الجنسية التركية","nav.guide":"دليل المشتري","nav.about":"من نحن","nav.ecosystem":"Azad Brothers","nav.media":"الوسائط","nav.contact":"اتصل بنا",
 "util.consult":"احجز استشارة",
 "hero.eyebrow":"الجنسية التركية عن طريق الاستثمار — ابتداءً من 400,000 دولار",
 "hero.title":"منزلك في <em>تركيا</em>. جواز سفرك إلى العالم.",
@@ -307,7 +307,7 @@ ar: {
 "med.vtCta":"اطلب جولة فيديو"
 },
 ur: {
-"nav.home":"ہوم","nav.properties":"پراپرٹی خریدیں","nav.citizenship":"ترک شہریت","nav.guide":"خریدار گائیڈ","nav.about":"ہمارے بارے میں","nav.ecosystem":"ایکو سسٹم","nav.media":"میڈیا","nav.contact":"رابطہ",
+"nav.home":"ہوم","nav.properties":"پراپرٹی خریدیں","nav.citizenship":"ترک شہریت","nav.guide":"خریدار گائیڈ","nav.about":"ہمارے بارے میں","nav.ecosystem":"Azad Brothers","nav.media":"میڈیا","nav.contact":"رابطہ",
 "util.consult":"مشاورت بک کریں",
 "hero.eyebrow":"سرمایہ کاری سے ترک شہریت — $400,000 سے شروع",
 "hero.title":"ترکیہ میں آپ کا گھر۔ <em>دنیا بھر کا آپ کا پاسپورٹ۔</em>",
@@ -405,7 +405,7 @@ ur: {
 "med.vtCta":"ویڈیو ٹور مانگیں"
 },
 fa: {
-"nav.home":"خانه","nav.properties":"خرید ملک","nav.citizenship":"شهروندی ترکیه","nav.guide":"راهنمای خریدار","nav.about":"درباره ما","nav.ecosystem":"اکوسیستم","nav.media":"رسانه","nav.contact":"تماس",
+"nav.home":"خانه","nav.properties":"خرید ملک","nav.citizenship":"شهروندی ترکیه","nav.guide":"راهنمای خریدار","nav.about":"درباره ما","nav.ecosystem":"Azad Brothers","nav.media":"رسانه","nav.contact":"تماس",
 "util.consult":"رزرو مشاوره",
 "hero.eyebrow":"شهروندی ترکیه از طریق سرمایه‌گذاری — از ۴۰۰٬۰۰۰ دلار",
 "hero.title":"خانه شما در <em>ترکیه</em>. پاسپورت شما به جهان.",
@@ -503,7 +503,7 @@ fa: {
 "med.vtCta":"درخواست تور ویدیویی"
 },
 ru: {
-"nav.home":"Главная","nav.properties":"Купить недвижимость","nav.citizenship":"Гражданство Турции","nav.guide":"Гид покупателя","nav.about":"О нас","nav.ecosystem":"Экосистема","nav.media":"Медиа","nav.contact":"Контакты",
+"nav.home":"Главная","nav.properties":"Купить недвижимость","nav.citizenship":"Гражданство Турции","nav.guide":"Гид покупателя","nav.about":"О нас","nav.ecosystem":"Azad Brothers","nav.media":"Медиа","nav.contact":"Контакты",
 "util.consult":"Записаться на консультацию",
 "hero.eyebrow":"Гражданство Турции за инвестиции — от $400 000",
 "hero.title":"Ваш дом в <em>Турции</em>. Ваш паспорт в мир.",
@@ -601,7 +601,7 @@ ru: {
 "med.vtCta":"Запросить видеотур"
 },
 de: {
-"nav.home":"Startseite","nav.properties":"Immobilien kaufen","nav.citizenship":"Türkische Staatsbürgerschaft","nav.guide":"Käufer-Guide","nav.about":"Über uns","nav.ecosystem":"Ökosystem","nav.media":"Medien","nav.contact":"Kontakt",
+"nav.home":"Startseite","nav.properties":"Immobilien kaufen","nav.citizenship":"Türkische Staatsbürgerschaft","nav.guide":"Käufer-Guide","nav.about":"Über uns","nav.ecosystem":"Azad Brothers","nav.media":"Medien","nav.contact":"Kontakt",
 "util.consult":"Beratung buchen",
 "hero.eyebrow":"Türkische Staatsbürgerschaft durch Investition — ab 400.000 $",
 "hero.title":"Ihr Zuhause in der <em>Türkei</em>. Ihr Pass in die Welt.",
@@ -699,7 +699,7 @@ de: {
 "med.vtCta":"Videotour anfragen"
 },
 fr: {
-"nav.home":"Accueil","nav.properties":"Acheter un bien","nav.citizenship":"Citoyenneté turque","nav.guide":"Guide de l'acheteur","nav.about":"À propos","nav.ecosystem":"Écosystème","nav.media":"Médias","nav.contact":"Contact",
+"nav.home":"Accueil","nav.properties":"Acheter un bien","nav.citizenship":"Citoyenneté turque","nav.guide":"Guide de l'acheteur","nav.about":"À propos","nav.ecosystem":"Azad Brothers","nav.media":"Médias","nav.contact":"Contact",
 "util.consult":"Réserver une consultation",
 "hero.eyebrow":"Citoyenneté turque par investissement — à partir de 400 000 $",
 "hero.title":"Votre maison en <em>Turquie</em>. Votre passeport pour le monde.",
@@ -797,7 +797,7 @@ fr: {
 "med.vtCta":"Demander une visite vidéo"
 },
 es: {
-"nav.home":"Inicio","nav.properties":"Comprar propiedades","nav.citizenship":"Ciudadanía turca","nav.guide":"Guía del comprador","nav.about":"Nosotros","nav.ecosystem":"Ecosistema","nav.media":"Medios","nav.contact":"Contacto",
+"nav.home":"Inicio","nav.properties":"Comprar propiedades","nav.citizenship":"Ciudadanía turca","nav.guide":"Guía del comprador","nav.about":"Nosotros","nav.ecosystem":"Azad Brothers","nav.media":"Medios","nav.contact":"Contacto",
 "util.consult":"Reservar una consulta",
 "hero.eyebrow":"Ciudadanía turca por inversión — desde $400,000",
 "hero.title":"Tu hogar en <em>Turquía</em>. Tu pasaporte al mundo.",
@@ -895,7 +895,7 @@ es: {
 "med.vtCta":"Pedir una visita en vídeo"
 },
 zh: {
-"nav.home":"首页","nav.properties":"购买房产","nav.citizenship":"土耳其国籍","nav.guide":"买家指南","nav.about":"关于我们","nav.ecosystem":"生态系统","nav.media":"媒体","nav.contact":"联系我们",
+"nav.home":"首页","nav.properties":"购买房产","nav.citizenship":"土耳其国籍","nav.guide":"买家指南","nav.about":"关于我们","nav.ecosystem":"Azad Brothers","nav.media":"媒体","nav.contact":"联系我们",
 "util.consult":"预约咨询",
 "hero.eyebrow":"投资入籍土耳其 — 40万美元起",
 "hero.title":"您在<em>土耳其</em>的家。您通往世界的护照。",

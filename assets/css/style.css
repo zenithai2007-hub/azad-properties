@@ -349,6 +349,8 @@ footer .social-row a:hover{border-color:#fff;color:#fff}
 .video-embed{position:relative;width:100%;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#000}
 .video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .video-embed.vert{max-width:360px;margin-left:auto;margin-right:auto;aspect-ratio:9/16}
+.ab-head{margin-bottom:28px}
+.ab-head img{max-width:240px;height:auto;display:block;margin-bottom:14px}
 
 /* ---- property detail page + linked cards + team photos ---- */
 .card-img-link{display:block;height:100%;text-decoration:none}
